@@ -54,11 +54,11 @@ trait MetadataTrait
 
         $table = $this->getTable();
 
-        
+
         if (!$builder->hasTable($table)) {
             return self::$tableData = [];
         }
-        
+
         $columns = $this->getTableColumns();
         $mask = $this->metadataMask();
         $columns = array_intersect($columns, $mask);

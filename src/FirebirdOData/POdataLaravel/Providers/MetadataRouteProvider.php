@@ -21,7 +21,7 @@ class MetadataRouteProvider extends ServiceProvider
     private function setupRoute()
     {
         $authMiddleware = $this->getAuthMiddleware();
-        $controllerMethod = 'FirebirdOData\OData\PODataLaravel\Controllers\ODataController@index';
+        $controllerMethod = 'FirebirdOData\PODataLaravel\Controllers\ODataController@index';
 
         Route::get('odata.svc/$metadata', ['uses' => $controllerMethod, 'middleware' => null]);
 
@@ -61,6 +61,6 @@ class MetadataRouteProvider extends ServiceProvider
      */
     protected function isAuthDisable()
     {
-        return true === env('APP_DISABLE_AUTH', null);
+        return true;//=== env('APP_DISABLE_AUTH', null);
     }
 }
