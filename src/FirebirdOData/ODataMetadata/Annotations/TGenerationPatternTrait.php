@@ -2,7 +2,7 @@
 
 namespace FirebirdOData\ODataMetadata\Annotations;
 
-use FirebirdOData\XSDTopLevelTrait;
+use FirebirdOData\ODataMetadata\StringTraits\XSDTopLevelTrait;
 
 trait TGenerationPatternTrait
 {
