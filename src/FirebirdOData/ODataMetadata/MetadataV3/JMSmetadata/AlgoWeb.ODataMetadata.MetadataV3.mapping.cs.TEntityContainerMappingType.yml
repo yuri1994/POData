@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType:
     properties:
         cdmEntityContainer:
             expose: true
@@ -40,7 +40,7 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType:
                 inline: true
                 entry_name: EntitySetMapping
                 namespace: http://schemas.microsoft.com/ado/2009/11/mapping/cs
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType>
         associationSetMapping:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType:
                 inline: true
                 entry_name: AssociationSetMapping
                 namespace: http://schemas.microsoft.com/ado/2009/11/mapping/cs
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType>
         functionImportMapping:
             expose: true
             access_type: public_method
@@ -68,4 +68,4 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType:
                 inline: true
                 entry_name: FunctionImportMapping
                 namespace: http://schemas.microsoft.com/ado/2009/11/mapping/cs
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType>

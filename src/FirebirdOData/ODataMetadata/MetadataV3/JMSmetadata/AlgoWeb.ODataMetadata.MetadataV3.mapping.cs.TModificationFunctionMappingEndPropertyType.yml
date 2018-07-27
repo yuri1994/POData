@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType:
     properties:
         name:
             expose: true
@@ -18,4 +18,4 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndProp
             accessor:
                 getter: getScalarProperty
                 setter: setScalarProperty
-            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType

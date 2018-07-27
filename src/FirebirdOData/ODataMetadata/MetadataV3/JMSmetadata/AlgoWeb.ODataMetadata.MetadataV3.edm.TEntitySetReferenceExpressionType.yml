@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType:
     properties:
         entitySet:
             expose: true

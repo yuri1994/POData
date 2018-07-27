@@ -1,12 +1,12 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits;
 
 /**
  * Trait TVersionTrait
  * Definition for Version, which can 'original' or 'current' as its value.
  *
- * @package Firebird\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits
+ * @package FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits
  */
 trait TVersionTrait
 {

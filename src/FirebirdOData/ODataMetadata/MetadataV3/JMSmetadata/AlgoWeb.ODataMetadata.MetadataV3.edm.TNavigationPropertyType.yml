@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TNavigationPropertyType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TNavigationPropertyType:
     properties:
         name:
             expose: true
@@ -67,7 +67,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TNavigationPropertyType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TDocumentationType
         v3SimpleIdentifierCache:
             exclude: true
         v3SimpleIdentifierRegex:

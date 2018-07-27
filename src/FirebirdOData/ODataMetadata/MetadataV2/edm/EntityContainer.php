@@ -1,11 +1,11 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType;
-use Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType;
-use Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType;
 
 /**
  * Class representing EntityContainer.
@@ -34,23 +34,23 @@ class EntityContainer extends IsOK
     private $lazyLoadingEnabled = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType[]
      * $functionImport
      */
     private $functionImport = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType[] $entitySet
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType[] $entitySet
      */
     private $entitySet = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType[]
      * $associationSet
      */
     private $associationSet = array();
@@ -146,7 +146,7 @@ class EntityContainer extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -156,7 +156,7 @@ class EntityContainer extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -168,7 +168,7 @@ class EntityContainer extends IsOK
     /**
      * Adds as functionImport.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType
      * $functionImport
      * @return self
      */
@@ -203,7 +203,7 @@ class EntityContainer extends IsOK
     /**
      * Gets as functionImport.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType[]
      */
     public function getFunctionImport()
     {
@@ -213,7 +213,7 @@ class EntityContainer extends IsOK
     /**
      * Sets a new functionImport.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\edm\EntityContainer\FunctionImportAnonymousType[]
      * $functionImport
      * @return self
      */
@@ -226,7 +226,7 @@ class EntityContainer extends IsOK
     /**
      * Adds as entitySet.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType $entitySet
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType $entitySet
      * @return self
      */
     public function addToEntitySet(EntitySetAnonymousType $entitySet)
@@ -260,7 +260,7 @@ class EntityContainer extends IsOK
     /**
      * Gets as entitySet.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType[]
      */
     public function getEntitySet()
     {
@@ -270,7 +270,7 @@ class EntityContainer extends IsOK
     /**
      * Sets a new entitySet.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType[] $entitySet
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\EntitySetAnonymousType[] $entitySet
      * @return self
      */
     public function setEntitySet(array $entitySet)
@@ -282,7 +282,7 @@ class EntityContainer extends IsOK
     /**
      * Adds as associationSet.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType
      * $associationSet
      * @return self
      */
@@ -317,7 +317,7 @@ class EntityContainer extends IsOK
     /**
      * Gets as associationSet.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType[]
      */
     public function getAssociationSet()
     {
@@ -327,7 +327,7 @@ class EntityContainer extends IsOK
     /**
      * Sets a new associationSet.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType[]
      * $associationSet
      * @return self
      */

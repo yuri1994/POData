@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TTimeOfDayConstantExpressionType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TTimeOfDayConstantExpressionType:
     properties:
         __value:
             expose: true

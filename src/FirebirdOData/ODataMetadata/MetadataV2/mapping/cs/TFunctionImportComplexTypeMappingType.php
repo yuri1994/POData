@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
 /**
  * Class representing TFunctionImportComplexTypeMappingType.
@@ -16,7 +16,7 @@ class TFunctionImportComplexTypeMappingType extends IsOK
     private $typeName = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[] $scalarProperty
      */
     private $scalarProperty = array(
         
@@ -47,7 +47,7 @@ class TFunctionImportComplexTypeMappingType extends IsOK
     /**
      * Adds as scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
      * @return self
      */
     public function addToScalarProperty(TScalarPropertyType $scalarProperty)
@@ -81,7 +81,7 @@ class TFunctionImportComplexTypeMappingType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[]
      */
     public function getScalarProperty()
     {
@@ -91,7 +91,7 @@ class TFunctionImportComplexTypeMappingType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[] $scalarProperty
      * @return self
      */
     public function setScalarProperty(array $scalarProperty)

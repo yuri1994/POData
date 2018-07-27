@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TFloatConstantExpressionType.

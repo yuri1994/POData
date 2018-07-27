@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV1\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TFunctionImportConditionType.

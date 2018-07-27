@@ -1,14 +1,14 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\Groups;
 
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TFunctionImportParameterAndReturnTypeTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TMaxLengthFacetTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TParameterModeTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TPrecisionFacetTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TScaleFacetTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSridFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TFunctionImportParameterAndReturnTypeTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TMaxLengthFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TParameterModeTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TPrecisionFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TScaleFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSridFacetTrait;
 
 trait TFunctionImportParameterAttributesTrait
 {

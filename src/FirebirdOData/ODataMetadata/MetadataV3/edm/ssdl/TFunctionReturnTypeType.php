@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TFunctionReturnTypeType.
@@ -13,14 +13,14 @@ class TFunctionReturnTypeType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TCollectionTypeType $collectionType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TCollectionTypeType $collectionType
      */
     private $collectionType = null;
 
     /**
      * Gets as collectionType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TCollectionTypeType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TCollectionTypeType
      */
     public function getCollectionType()
     {
@@ -30,7 +30,7 @@ class TFunctionReturnTypeType extends IsOK
     /**
      * Sets a new collectionType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TCollectionTypeType $collectionType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TCollectionTypeType $collectionType
      * @return self
      */
     public function setCollectionType(TCollectionTypeType $collectionType)

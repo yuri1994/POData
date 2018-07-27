@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV1\edm\TUsingType:
+FirebirdOData\ODataMetadata\MetadataV1\edm\TUsingType:
     properties:
         namespace:
             expose: true
@@ -27,4 +27,4 @@ Firebird\ODataMetadata\MetadataV1\edm\TUsingType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edm\TDocumentationType

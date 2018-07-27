@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TEntityTypeModificationFunctionType.
@@ -23,19 +23,19 @@ class TEntityTypeModificationFunctionType extends IsOK
     private $rowsAffectedParameter = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
      * $scalarProperty
      */
     private $scalarProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingAssociationEndType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingAssociationEndType
      * $associationEnd
      */
     private $associationEnd = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
      * $complexProperty
      */
     private $complexProperty = null;
@@ -87,7 +87,7 @@ class TEntityTypeModificationFunctionType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
      */
     public function getScalarProperty()
     {
@@ -97,7 +97,7 @@ class TEntityTypeModificationFunctionType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType $scalarProperty
      * @return self
      */
     public function setScalarProperty(TFunctionMappingScalarPropertyType $scalarProperty)
@@ -109,7 +109,7 @@ class TEntityTypeModificationFunctionType extends IsOK
     /**
      * Gets as associationEnd.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingAssociationEndType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingAssociationEndType
      */
     public function getAssociationEnd()
     {
@@ -119,7 +119,7 @@ class TEntityTypeModificationFunctionType extends IsOK
     /**
      * Sets a new associationEnd.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingAssociationEndType $associationEnd
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingAssociationEndType $associationEnd
      * @return self
      */
     public function setAssociationEnd(TFunctionMappingAssociationEndType $associationEnd)
@@ -131,7 +131,7 @@ class TEntityTypeModificationFunctionType extends IsOK
     /**
      * Gets as complexProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
      */
     public function getComplexProperty()
     {
@@ -141,7 +141,7 @@ class TEntityTypeModificationFunctionType extends IsOK
     /**
      * Sets a new complexProperty.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
      * $complexProperty
      * @return self
      */

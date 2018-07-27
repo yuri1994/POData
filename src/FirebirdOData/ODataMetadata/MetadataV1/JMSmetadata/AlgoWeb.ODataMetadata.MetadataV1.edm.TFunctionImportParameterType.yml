@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType:
+FirebirdOData\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType:
     properties:
         name:
             expose: true
@@ -63,4 +63,4 @@ Firebird\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edm\TDocumentationType

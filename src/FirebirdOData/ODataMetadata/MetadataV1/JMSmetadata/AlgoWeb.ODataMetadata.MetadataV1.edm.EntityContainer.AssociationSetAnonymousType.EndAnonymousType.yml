@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV1\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType:
+FirebirdOData\ODataMetadata\MetadataV1\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType:
     properties:
         role:
             expose: true
@@ -27,4 +27,4 @@ Firebird\ODataMetadata\MetadataV1\edm\EntityContainer\AssociationSetAnonymousTyp
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edm\TDocumentationType

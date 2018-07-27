@@ -1,14 +1,14 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GBaseExpressionTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GExpressionTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\TFacetAttributesTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TWrappedFunctionTypeTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GBaseExpressionTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GExpressionTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\TFacetAttributesTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TWrappedFunctionTypeTrait;
 
 /**
  * Class representing TValueTermType.
@@ -67,22 +67,22 @@ class TValueTermType extends IsOK
     private $type = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
      */
     private $collectionType = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
      */
     private $referenceType = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
      */
     private $rowType = [];
 
@@ -141,7 +141,7 @@ class TValueTermType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -151,7 +151,7 @@ class TValueTermType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -167,7 +167,7 @@ class TValueTermType extends IsOK
     /**
      * Gets as collectionType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType
      */
     public function getCollectionType()
     {
@@ -177,7 +177,7 @@ class TValueTermType extends IsOK
     /**
      * Sets a new collectionType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
      * @return self
      */
     public function setCollectionType(TCollectionTypeType $collectionType)
@@ -193,7 +193,7 @@ class TValueTermType extends IsOK
     /**
      * Gets as referenceType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType
      */
     public function getReferenceType()
     {
@@ -203,7 +203,7 @@ class TValueTermType extends IsOK
     /**
      * Sets a new referenceType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
      * @return self
      */
     public function setReferenceType(TReferenceTypeType $referenceType)
@@ -219,7 +219,7 @@ class TValueTermType extends IsOK
     /**
      * Adds as property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType $property
      * @return self
      */
     public function addToRowType(TPropertyType $property)
@@ -257,7 +257,7 @@ class TValueTermType extends IsOK
     /**
      * Gets as rowType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[]
      */
     public function getRowType()
     {
@@ -267,14 +267,14 @@ class TValueTermType extends IsOK
     /**
      * Sets a new rowType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
      * @return self
      */
     public function setRowType(array $rowType)
     {
         if (!$this->isValidArrayOK(
             $rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType',
             $msg
         )
         ) {
@@ -296,7 +296,7 @@ class TValueTermType extends IsOK
         }
 
         if (!$this->isObjectNullOrType(
-            '\Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType',
             $this->documentation,
             $msg
         )
@@ -304,7 +304,7 @@ class TValueTermType extends IsOK
             return false;
         }
         if (!$this->isObjectNullOrType(
-            '\Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
             $this->collectionType,
             $msg
         )
@@ -312,7 +312,7 @@ class TValueTermType extends IsOK
             return false;
         }
         if (!$this->isObjectNullOrType(
-            '\Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
             $this->referenceType,
             $msg
         )
@@ -321,7 +321,7 @@ class TValueTermType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType',
             $msg
         )
         ) {

@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edm\TFunctionType:
+FirebirdOData\ODataMetadata\MetadataV2\edm\TFunctionType:
     properties:
         name:
             expose: true
@@ -22,7 +22,7 @@ Firebird\ODataMetadata\MetadataV2\edm\TFunctionType:
                 inline: true
                 entry_name: ReturnType
                 namespace: 'http://schemas.microsoft.com/ado/2008/09/edm'
-            type: array<Firebird\ODataMetadata\MetadataV2\edm\TFunctionReturnTypeType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV2\edm\TFunctionReturnTypeType>
         nullable:
             expose: true
             access_type: public_method
@@ -104,7 +104,7 @@ Firebird\ODataMetadata\MetadataV2\edm\TFunctionType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType
+            type: FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType
         parameter:
             expose: true
             access_type: public_method
@@ -118,7 +118,7 @@ Firebird\ODataMetadata\MetadataV2\edm\TFunctionType:
                 inline: true
                 entry_name: Parameter
                 namespace: 'http://schemas.microsoft.com/ado/2008/09/edm'
-            type: array<Firebird\ODataMetadata\MetadataV2\edm\TFunctionParameterType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV2\edm\TFunctionParameterType>
         definingExpression:
             expose: true
             access_type: public_method

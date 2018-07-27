@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TQualifiedNameTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TSchemaType.

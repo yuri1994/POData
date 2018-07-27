@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TActionType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TActionType:
     properties:
         name:
             expose: true
@@ -40,7 +40,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TActionType:
                 inline: true
                 entry_name: Parameter
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType>
         annotation:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TActionType:
                 inline: true
                 entry_name: Annotation
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\Annotation>
         returnType:
             expose: true
             access_type: public_method
@@ -64,4 +64,4 @@ Firebird\ODataMetadata\MetadataV4\edm\TActionType:
             accessor:
                 getter: getReturnType
                 setter: setReturnType
-            type: FirebirdOData\ODataMetadata\MetadataV4\edm\TActionFunctionReturnTypeType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TActionFunctionReturnTypeType

@@ -1,11 +1,11 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\TFacetAttributesTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TWrappedFunctionTypeTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\TFacetAttributesTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TWrappedFunctionTypeTrait;
 
 /**
  * Class representing TTypeAssertExpressionType.
@@ -21,22 +21,22 @@ class TTypeAssertExpressionType extends IsOK
     private $type = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TOperandType[] $operand
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType[] $operand
      */
     private $operand = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
      */
     private $collectionType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
      */
     private $referenceType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
      */
     private $rowType = [];
 
@@ -69,7 +69,7 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Adds as operand.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TOperandType $operand
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType $operand
      * @return self
      */
     public function addToOperand(TOperandType $operand)
@@ -107,7 +107,7 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Gets as operand.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TOperandType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType[]
      */
     public function getOperand()
     {
@@ -117,12 +117,12 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Sets a new operand.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TOperandType[] $operand
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType[] $operand
      * @return self
      */
     public function setOperand(array $operand)
     {
-        if (!$this->isValidArrayOK($operand, '\Firebird\ODataMetadata\MetadataV3\edm\TOperandType', $msg, 1)) {
+        if (!$this->isValidArrayOK($operand, '\FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType', $msg, 1)) {
             throw new \InvalidArgumentException($msg);
         }
         $this->operand = $operand;
@@ -132,7 +132,7 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Adds as collectionType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
      * @return self
      */
     public function addToCollectionType(TCollectionTypeType $collectionType)
@@ -170,7 +170,7 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Gets as collectionType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType[]
      */
     public function getCollectionType()
     {
@@ -180,14 +180,14 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Sets a new collectionType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
      * @return self
      */
     public function setCollectionType(array $collectionType)
     {
         if (!$this->isValidArrayOK(
             $collectionType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
             $msg
         )
         ) {
@@ -200,7 +200,7 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Adds as referenceType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
      * @return self
      */
     public function addToReferenceType(TReferenceTypeType $referenceType)
@@ -238,7 +238,7 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Gets as referenceType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType[]
      */
     public function getReferenceType()
     {
@@ -248,14 +248,14 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Sets a new referenceType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
      * @return self
      */
     public function setReferenceType(array $referenceType)
     {
         if (!$this->isValidArrayOK(
             $referenceType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
             $msg
         )
         ) {
@@ -268,7 +268,7 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Adds as property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType $property
      * @return self
      */
     public function addToRowType(TPropertyType $property)
@@ -306,7 +306,7 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Gets as rowType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[]
      */
     public function getRowType()
     {
@@ -316,14 +316,14 @@ class TTypeAssertExpressionType extends IsOK
     /**
      * Sets a new rowType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
      * @return self
      */
     public function setRowType(array $rowType)
     {
         if (!$this->isValidArrayOK(
             $rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType',
             $msg
         )
         ) {
@@ -339,7 +339,7 @@ class TTypeAssertExpressionType extends IsOK
             $msg = 'Type must be a valid TWrappedFunctionType';
             return false;
         }
-        if (!$this->isValidArrayOK($this->operand, '\Firebird\ODataMetadata\MetadataV3\edm\TOperandType', $msg, 1)) {
+        if (!$this->isValidArrayOK($this->operand, '\FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType', $msg, 1)) {
             return false;
         }
         if (!$this->isTFacetAttributesTraitValid($msg)) {
@@ -347,7 +347,7 @@ class TTypeAssertExpressionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->collectionType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
             $msg
         )
         ) {
@@ -355,7 +355,7 @@ class TTypeAssertExpressionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->referenceType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
             $msg
         )
         ) {
@@ -363,7 +363,7 @@ class TTypeAssertExpressionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType',
             $msg
         )
         ) {

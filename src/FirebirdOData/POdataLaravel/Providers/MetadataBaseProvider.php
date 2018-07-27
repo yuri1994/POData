@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\PODataLaravel\Providers;
+namespace FirebirdOData\PODataLaravel\Providers;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Cache;

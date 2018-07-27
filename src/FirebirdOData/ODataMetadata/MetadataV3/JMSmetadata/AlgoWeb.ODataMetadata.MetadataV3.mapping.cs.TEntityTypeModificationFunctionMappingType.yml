@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionMappingType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionMappingType:
     properties:
         deleteFunction:
             expose: true
@@ -9,7 +9,7 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionMapp
             accessor:
                 getter: getDeleteFunction
                 setter: setDeleteFunction
-            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionType
         insertFunction:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionMapp
             accessor:
                 getter: getInsertFunction
                 setter: setInsertFunction
-            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionWithResultType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionWithResultType
         updateFunction:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionMapp
             accessor:
                 getter: getUpdateFunction
                 setter: setUpdateFunction
-            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionWithResultType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionWithResultType

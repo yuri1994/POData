@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TUndottedIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TUndottedIdentifierTrait;
 use Symfony\Component\Console\Exception\InvalidArgumentException;
 
 /**
@@ -20,17 +20,17 @@ class TEntityTypeType extends IsOK
     private $name = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[] $key
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[] $key
      */
     private $key = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType[] $property
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType[] $property
      */
     private $property = [];
 
@@ -59,7 +59,7 @@ class TEntityTypeType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -69,7 +69,7 @@ class TEntityTypeType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -85,7 +85,7 @@ class TEntityTypeType extends IsOK
     /**
      * Adds as propertyRef.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType $propertyRef
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType $propertyRef
      * @return self
      */
     public function addToKey(TPropertyRefType $propertyRef)
@@ -123,7 +123,7 @@ class TEntityTypeType extends IsOK
     /**
      * Gets as key.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[]
      */
     public function getKey()
     {
@@ -133,7 +133,7 @@ class TEntityTypeType extends IsOK
     /**
      * Sets a new key.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[] $key
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[] $key
      * @return self
      */
     public function setKey(array $key)
@@ -141,7 +141,7 @@ class TEntityTypeType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $key,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType',
             $msg,
             1
         )
@@ -155,7 +155,7 @@ class TEntityTypeType extends IsOK
     /**
      * Adds as property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType $property
      * @return self
      */
     public function addToProperty(TEntityPropertyType $property)
@@ -193,7 +193,7 @@ class TEntityTypeType extends IsOK
     /**
      * Gets as property.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType[]
      */
     public function getProperty()
     {
@@ -203,7 +203,7 @@ class TEntityTypeType extends IsOK
     /**
      * Sets a new property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType[] $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType[] $property
      * @return self
      */
     public function setProperty(array $property)
@@ -211,7 +211,7 @@ class TEntityTypeType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $property,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType',
             $msg
         )
         ) {
@@ -232,7 +232,7 @@ class TEntityTypeType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->key,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType',
             $msg,
             1
         )
@@ -241,7 +241,7 @@ class TEntityTypeType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->property,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType',
             $msg
         )
         ) {

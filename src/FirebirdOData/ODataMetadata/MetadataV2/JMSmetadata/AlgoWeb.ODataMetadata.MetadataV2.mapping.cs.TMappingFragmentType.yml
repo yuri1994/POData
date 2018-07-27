@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType:
+FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType:
     properties:
         storeEntitySet:
             expose: true
@@ -27,7 +27,7 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType:
             accessor:
                 getter: getComplexProperty
                 setter: setComplexProperty
-            type: FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType
         scalarProperty:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType:
             accessor:
                 getter: getScalarProperty
                 setter: setScalarProperty
-            type: FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType
         condition:
             expose: true
             access_type: public_method
@@ -47,4 +47,4 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType:
             accessor:
                 getter: getCondition
                 setter: setCondition
-            type: FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TConditionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TConditionType

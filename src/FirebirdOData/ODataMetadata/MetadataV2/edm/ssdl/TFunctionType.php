@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TFunctionType.
@@ -58,7 +58,7 @@ class TFunctionType extends IsOK
     private $schema = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
      */
     private $documentation = null;
 
@@ -68,7 +68,7 @@ class TFunctionType extends IsOK
     private $commandText = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TParameterType[] $parameter
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TParameterType[] $parameter
      */
     private $parameter = array();
 
@@ -273,7 +273,7 @@ class TFunctionType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -283,7 +283,7 @@ class TFunctionType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -317,7 +317,7 @@ class TFunctionType extends IsOK
     /**
      * Adds as parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TParameterType $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TParameterType $parameter
      * @return self
      */
     public function addToParameter(TParameterType $parameter)
@@ -351,7 +351,7 @@ class TFunctionType extends IsOK
     /**
      * Gets as parameter.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TParameterType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TParameterType[]
      */
     public function getParameter()
     {
@@ -361,7 +361,7 @@ class TFunctionType extends IsOK
     /**
      * Sets a new parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TParameterType[] $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TParameterType[] $parameter
      * @return self
      */
     public function setParameter(array $parameter)

@@ -1,6 +1,6 @@
 <?php
 
-namespace FirebirdODataMetadata\CodeGeneration;
+namespace FirebirdOData\ODataMetadata\CodeGeneration;
 
 trait AccessTypeTraits
 {

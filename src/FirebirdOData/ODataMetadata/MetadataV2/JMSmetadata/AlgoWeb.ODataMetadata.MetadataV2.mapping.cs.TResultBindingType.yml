@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\mapping\cs\TResultBindingType:
+FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TResultBindingType:
     properties:
         columnName:
             expose: true

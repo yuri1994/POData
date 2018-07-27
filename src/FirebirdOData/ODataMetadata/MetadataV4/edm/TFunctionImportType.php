@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TFunctionImportType.
@@ -33,7 +33,7 @@ class TFunctionImportType extends IsOK
     private $includeInServiceDocument = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = array();
 
@@ -128,7 +128,7 @@ class TFunctionImportType extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -162,7 +162,7 @@ class TFunctionImportType extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -172,7 +172,7 @@ class TFunctionImportType extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)

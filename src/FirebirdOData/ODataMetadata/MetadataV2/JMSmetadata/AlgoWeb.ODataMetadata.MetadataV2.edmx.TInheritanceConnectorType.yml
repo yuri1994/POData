@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edmx\TInheritanceConnectorType:
+FirebirdOData\ODataMetadata\MetadataV2\edmx\TInheritanceConnectorType:
     properties:
         entityType:
             expose: true
@@ -31,4 +31,4 @@ Firebird\ODataMetadata\MetadataV2\edmx\TInheritanceConnectorType:
                 inline: true
                 entry_name: ConnectorPoint
                 namespace: 'http://schemas.microsoft.com/ado/2008/10/edmx'
-            type: array<FirebirdOData\ODataMetadata\MetadataV2\edmx\TConnectorPointType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV2\edmx\TConnectorPointType>

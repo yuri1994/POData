@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TFunctionImportMappingResultMappingType.
@@ -15,13 +15,13 @@ class TFunctionImportMappingResultMappingType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType[]
      * $entityTypeMapping
      */
     private $entityTypeMapping = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportComplexTypeMappingType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportComplexTypeMappingType
      * $complexTypeMapping
      */
     private $complexTypeMapping = null;
@@ -29,7 +29,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Adds as entityTypeMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType
      * $entityTypeMapping
      * @return self
      */
@@ -64,7 +64,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Gets as entityTypeMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType[]
      */
     public function getEntityTypeMapping()
     {
@@ -74,7 +74,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Sets a new entityTypeMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType[]
      * $entityTypeMapping
      * @return self
      */
@@ -83,7 +83,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $entityTypeMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType',
             $msg
         )
         ) {
@@ -96,7 +96,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Gets as complexTypeMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportComplexTypeMappingType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportComplexTypeMappingType
      */
     public function getComplexTypeMapping()
     {
@@ -106,7 +106,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Sets a new complexTypeMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportComplexTypeMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportComplexTypeMappingType
      * $complexTypeMapping
      * @return self
      */
@@ -131,7 +131,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->entityTypeMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType'
         )
         ) {
             $msg = 'Entity type mapping not a valid array';

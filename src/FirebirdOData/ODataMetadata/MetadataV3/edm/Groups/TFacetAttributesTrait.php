@@ -1,15 +1,15 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\Groups;
 
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TCollationFacetTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TIsFixedLengthFacetTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TIsUnicodeFacetTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TMaxLengthFacetTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TPrecisionFacetTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TScaleFacetTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSridFacetTrait;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TCollationFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TIsFixedLengthFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TIsUnicodeFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TMaxLengthFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TPrecisionFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TScaleFacetTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSridFacetTrait;
 
 trait TFacetAttributesTrait
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TFunctionImportMappingType.
@@ -26,7 +26,7 @@ class TFunctionImportMappingType extends IsOK
     private $functionImportName = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType[]
      * $resultMapping
      */
     private $resultMapping = [];
@@ -90,7 +90,7 @@ class TFunctionImportMappingType extends IsOK
     /**
      * Adds as resultMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType
      * $resultMapping
      * @return self
      */
@@ -129,7 +129,7 @@ class TFunctionImportMappingType extends IsOK
     /**
      * Gets as resultMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType[]
      */
     public function getResultMapping()
     {
@@ -139,7 +139,7 @@ class TFunctionImportMappingType extends IsOK
     /**
      * Sets a new resultMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType[]
      * $resultMapping
      * @return self
      */
@@ -148,7 +148,7 @@ class TFunctionImportMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $resultMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType',
             $msg
         )
         ) {
@@ -174,7 +174,7 @@ class TFunctionImportMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->resultMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType'
         )
         ) {
             $msg = 'Result mapping not a valid array';

@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TFunctionImportEntityTypeMappingType.
@@ -20,12 +20,12 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     private $typeName = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
      */
     private $scalarProperty = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType[] $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType[] $condition
      */
     private $condition = [];
 
@@ -58,7 +58,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Adds as scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
      * @return self
      */
     public function addToScalarProperty(TScalarPropertyType $scalarProperty)
@@ -96,7 +96,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[]
      */
     public function getScalarProperty()
     {
@@ -106,7 +106,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
      * @return self
      */
     public function setScalarProperty(array $scalarProperty)
@@ -116,7 +116,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
         $count = count($this->condition);
         if (!$this->isValidArrayOK(
             $scalarProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType',
             $msg,
             0 < $count ? 0 : 1
         )
@@ -130,7 +130,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Adds as condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType $condition
      * @return self
      */
     public function addToCondition(TFunctionImportConditionType $condition)
@@ -168,7 +168,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType[]
      */
     public function getCondition()
     {
@@ -178,7 +178,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType[] $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType[] $condition
      * @return self
      */
     public function setCondition(array $condition)
@@ -188,7 +188,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
         $count = count($this->scalarProperty);
         if (!$this->isValidArrayOK(
             $condition,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType',
             $msg,
             0 < $count ? 0 : 1
         )
@@ -212,7 +212,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->scalarProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType'
         )
         ) {
             $msg = 'Scalar property array not a valid array';
@@ -223,7 +223,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->condition,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType'
         )
         ) {
             $msg = 'Condition array not a valid array';

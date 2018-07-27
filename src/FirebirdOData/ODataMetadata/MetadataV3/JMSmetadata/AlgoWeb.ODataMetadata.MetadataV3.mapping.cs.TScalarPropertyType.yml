@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType:
     properties:
         name:
             expose: true

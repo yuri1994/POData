@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TUnwrappedFunctionTypeTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TUnwrappedFunctionTypeTrait;
 
 /**
  * Class representing TRecordExpressionType.
@@ -20,7 +20,7 @@ class TRecordExpressionType extends IsOK
     private $type = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType[] $propertyValue
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType[] $propertyValue
      */
     private $propertyValue = [];
 
@@ -53,7 +53,7 @@ class TRecordExpressionType extends IsOK
     /**
      * Adds as propertyValue.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType $propertyValue
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType $propertyValue
      * @return self
      */
     public function addToPropertyValue(TPropertyValueType $propertyValue)
@@ -91,7 +91,7 @@ class TRecordExpressionType extends IsOK
     /**
      * Gets as propertyValue.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType[]
      */
     public function getPropertyValue()
     {
@@ -101,14 +101,14 @@ class TRecordExpressionType extends IsOK
     /**
      * Sets a new propertyValue.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType[] $propertyValue
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType[] $propertyValue
      * @return self
      */
     public function setPropertyValue(array $propertyValue)
     {
         if (!$this->isValidArrayOK(
             $propertyValue,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType',
             $msg
         )
         ) {
@@ -126,7 +126,7 @@ class TRecordExpressionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->propertyValue,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType',
             $msg
         )
         ) {

@@ -1,21 +1,21 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\Groups;
 
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TCollectionExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TIfExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TRecordExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType;
-use Firebird\ODataMetadata\StringTraits\XSDTopLevelTrait;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TIfExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TRecordExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType;
+use FirebirdOData\ODataMetadata\StringTraits\XSDTopLevelTrait;
 
 trait GExpressionTrait
 {
@@ -28,77 +28,77 @@ trait GExpressionTrait
         'float' => 'double', 'guid' => null, 'decimal' => 'decimal', 'bool' => null, 'dateTime' => 'dateTime',
         'dateTimeOffset' => 'dateTime', 'enum' => null, 'path' => null];
     private $gExpressionObjectFieldTypes = [
-        'if' => '\Firebird\ODataMetadata\MetadataV3\edm\TIfExpressionType',
-        'record' => '\Firebird\ODataMetadata\MetadataV3\edm\TRecordExpressionType',
-        'collection' => '\Firebird\ODataMetadata\MetadataV3\edm\TCollectionExpressionType',
-        'typeAssert' => '\Firebird\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType',
-        'typeTest' => '\Firebird\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType',
-        'functionReference' => '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType',
-        'entitySetReference' => '\Firebird\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType',
-        'anonymousFunction' => '\Firebird\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType',
-        'parameterReference' => '\Firebird\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType',
-        'apply' => '\Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType',
-        'propertyReference' => '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType',
-        'valueTermReference' => '\Firebird\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType'
+        'if' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TIfExpressionType',
+        'record' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TRecordExpressionType',
+        'collection' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionExpressionType',
+        'typeAssert' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType',
+        'typeTest' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType',
+        'functionReference' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType',
+        'entitySetReference' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType',
+        'anonymousFunction' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType',
+        'parameterReference' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType',
+        'apply' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType',
+        'propertyReference' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType',
+        'valueTermReference' => '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType'
     ];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TIfExpressionType $if
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TIfExpressionType $if
      */
     private $if = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TRecordExpressionType $record
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TRecordExpressionType $record
      */
     private $record = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TCollectionExpressionType $collection
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionExpressionType $collection
      */
     private $collection = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType $typeAssert
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType $typeAssert
      */
     private $typeAssert = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType $typeTest
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType $typeTest
      */
     private $typeTest = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType $functionReference
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType $functionReference
      */
     private $functionReference = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType $entitySetReference
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType $entitySetReference
      */
     private $entitySetReference = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType $anonymousFunction
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType $anonymousFunction
      */
     private $anonymousFunction = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType $parameterReference
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType $parameterReference
      */
     private $parameterReference = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType $apply
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType $apply
      */
     private $apply = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType $propertyReference
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType $propertyReference
      */
     private $propertyReference = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType $valueTermReference
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType $valueTermReference
      */
     private $valueTermReference = null;
 
@@ -363,7 +363,7 @@ trait GExpressionTrait
     /**
      * Gets as if.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TIfExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TIfExpressionType
      */
     public function getIf()
     {
@@ -373,7 +373,7 @@ trait GExpressionTrait
     /**
      * Sets a new if.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TIfExpressionType $if
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TIfExpressionType $if
      * @return self
      */
     public function setIf(TIfExpressionType $if)
@@ -389,7 +389,7 @@ trait GExpressionTrait
     /**
      * Gets as record.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TRecordExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TRecordExpressionType
      */
     public function getRecord()
     {
@@ -399,7 +399,7 @@ trait GExpressionTrait
     /**
      * Sets a new record.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TRecordExpressionType $record
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TRecordExpressionType $record
      * @return self
      */
     public function setRecord(TRecordExpressionType $record)
@@ -415,7 +415,7 @@ trait GExpressionTrait
     /**
      * Gets as collection.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TCollectionExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionExpressionType
      */
     public function getCollection()
     {
@@ -425,7 +425,7 @@ trait GExpressionTrait
     /**
      * Sets a new collection.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TCollectionExpressionType $collection
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionExpressionType $collection
      * @return self
      */
     public function setCollection(TCollectionExpressionType $collection)
@@ -441,7 +441,7 @@ trait GExpressionTrait
     /**
      * Gets as typeAssert.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType
      */
     public function getTypeAssert()
     {
@@ -451,7 +451,7 @@ trait GExpressionTrait
     /**
      * Sets a new typeAssert.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType $typeAssert
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType $typeAssert
      * @return self
      */
     public function setTypeAssert(TTypeAssertExpressionType $typeAssert)
@@ -467,7 +467,7 @@ trait GExpressionTrait
     /**
      * Gets as typeTest.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType
      */
     public function getTypeTest()
     {
@@ -477,7 +477,7 @@ trait GExpressionTrait
     /**
      * Sets a new typeTest.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType $typeTest
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType $typeTest
      * @return self
      */
     public function setTypeTest(TTypeTestExpressionType $typeTest)
@@ -493,7 +493,7 @@ trait GExpressionTrait
     /**
      * Gets as functionReference.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType
      */
     public function getFunctionReference()
     {
@@ -503,7 +503,7 @@ trait GExpressionTrait
     /**
      * Sets a new functionReference.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType $functionReference
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType $functionReference
      * @return self
      */
     public function setFunctionReference(TFunctionReferenceExpressionType $functionReference)
@@ -519,7 +519,7 @@ trait GExpressionTrait
     /**
      * Gets as entitySetReference.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType
      */
     public function getEntitySetReference()
     {
@@ -529,7 +529,7 @@ trait GExpressionTrait
     /**
      * Sets a new entitySetReference.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType $entitySetReference
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType $entitySetReference
      * @return self
      */
     public function setEntitySetReference(TEntitySetReferenceExpressionType $entitySetReference)
@@ -545,7 +545,7 @@ trait GExpressionTrait
     /**
      * Gets as anonymousFunction.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType
      */
     public function getAnonymousFunction()
     {
@@ -555,7 +555,7 @@ trait GExpressionTrait
     /**
      * Sets a new anonymousFunction.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType $anonymousFunction
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType $anonymousFunction
      * @return self
      */
     public function setAnonymousFunction(TAnonymousFunctionExpressionType $anonymousFunction)
@@ -571,7 +571,7 @@ trait GExpressionTrait
     /**
      * Gets as parameterReference.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType
      */
     public function getParameterReference()
     {
@@ -581,7 +581,7 @@ trait GExpressionTrait
     /**
      * Sets a new parameterReference.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType $parameterReference
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType $parameterReference
      * @return self
      */
     public function setParameterReference(TParameterReferenceExpressionType $parameterReference)
@@ -597,7 +597,7 @@ trait GExpressionTrait
     /**
      * Gets as apply.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType
      */
     public function getApply()
     {
@@ -607,7 +607,7 @@ trait GExpressionTrait
     /**
      * Sets a new apply.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType $apply
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType $apply
      * @return self
      */
     public function setApply(TApplyExpressionType $apply)
@@ -623,7 +623,7 @@ trait GExpressionTrait
     /**
      * Gets as propertyReference.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType
      */
     public function getPropertyReference()
     {
@@ -633,7 +633,7 @@ trait GExpressionTrait
     /**
      * Sets a new propertyReference.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType $propertyReference
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType $propertyReference
      * @return self
      */
     public function setPropertyReference(TPropertyReferenceExpressionType $propertyReference)
@@ -649,7 +649,7 @@ trait GExpressionTrait
     /**
      * Gets as valueTermReference.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType
      */
     public function getValueTermReference()
     {
@@ -659,7 +659,7 @@ trait GExpressionTrait
     /**
      * Sets a new valueTermReference.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType $valueTermReference
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType $valueTermReference
      * @return self
      */
     public function setValueTermReference(TValueTermReferenceExpressionType $valueTermReference)

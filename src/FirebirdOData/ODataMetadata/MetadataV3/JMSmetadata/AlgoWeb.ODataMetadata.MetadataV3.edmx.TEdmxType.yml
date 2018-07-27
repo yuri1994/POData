@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edmx\TEdmxType:
+FirebirdOData\ODataMetadata\MetadataV3\edmx\TEdmxType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Firebird\ODataMetadata\MetadataV3\edmx\TEdmxType:
             accessor:
                 getter: getDesigner
                 setter: setDesigner
-            type: FirebirdOData\ODataMetadata\MetadataV3\edmx\TDesignerType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edmx\TDesignerType
         runtime:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ Firebird\ODataMetadata\MetadataV3\edmx\TEdmxType:
             accessor:
                 getter: getRuntime
                 setter: setRuntime
-            type: FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edmx\TRuntimeType
         dataServiceType:
             expose: true
             access_type: public_method
@@ -38,4 +38,4 @@ Firebird\ODataMetadata\MetadataV3\edmx\TEdmxType:
             accessor:
                 getter: getDataServiceType
                 setter: setDataServiceType
-            type: FirebirdOData\ODataMetadata\MetadataV3\edmx\TDataServicesType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edmx\TDataServicesType

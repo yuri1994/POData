@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups\TAssociationSetModificationFunctionMappingPropertyGroup;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups\TAssociationSetModificationFunctionMappingPropertyGroup;
 
 /**
  * Class representing TAssociationSetModificationFunctionType.

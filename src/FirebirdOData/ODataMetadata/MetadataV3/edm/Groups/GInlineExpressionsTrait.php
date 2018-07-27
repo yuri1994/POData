@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\Groups;
 
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TGuidLiteralTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
-use Firebird\ODataMetadata\StringTraits\XSDTopLevelTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TGuidLiteralTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\StringTraits\XSDTopLevelTrait;
 
 trait GInlineExpressionsTrait
 {

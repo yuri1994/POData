@@ -2,7 +2,7 @@
 
 namespace POData\ObjectModel;
 
-use Firebird\ODataMetadata\MetadataManager;
+use FirebirdOData\ODataMetadata\MetadataManager;
 use Illuminate\Support\Str;
 
 /**

@@ -1,13 +1,13 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GBaseExpressionTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GExpressionTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GBaseExpressionTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GExpressionTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType;
 
 /**
  * Class representing AppliedFunctionAnonymousType.

@@ -1,13 +1,13 @@
 <?php
 
-namespace Firebird\PODataLaravel\Models;
+namespace FirebirdOData\PODataLaravel\Models;
 
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\Association;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationMonomorphic;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubMonomorphic;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubPolymorphic;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubRelationType;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\EntityGubbins;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\Association;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationMonomorphic;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubMonomorphic;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubPolymorphic;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubRelationType;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\EntityGubbins;
 use POData\Common\InvalidOperationException;
 
 class MetadataGubbinsHolder

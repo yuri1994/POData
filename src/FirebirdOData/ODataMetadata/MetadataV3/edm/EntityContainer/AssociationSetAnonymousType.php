@@ -1,12 +1,12 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\EntityContainer;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GEmptyElementExtensibilityTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GEmptyElementExtensibilityTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing AssociationSetAnonymousType.
@@ -31,7 +31,7 @@ class AssociationSetAnonymousType extends IsOK
 
     /**
      * @property
-     * \FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
+     * \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
      * $end
      */
     private $end = [];
@@ -92,7 +92,7 @@ class AssociationSetAnonymousType extends IsOK
      * Adds as end.
      *
      * @param
-     * \FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType
+     * \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType
      * $end
      * @return self
      */
@@ -132,7 +132,7 @@ class AssociationSetAnonymousType extends IsOK
      * Gets as end.
      *
      * @return
-     * \FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
+     * \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
      */
     public function getEnd()
     {
@@ -143,7 +143,7 @@ class AssociationSetAnonymousType extends IsOK
      * Sets a new end.
      *
      * @param
-     * \FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
+     * \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
      * $end
      * @return self
      */
@@ -152,7 +152,7 @@ class AssociationSetAnonymousType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $end,
-            '\Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType',
             $msg,
             0,
             2
@@ -176,7 +176,7 @@ class AssociationSetAnonymousType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->end,
-            '\Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType',
             $msg,
             0,
             2

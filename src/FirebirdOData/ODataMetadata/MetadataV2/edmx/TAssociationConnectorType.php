@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edmx;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TAssociationConnectorType.
@@ -23,7 +23,7 @@ class TAssociationConnectorType extends IsOK
     private $manuallyRouted = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edmx\TConnectorPointType[] $connectorPoint
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edmx\TConnectorPointType[] $connectorPoint
      */
     private $connectorPoint = array();
 
@@ -74,7 +74,7 @@ class TAssociationConnectorType extends IsOK
     /**
      * Adds as connectorPoint.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edmx\TConnectorPointType $connectorPoint
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edmx\TConnectorPointType $connectorPoint
      * @return self
      */
     public function addToConnectorPoint(TConnectorPointType $connectorPoint)
@@ -108,7 +108,7 @@ class TAssociationConnectorType extends IsOK
     /**
      * Gets as connectorPoint.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edmx\TConnectorPointType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edmx\TConnectorPointType[]
      */
     public function getConnectorPoint()
     {
@@ -118,7 +118,7 @@ class TAssociationConnectorType extends IsOK
     /**
      * Sets a new connectorPoint.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edmx\TConnectorPointType[] $connectorPoint
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edmx\TConnectorPointType[] $connectorPoint
      * @return self
      */
     public function setConnectorPoint(array $connectorPoint)

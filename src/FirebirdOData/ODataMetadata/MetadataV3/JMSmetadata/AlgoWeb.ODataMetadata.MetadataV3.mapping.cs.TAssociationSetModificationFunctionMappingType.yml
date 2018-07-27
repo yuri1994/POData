@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionMappingType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionMappingType:
     properties:
         deleteFunction:
             expose: true
@@ -9,7 +9,7 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunction
             accessor:
                 getter: getDeleteFunction
                 setter: setDeleteFunction
-            type: Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
+            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
         insertFunction:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunction
             accessor:
                 getter: getInsertFunction
                 setter: setInsertFunction
-            type: Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
+            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType

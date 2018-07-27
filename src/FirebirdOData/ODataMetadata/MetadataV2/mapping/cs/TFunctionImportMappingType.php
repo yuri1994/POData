@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
 /**
  * Class representing TFunctionImportMappingType.
@@ -21,7 +21,7 @@ class TFunctionImportMappingType extends IsOK
     private $functionImportName = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType
      * $resultMapping
      */
     private $resultMapping = null;
@@ -73,7 +73,7 @@ class TFunctionImportMappingType extends IsOK
     /**
      * Gets as resultMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType
      */
     public function getResultMapping()
     {
@@ -83,7 +83,7 @@ class TFunctionImportMappingType extends IsOK
     /**
      * Sets a new resultMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType
      * $resultMapping
      * @return self
      */

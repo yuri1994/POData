@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TNavigationPropertyType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TNavigationPropertyType:
     properties:
         name:
             expose: true
@@ -58,7 +58,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TNavigationPropertyType:
                 inline: true
                 entry_name: ReferentialConstraint
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\TReferentialConstraintType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TReferentialConstraintType>
         onDelete:
             expose: true
             access_type: public_method
@@ -72,7 +72,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TNavigationPropertyType:
                 inline: true
                 entry_name: OnDelete
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\TOnDeleteType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TOnDeleteType>
         annotation:
             expose: true
             access_type: public_method
@@ -86,4 +86,4 @@ Firebird\ODataMetadata\MetadataV4\edm\TNavigationPropertyType:
                 inline: true
                 entry_name: Annotation
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\Annotation>

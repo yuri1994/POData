@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing Schema.
@@ -21,52 +21,52 @@ class Schema extends IsOK
     private $alias = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TComplexTypeType[] $complexType
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TComplexTypeType[] $complexType
      */
     private $complexType = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TEntityTypeType[] $entityType
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntityTypeType[] $entityType
      */
     private $entityType = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTypeDefinitionType[] $typeDefinition
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTypeDefinitionType[] $typeDefinition
      */
     private $typeDefinition = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TEnumTypeType[] $enumType
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TEnumTypeType[] $enumType
      */
     private $enumType = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TActionType[] $action
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionType[] $action
      */
     private $action = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TFunctionType[] $function
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TFunctionType[] $function
      */
     private $function = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTermType[] $term
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTermType[] $term
      */
     private $term = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TAnnotationsType[] $annotations
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TAnnotationsType[] $annotations
      */
     private $annotations = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType[] $entityContainer
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntityContainerType[] $entityContainer
      */
     private $entityContainer = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = array();
 
@@ -117,7 +117,7 @@ class Schema extends IsOK
     /**
      * Adds as complexType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TComplexTypeType $complexType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TComplexTypeType $complexType
      * @return self
      */
     public function addToComplexType(TComplexTypeType $complexType)
@@ -151,7 +151,7 @@ class Schema extends IsOK
     /**
      * Gets as complexType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TComplexTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TComplexTypeType[]
      */
     public function getComplexType()
     {
@@ -161,7 +161,7 @@ class Schema extends IsOK
     /**
      * Sets a new complexType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TComplexTypeType[] $complexType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TComplexTypeType[] $complexType
      * @return self
      */
     public function setComplexType(array $complexType)
@@ -173,7 +173,7 @@ class Schema extends IsOK
     /**
      * Adds as entityType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEntityTypeType $entityType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntityTypeType $entityType
      * @return self
      */
     public function addToEntityType(TEntityTypeType $entityType)
@@ -207,7 +207,7 @@ class Schema extends IsOK
     /**
      * Gets as entityType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TEntityTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntityTypeType[]
      */
     public function getEntityType()
     {
@@ -217,7 +217,7 @@ class Schema extends IsOK
     /**
      * Sets a new entityType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEntityTypeType[] $entityType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntityTypeType[] $entityType
      * @return self
      */
     public function setEntityType(array $entityType)
@@ -229,7 +229,7 @@ class Schema extends IsOK
     /**
      * Adds as typeDefinition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTypeDefinitionType $typeDefinition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTypeDefinitionType $typeDefinition
      * @return self
      */
     public function addToTypeDefinition(TTypeDefinitionType $typeDefinition)
@@ -263,7 +263,7 @@ class Schema extends IsOK
     /**
      * Gets as typeDefinition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTypeDefinitionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTypeDefinitionType[]
      */
     public function getTypeDefinition()
     {
@@ -273,7 +273,7 @@ class Schema extends IsOK
     /**
      * Sets a new typeDefinition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTypeDefinitionType[] $typeDefinition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTypeDefinitionType[] $typeDefinition
      * @return self
      */
     public function setTypeDefinition(array $typeDefinition)
@@ -285,7 +285,7 @@ class Schema extends IsOK
     /**
      * Adds as enumType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEnumTypeType $enumType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEnumTypeType $enumType
      * @return self
      */
     public function addToEnumType(TEnumTypeType $enumType)
@@ -319,7 +319,7 @@ class Schema extends IsOK
     /**
      * Gets as enumType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TEnumTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TEnumTypeType[]
      */
     public function getEnumType()
     {
@@ -329,7 +329,7 @@ class Schema extends IsOK
     /**
      * Sets a new enumType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEnumTypeType[] $enumType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEnumTypeType[] $enumType
      * @return self
      */
     public function setEnumType(array $enumType)
@@ -341,7 +341,7 @@ class Schema extends IsOK
     /**
      * Adds as action.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TActionType $action
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionType $action
      * @return self
      */
     public function addToAction(TActionType $action)
@@ -375,7 +375,7 @@ class Schema extends IsOK
     /**
      * Gets as action.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TActionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionType[]
      */
     public function getAction()
     {
@@ -385,7 +385,7 @@ class Schema extends IsOK
     /**
      * Sets a new action.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TActionType[] $action
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionType[] $action
      * @return self
      */
     public function setAction(array $action)
@@ -397,7 +397,7 @@ class Schema extends IsOK
     /**
      * Adds as function.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TFunctionType $function
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TFunctionType $function
      * @return self
      */
     public function addToFunction(TFunctionType $function)
@@ -431,7 +431,7 @@ class Schema extends IsOK
     /**
      * Gets as function.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TFunctionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TFunctionType[]
      */
     public function getFunction()
     {
@@ -441,7 +441,7 @@ class Schema extends IsOK
     /**
      * Sets a new function.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TFunctionType[] $function
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TFunctionType[] $function
      * @return self
      */
     public function setFunction(array $function)
@@ -453,7 +453,7 @@ class Schema extends IsOK
     /**
      * Adds as term.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTermType $term
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTermType $term
      * @return self
      */
     public function addToTerm(TTermType $term)
@@ -487,7 +487,7 @@ class Schema extends IsOK
     /**
      * Gets as term.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTermType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTermType[]
      */
     public function getTerm()
     {
@@ -497,7 +497,7 @@ class Schema extends IsOK
     /**
      * Sets a new term.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTermType[] $term
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTermType[] $term
      * @return self
      */
     public function setTerm(array $term)
@@ -509,7 +509,7 @@ class Schema extends IsOK
     /**
      * Adds as annotations.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TAnnotationsType $annotations
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TAnnotationsType $annotations
      * @return self
      */
     public function addToAnnotations(TAnnotationsType $annotations)
@@ -543,7 +543,7 @@ class Schema extends IsOK
     /**
      * Gets as annotations.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TAnnotationsType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TAnnotationsType[]
      */
     public function getAnnotations()
     {
@@ -553,7 +553,7 @@ class Schema extends IsOK
     /**
      * Sets a new annotations.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TAnnotationsType[] $annotations
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TAnnotationsType[] $annotations
      * @return self
      */
     public function setAnnotations(array $annotations)
@@ -565,7 +565,7 @@ class Schema extends IsOK
     /**
      * Adds as entityContainer.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType $entityContainer
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntityContainerType $entityContainer
      * @return self
      */
     public function addToEntityContainer(TEntityContainerType $entityContainer)
@@ -599,7 +599,7 @@ class Schema extends IsOK
     /**
      * Gets as entityContainer.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntityContainerType[]
      */
     public function getEntityContainer()
     {
@@ -609,7 +609,7 @@ class Schema extends IsOK
     /**
      * Sets a new entityContainer.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType[] $entityContainer
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntityContainerType[] $entityContainer
      * @return self
      */
     public function setEntityContainer(array $entityContainer)
@@ -621,7 +621,7 @@ class Schema extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -655,7 +655,7 @@ class Schema extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -665,7 +665,7 @@ class Schema extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)

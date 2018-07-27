@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TNavigationPropertyType.
@@ -38,17 +38,17 @@ class TNavigationPropertyType extends IsOK
     private $containsTarget = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TReferentialConstraintType[] $referentialConstraint
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TReferentialConstraintType[] $referentialConstraint
      */
     private $referentialConstraint = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TOnDeleteType[] $onDelete
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TOnDeleteType[] $onDelete
      */
     private $onDelete = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = array();
 
@@ -165,7 +165,7 @@ class TNavigationPropertyType extends IsOK
     /**
      * Adds as referentialConstraint.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TReferentialConstraintType $referentialConstraint
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TReferentialConstraintType $referentialConstraint
      * @return self
      */
     public function addToReferentialConstraint(TReferentialConstraintType $referentialConstraint)
@@ -199,7 +199,7 @@ class TNavigationPropertyType extends IsOK
     /**
      * Gets as referentialConstraint.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TReferentialConstraintType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TReferentialConstraintType[]
      */
     public function getReferentialConstraint()
     {
@@ -209,7 +209,7 @@ class TNavigationPropertyType extends IsOK
     /**
      * Sets a new referentialConstraint.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TReferentialConstraintType[] $referentialConstraint
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TReferentialConstraintType[] $referentialConstraint
      * @return self
      */
     public function setReferentialConstraint(array $referentialConstraint)
@@ -221,7 +221,7 @@ class TNavigationPropertyType extends IsOK
     /**
      * Adds as onDelete.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TOnDeleteType $onDelete
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TOnDeleteType $onDelete
      * @return self
      */
     public function addToOnDelete(TOnDeleteType $onDelete)
@@ -255,7 +255,7 @@ class TNavigationPropertyType extends IsOK
     /**
      * Gets as onDelete.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TOnDeleteType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TOnDeleteType[]
      */
     public function getOnDelete()
     {
@@ -265,7 +265,7 @@ class TNavigationPropertyType extends IsOK
     /**
      * Sets a new onDelete.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TOnDeleteType[] $onDelete
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TOnDeleteType[] $onDelete
      * @return self
      */
     public function setOnDelete(array $onDelete)
@@ -277,7 +277,7 @@ class TNavigationPropertyType extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -311,7 +311,7 @@ class TNavigationPropertyType extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -321,7 +321,7 @@ class TNavigationPropertyType extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)

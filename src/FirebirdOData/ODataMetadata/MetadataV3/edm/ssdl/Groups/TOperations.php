@@ -1,22 +1,22 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
 
 trait TOperations
 {
     use IsOKToolboxTrait;
     
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType[] $onDelete
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType[] $onDelete
      */
     private $onDelete = [];
 
     /**
      * Adds as onDelete.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType $onDelete
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType $onDelete
      * @return self
      */
     public function addToOnDelete(TOnActionType $onDelete)
@@ -54,7 +54,7 @@ trait TOperations
     /**
      * Gets as onDelete.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType[]
      */
     public function getOnDelete()
     {
@@ -64,12 +64,12 @@ trait TOperations
     /**
      * Sets a new onDelete.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType[] $onDelete
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType[] $onDelete
      * @return self
      */
     public function setOnDelete(array $onDelete)
     {
-        if (!$this->isValidArrayOK($onDelete, '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType', $msg)) {
+        if (!$this->isValidArrayOK($onDelete, '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType', $msg)) {
             return false;
         }
         $this->onDelete = $onDelete;
@@ -78,7 +78,7 @@ trait TOperations
     
     public function isOperationsGroupOK(&$msg = null)
     {
-        if (!$this->isValidArrayOK($this->onDelete, '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType', $msg)) {
+        if (!$this->isValidArrayOK($this->onDelete, '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType', $msg)) {
             return false;
         }
         return true;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GEmptyElementExtensibilityTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TUnwrappedFunctionTypeTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GEmptyElementExtensibilityTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TUnwrappedFunctionTypeTrait;
 
 /**
  * Class representing TReferenceTypeType.

@@ -1,8 +1,8 @@
 <?php
 
-namespace FirebirdODataMetadata\Annotations;
+namespace FirebirdOData\ODataMetadata\Annotations;
 
-use FirebirdODataMetadata\StringTraits\XSDTopLevelTrait;
+use FirebirdOData\XSDTopLevelTrait;
 
 trait TGenerationPatternTrait
 {

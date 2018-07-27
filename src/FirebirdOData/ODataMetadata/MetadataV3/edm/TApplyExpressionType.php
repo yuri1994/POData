@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
 
 /**
  * Class representing TApplyExpressionType.
@@ -20,13 +20,13 @@ class TApplyExpressionType extends IsOK
     private $function = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType[]
      * $appliedFunction
      */
     private $appliedFunction = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType[]
      * $arguments
      */
     private $arguments = [];
@@ -60,7 +60,7 @@ class TApplyExpressionType extends IsOK
     /**
      * Adds as appliedFunction.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType
      * $appliedFunction
      * @return self
      */
@@ -99,7 +99,7 @@ class TApplyExpressionType extends IsOK
     /**
      * Gets as appliedFunction.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType[]
      */
     public function getAppliedFunction()
     {
@@ -109,7 +109,7 @@ class TApplyExpressionType extends IsOK
     /**
      * Sets a new appliedFunction.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType[]
      * $appliedFunction
      * @return self
      */
@@ -117,7 +117,7 @@ class TApplyExpressionType extends IsOK
     {
         if (!$this->isValidArrayOK(
             $appliedFunction,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType',
             $msg
         )
         ) {
@@ -130,7 +130,7 @@ class TApplyExpressionType extends IsOK
     /**
      * Adds as arguments.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType $arguments
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType $arguments
      * @return self
      */
     public function addToArguments(TApplyExpressionType\ArgumentsAnonymousType $arguments)
@@ -168,7 +168,7 @@ class TApplyExpressionType extends IsOK
     /**
      * Gets as arguments.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType[]
      */
     public function getArguments()
     {
@@ -178,14 +178,14 @@ class TApplyExpressionType extends IsOK
     /**
      * Sets a new arguments.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType[] $arguments
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType[] $arguments
      * @return self
      */
     public function setArguments(array $arguments)
     {
         if (!$this->isValidArrayOK(
             $arguments,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType',
             $msg
         )
         ) {
@@ -204,7 +204,7 @@ class TApplyExpressionType extends IsOK
 
         if (!$this->isValidArrayOK(
             $this->appliedFunction,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType',
             $msg
         )
         ) {
@@ -212,7 +212,7 @@ class TApplyExpressionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->arguments,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType',
             $msg
         )
         ) {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV1\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TAssociationSetMappingType.
@@ -33,17 +33,17 @@ class TAssociationSetMappingType extends IsOK
     private $queryView = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEndPropertyType[] $endProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEndPropertyType[] $endProperty
      */
     private $endProperty = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TConditionType[] $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TConditionType[] $condition
      */
     private $condition = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TAssociationSetModificationFunctionMappingType
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TAssociationSetModificationFunctionMappingType
      * $modificationFunctionMapping
      */
     private $modificationFunctionMapping = null;
@@ -139,7 +139,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Adds as endProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEndPropertyType $endProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEndPropertyType $endProperty
      * @return self
      */
     public function addToEndProperty(TEndPropertyType $endProperty)
@@ -173,7 +173,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Gets as endProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEndPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEndPropertyType[]
      */
     public function getEndProperty()
     {
@@ -183,7 +183,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Sets a new endProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEndPropertyType[] $endProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEndPropertyType[] $endProperty
      * @return self
      */
     public function setEndProperty(array $endProperty)
@@ -195,7 +195,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Adds as condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TConditionType $condition
      * @return self
      */
     public function addToCondition(TConditionType $condition)
@@ -229,7 +229,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TConditionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TConditionType[]
      */
     public function getCondition()
     {
@@ -239,7 +239,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TConditionType[] $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TConditionType[] $condition
      * @return self
      */
     public function setCondition(array $condition)
@@ -251,7 +251,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Gets as modificationFunctionMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TAssociationSetModificationFunctionMappingType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TAssociationSetModificationFunctionMappingType
      */
     public function getModificationFunctionMapping()
     {
@@ -261,7 +261,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Sets a new modificationFunctionMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TAssociationSetModificationFunctionMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV1\mapping\cs\TAssociationSetModificationFunctionMappingType
      * $modificationFunctionMapping
      * @return self
      */

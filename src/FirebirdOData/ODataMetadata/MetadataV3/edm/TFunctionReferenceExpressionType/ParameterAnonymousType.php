@@ -1,13 +1,13 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TWrappedFunctionTypeTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType;
-use Firebird\ODataMetadata\MetadataV3\edm\TPropertyType;
-use Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TWrappedFunctionTypeTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType;
 
 /**
  * Class representing ParameterAnonymousType.
@@ -23,17 +23,17 @@ class ParameterAnonymousType extends IsOK
     private $type = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
      */
     private $collectionType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
      */
     private $referenceType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
      */
     private $rowType = [];
 
@@ -66,7 +66,7 @@ class ParameterAnonymousType extends IsOK
     /**
      * Adds as collectionType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
      * @return self
      */
     public function addToCollectionType(TCollectionTypeType $collectionType)
@@ -104,7 +104,7 @@ class ParameterAnonymousType extends IsOK
     /**
      * Gets as collectionType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType[]
      */
     public function getCollectionType()
     {
@@ -114,7 +114,7 @@ class ParameterAnonymousType extends IsOK
     /**
      * Sets a new collectionType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
      * @return self
      */
     public function setCollectionType(array $collectionType)
@@ -122,7 +122,7 @@ class ParameterAnonymousType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $collectionType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
             $msg,
             0,
             1
@@ -137,7 +137,7 @@ class ParameterAnonymousType extends IsOK
     /**
      * Adds as referenceType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
      * @return self
      */
     public function addToReferenceType(TReferenceTypeType $referenceType)
@@ -175,7 +175,7 @@ class ParameterAnonymousType extends IsOK
     /**
      * Gets as referenceType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType[]
      */
     public function getReferenceType()
     {
@@ -185,7 +185,7 @@ class ParameterAnonymousType extends IsOK
     /**
      * Sets a new referenceType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
      * @return self
      */
     public function setReferenceType(array $referenceType)
@@ -193,7 +193,7 @@ class ParameterAnonymousType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $referenceType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
             $msg,
             0,
             1
@@ -208,7 +208,7 @@ class ParameterAnonymousType extends IsOK
     /**
      * Adds as property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType $property
      * @return self
      */
     public function addToRowType(TPropertyType $property)
@@ -246,7 +246,7 @@ class ParameterAnonymousType extends IsOK
     /**
      * Gets as rowType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[]
      */
     public function getRowType()
     {
@@ -256,7 +256,7 @@ class ParameterAnonymousType extends IsOK
     /**
      * Sets a new rowType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
      * @return self
      */
     public function setRowType(array $rowType)
@@ -264,7 +264,7 @@ class ParameterAnonymousType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType',
             $msg,
             0,
             1
@@ -285,7 +285,7 @@ class ParameterAnonymousType extends IsOK
 
         if (!$this->isValidArrayOK(
             $this->collectionType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
             $msg,
             0,
             1
@@ -296,7 +296,7 @@ class ParameterAnonymousType extends IsOK
 
         if (!$this->isValidArrayOK(
             $this->referenceType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
             $msg,
             0,
             1
@@ -307,7 +307,7 @@ class ParameterAnonymousType extends IsOK
 
         if (!$this->isValidArrayOK(
             $this->rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType',
             $msg,
             0,
             1

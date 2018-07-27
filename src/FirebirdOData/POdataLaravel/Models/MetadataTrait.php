@@ -1,14 +1,14 @@
 <?php
-namespace Firebird\PODataLaravel\Models;
+namespace FirebirdOData\PODataLaravel\Models;
 
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubMonomorphic;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubPolymorphic;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubRelationType;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\EntityField;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\EntityFieldPrimitiveType;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\EntityFieldType;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\EntityGubbins;
-use Firebird\PODataLaravel\Query\LaravelReadQuery;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubMonomorphic;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubPolymorphic;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubRelationType;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\EntityField;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\EntityFieldPrimitiveType;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\EntityFieldType;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\EntityGubbins;
+use FirebirdOData\PODataLaravel\Query\LaravelReadQuery;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

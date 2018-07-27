@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edmx;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TRuntimeType.
@@ -13,24 +13,24 @@ class TRuntimeType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeStorageModelsType $storageModels
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeStorageModelsType $storageModels
      */
     private $storageModels = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeConceptualModelsType $conceptualModels
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeConceptualModelsType $conceptualModels
      */
     private $conceptualModels = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeMappingsType $mappings
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeMappingsType $mappings
      */
     private $mappings = null;
 
     /**
      * Gets as storageModels.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeStorageModelsType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeStorageModelsType
      */
     public function getStorageModels()
     {
@@ -40,7 +40,7 @@ class TRuntimeType extends IsOK
     /**
      * Sets a new storageModels.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeStorageModelsType $storageModels
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeStorageModelsType $storageModels
      * @return self
      */
     public function setStorageModels(TRuntimeStorageModelsType $storageModels)
@@ -56,7 +56,7 @@ class TRuntimeType extends IsOK
     /**
      * Gets as conceptualModels.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeConceptualModelsType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeConceptualModelsType
      */
     public function getConceptualModels()
     {
@@ -66,7 +66,7 @@ class TRuntimeType extends IsOK
     /**
      * Sets a new conceptualModels.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeConceptualModelsType $conceptualModels
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeConceptualModelsType $conceptualModels
      * @return self
      */
     public function setConceptualModels(TRuntimeConceptualModelsType $conceptualModels)
@@ -82,7 +82,7 @@ class TRuntimeType extends IsOK
     /**
      * Gets as mappings.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeMappingsType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeMappingsType
      */
     public function getMappings()
     {
@@ -92,7 +92,7 @@ class TRuntimeType extends IsOK
     /**
      * Sets a new mappings.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeMappingsType $mappings
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TRuntimeMappingsType $mappings
      * @return self
      */
     public function setMappings(TRuntimeMappingsType $mappings)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edmx;
 
 /**
  * Class representing Edmx.

@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edm\TEntityPropertyType:
+FirebirdOData\ODataMetadata\MetadataV2\edm\TEntityPropertyType:
     properties:
         name:
             expose: true
@@ -135,4 +135,4 @@ Firebird\ODataMetadata\MetadataV2\edm\TEntityPropertyType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\edm\TDocumentationType

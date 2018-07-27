@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TEntityTypeType.
@@ -33,22 +33,22 @@ class TEntityTypeType extends IsOK
     private $typeAccess = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TPropertyRefType[] $key
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TPropertyRefType[] $key
      */
     private $key = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TEntityPropertyType[] $property
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TEntityPropertyType[] $property
      */
     private $property = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TNavigationPropertyType[] $navigationProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TNavigationPropertyType[] $navigationProperty
      */
     private $navigationProperty = array();
 
@@ -143,7 +143,7 @@ class TEntityTypeType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -153,7 +153,7 @@ class TEntityTypeType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -165,7 +165,7 @@ class TEntityTypeType extends IsOK
     /**
      * Adds as propertyRef.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TPropertyRefType $propertyRef
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TPropertyRefType $propertyRef
      * @return self
      */
     public function addToKey(TPropertyRefType $propertyRef)
@@ -199,7 +199,7 @@ class TEntityTypeType extends IsOK
     /**
      * Gets as key.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TPropertyRefType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TPropertyRefType[]
      */
     public function getKey()
     {
@@ -209,7 +209,7 @@ class TEntityTypeType extends IsOK
     /**
      * Sets a new key.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TPropertyRefType[] $key
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TPropertyRefType[] $key
      * @return self
      */
     public function setKey(array $key)
@@ -221,7 +221,7 @@ class TEntityTypeType extends IsOK
     /**
      * Adds as property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TEntityPropertyType $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TEntityPropertyType $property
      * @return self
      */
     public function addToProperty(TEntityPropertyType $property)
@@ -255,7 +255,7 @@ class TEntityTypeType extends IsOK
     /**
      * Gets as property.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TEntityPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TEntityPropertyType[]
      */
     public function getProperty()
     {
@@ -265,7 +265,7 @@ class TEntityTypeType extends IsOK
     /**
      * Sets a new property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TEntityPropertyType[] $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TEntityPropertyType[] $property
      * @return self
      */
     public function setProperty(array $property)
@@ -277,7 +277,7 @@ class TEntityTypeType extends IsOK
     /**
      * Adds as navigationProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TNavigationPropertyType $navigationProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TNavigationPropertyType $navigationProperty
      * @return self
      */
     public function addToNavigationProperty(TNavigationPropertyType $navigationProperty)
@@ -311,7 +311,7 @@ class TEntityTypeType extends IsOK
     /**
      * Gets as navigationProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TNavigationPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TNavigationPropertyType[]
      */
     public function getNavigationProperty()
     {
@@ -321,7 +321,7 @@ class TEntityTypeType extends IsOK
     /**
      * Sets a new navigationProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TNavigationPropertyType[] $navigationProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TNavigationPropertyType[] $navigationProperty
      * @return self
      */
     public function setNavigationProperty(array $navigationProperty)

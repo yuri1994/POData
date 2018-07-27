@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TComplexPropertyType.
@@ -31,22 +31,22 @@ class TComplexPropertyType extends IsOK
     private $isPartial = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
      */
     private $scalarProperty = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType[] $complexProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType[] $complexProperty
      */
     private $complexProperty = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType[] $complexTypeMapping
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType[] $complexTypeMapping
      */
     private $complexTypeMapping = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType[] $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType[] $condition
      */
     private $condition = [];
 
@@ -131,7 +131,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Adds as scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
      * @return self
      */
     public function addToScalarProperty(TScalarPropertyType $scalarProperty)
@@ -169,7 +169,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[]
      */
     public function getScalarProperty()
     {
@@ -179,7 +179,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
      * @return self
      */
     public function setScalarProperty(array $scalarProperty)
@@ -189,7 +189,7 @@ class TComplexPropertyType extends IsOK
         $count = count($this->complexProperty) + count($this->condition) + count($this->complexTypeMapping);
         if (!$this->isValidArrayOK(
             $scalarProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType',
             $msg,
             0 < $count ? 0 : 1
         )
@@ -203,7 +203,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Adds as complexProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType $complexProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType $complexProperty
      * @return self
      */
     public function addToComplexProperty(TComplexPropertyType $complexProperty)
@@ -241,7 +241,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Gets as complexProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType[]
      */
     public function getComplexProperty()
     {
@@ -251,7 +251,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Sets a new complexProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType[] $complexProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType[] $complexProperty
      * @return self
      */
     public function setComplexProperty(array $complexProperty)
@@ -261,7 +261,7 @@ class TComplexPropertyType extends IsOK
         $count = count($this->scalarProperty) + count($this->condition) + count($this->complexTypeMapping);
         if (!$this->isValidArrayOK(
             $complexProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType',
             $msg,
             0 < $count ? 0 : 1
         )
@@ -275,7 +275,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Adds as complexTypeMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType $complexTypeMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType $complexTypeMapping
      * @return self
      */
     public function addToComplexTypeMapping(TComplexTypeMappingType $complexTypeMapping)
@@ -313,7 +313,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Gets as complexTypeMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType[]
      */
     public function getComplexTypeMapping()
     {
@@ -323,7 +323,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Sets a new complexTypeMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType[] $complexTypeMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType[] $complexTypeMapping
      * @return self
      */
     public function setComplexTypeMapping(array $complexTypeMapping)
@@ -333,7 +333,7 @@ class TComplexPropertyType extends IsOK
         $count = count($this->scalarProperty) + count($this->complexProperty) + count($this->condition);
         if (!$this->isValidArrayOK(
             $complexTypeMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType',
             $msg,
             0 < $count ? 0 : 1
         )
@@ -347,7 +347,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Adds as condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType $condition
      * @return self
      */
     public function addToCondition(TConditionType $condition)
@@ -385,7 +385,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType[]
      */
     public function getCondition()
     {
@@ -395,7 +395,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType[] $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType[] $condition
      * @return self
      */
     public function setCondition(array $condition)
@@ -405,7 +405,7 @@ class TComplexPropertyType extends IsOK
         $count = count($this->scalarProperty) + count($this->complexProperty) + count($this->complexTypeMapping);
         if (!$this->isValidArrayOK(
             $condition,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType',
             $msg,
             0 < $count ? 0 : 1
         )
@@ -439,7 +439,7 @@ class TComplexPropertyType extends IsOK
 
         if (!$this->isValidArray(
             $this->scalarProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType'
         )
         ) {
             $msg = 'Scalar property array not a valid array';
@@ -450,7 +450,7 @@ class TComplexPropertyType extends IsOK
         }
         if (!$this->isValidArray(
             $this->complexProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType'
         )
         ) {
             $msg = 'Complex property array not a valid array';
@@ -461,7 +461,7 @@ class TComplexPropertyType extends IsOK
         }
         if (!$this->isValidArray(
             $this->condition,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType'
         )
         ) {
             $msg = 'Condition array not a valid array';
@@ -472,7 +472,7 @@ class TComplexPropertyType extends IsOK
         }
         if (!$this->isValidArray(
             $this->complexTypeMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexTypeMappingType'
         )
         ) {
             $msg = 'Complex type mapping array not a valid array';

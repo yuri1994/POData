@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType:
     properties:
         typeName:
             expose: true
@@ -22,7 +22,7 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType:
                 inline: true
                 entry_name: MappingFragment
                 namespace: http://schemas.microsoft.com/ado/2009/11/mapping/cs
-            type: array<Firebird\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType>
         modificationFunctionMapping:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType:
             accessor:
                 getter: getModificationFunctionMapping
                 setter: setModificationFunctionMapping
-            type: Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionMappingType
+            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionMappingType

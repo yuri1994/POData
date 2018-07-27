@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TEntityPropertyType.
@@ -83,7 +83,7 @@ class TEntityPropertyType extends IsOK
     private $storeGeneratedPattern = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
@@ -398,7 +398,7 @@ class TEntityPropertyType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -408,7 +408,7 @@ class TEntityPropertyType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)

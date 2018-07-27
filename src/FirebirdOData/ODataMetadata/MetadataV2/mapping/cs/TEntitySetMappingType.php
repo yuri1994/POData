@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TEntitySetMappingType.
@@ -33,32 +33,32 @@ class TEntitySetMappingType extends IsOK
     private $makeColumnsDistinct = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TQueryViewType[] $queryView
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TQueryViewType[] $queryView
      */
     private $queryView = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeMappingType[] $entityTypeMapping
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeMappingType[] $entityTypeMapping
      */
     private $entityTypeMapping = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[] $mappingFragment
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[] $mappingFragment
      */
     private $mappingFragment = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType $complexProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType $complexProperty
      */
     private $complexProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
      */
     private $scalarProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TConditionType $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TConditionType $condition
      */
     private $condition = null;
 
@@ -153,7 +153,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Adds as queryView.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TQueryViewType $queryView
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TQueryViewType $queryView
      * @return self
      */
     public function addToQueryView(TQueryViewType $queryView)
@@ -187,7 +187,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Gets as queryView.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TQueryViewType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TQueryViewType[]
      */
     public function getQueryView()
     {
@@ -197,7 +197,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Sets a new queryView.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TQueryViewType[] $queryView
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TQueryViewType[] $queryView
      * @return self
      */
     public function setQueryView(array $queryView)
@@ -209,7 +209,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Adds as entityTypeMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeMappingType $entityTypeMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeMappingType $entityTypeMapping
      * @return self
      */
     public function addToEntityTypeMapping(TEntityTypeMappingType $entityTypeMapping)
@@ -243,7 +243,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Gets as entityTypeMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeMappingType[]
      */
     public function getEntityTypeMapping()
     {
@@ -253,7 +253,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Sets a new entityTypeMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeMappingType[] $entityTypeMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeMappingType[] $entityTypeMapping
      * @return self
      */
     public function setEntityTypeMapping(array $entityTypeMapping)
@@ -265,7 +265,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Adds as mappingFragment.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType $mappingFragment
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType $mappingFragment
      * @return self
      */
     public function addToMappingFragment(TMappingFragmentType $mappingFragment)
@@ -299,7 +299,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Gets as mappingFragment.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[]
      */
     public function getMappingFragment()
     {
@@ -309,7 +309,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Sets a new mappingFragment.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[] $mappingFragment
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[] $mappingFragment
      * @return self
      */
     public function setMappingFragment(array $mappingFragment)
@@ -321,7 +321,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Gets as complexProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType
      */
     public function getComplexProperty()
     {
@@ -331,7 +331,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Sets a new complexProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType $complexProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType $complexProperty
      * @return self
      */
     public function setComplexProperty(TComplexPropertyType $complexProperty)
@@ -343,7 +343,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType
      */
     public function getScalarProperty()
     {
@@ -353,7 +353,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
      * @return self
      */
     public function setScalarProperty(TScalarPropertyType $scalarProperty)
@@ -365,7 +365,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TConditionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TConditionType
      */
     public function getCondition()
     {
@@ -375,7 +375,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TConditionType $condition
      * @return self
      */
     public function setCondition(TConditionType $condition)

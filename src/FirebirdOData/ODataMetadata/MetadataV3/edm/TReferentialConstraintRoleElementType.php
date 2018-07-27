@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TReferentialConstraintRoleElementType.
@@ -20,7 +20,7 @@ class TReferentialConstraintRoleElementType extends IsOK
     private $role = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TPropertyRefType[] $propertyRef
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyRefType[] $propertyRef
      */
     private $propertyRef = [];
 
@@ -53,7 +53,7 @@ class TReferentialConstraintRoleElementType extends IsOK
     /**
      * Adds as propertyRef.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyRefType $propertyRef
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyRefType $propertyRef
      * @return self
      */
     public function addToPropertyRef(TPropertyRefType $propertyRef)
@@ -91,7 +91,7 @@ class TReferentialConstraintRoleElementType extends IsOK
     /**
      * Gets as propertyRef.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TPropertyRefType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyRefType[]
      */
     public function getPropertyRef()
     {
@@ -101,14 +101,14 @@ class TReferentialConstraintRoleElementType extends IsOK
     /**
      * Sets a new propertyRef.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyRefType[] $propertyRef
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyRefType[] $propertyRef
      * @return self
      */
     public function setPropertyRef(array $propertyRef)
     {
         if (!$this->isValidArrayOK(
             $this->propertyRef,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyRefType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyRefType',
             $msg,
             1
         )
@@ -127,7 +127,7 @@ class TReferentialConstraintRoleElementType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->propertyRef,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyRefType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyRefType',
             $msg,
             1
         )

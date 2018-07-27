@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TTypeRefType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeRefType:
     properties:
         type:
             expose: true
@@ -99,4 +99,4 @@ Firebird\ODataMetadata\MetadataV3\edm\TTypeRefType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TDocumentationType

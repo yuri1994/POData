@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edmx;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV2\edm\ssdl\Schema;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\Schema;
 
 /**
  * Class representing TRuntimeStorageModelsType.
@@ -14,14 +14,14 @@ class TRuntimeStorageModelsType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\ssdl\Schema $schema
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\Schema $schema
      */
     private $schema = null;
 
     /**
      * Gets as schema.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\ssdl\Schema
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\Schema
      */
     public function getSchema()
     {
@@ -31,7 +31,7 @@ class TRuntimeStorageModelsType extends IsOK
     /**
      * Sets a new schema.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\ssdl\Schema $schema
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\Schema $schema
      * @return self
      */
     public function setSchema(Schema $schema)

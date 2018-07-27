@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TEnumTypeType.
@@ -28,12 +28,12 @@ class TEnumTypeType extends IsOK
     private $underlyingType = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TEnumTypeMemberType[] $member
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TEnumTypeMemberType[] $member
      */
     private $member = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = array();
 
@@ -106,7 +106,7 @@ class TEnumTypeType extends IsOK
     /**
      * Adds as member.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEnumTypeMemberType $member
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEnumTypeMemberType $member
      * @return self
      */
     public function addToMember(TEnumTypeMemberType $member)
@@ -140,7 +140,7 @@ class TEnumTypeType extends IsOK
     /**
      * Gets as member.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TEnumTypeMemberType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TEnumTypeMemberType[]
      */
     public function getMember()
     {
@@ -150,7 +150,7 @@ class TEnumTypeType extends IsOK
     /**
      * Sets a new member.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEnumTypeMemberType[] $member
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEnumTypeMemberType[] $member
      * @return self
      */
     public function setMember(array $member)
@@ -162,7 +162,7 @@ class TEnumTypeType extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -196,7 +196,7 @@ class TEnumTypeType extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -206,7 +206,7 @@ class TEnumTypeType extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)

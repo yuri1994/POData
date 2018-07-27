@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TOnActionType.
@@ -18,7 +18,7 @@ class TOnActionType extends IsOK
     private $action = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TDocumentationType $documentation
      */
     private $documentation = null;
 
@@ -47,7 +47,7 @@ class TOnActionType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -57,7 +57,7 @@ class TOnActionType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)

@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType;
-use Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType;
 
 /**
  * Class representing AssociationSetAnonymousType.
@@ -23,13 +23,13 @@ class AssociationSetAnonymousType extends IsOK
     private $association = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
      * @property
-     * \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
+     * \FirebirdOData\OData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
      * $end
      */
     private $end = array();
@@ -81,7 +81,7 @@ class AssociationSetAnonymousType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -91,7 +91,7 @@ class AssociationSetAnonymousType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -104,7 +104,7 @@ class AssociationSetAnonymousType extends IsOK
      * Adds as end.
      *
      * @param
-     * \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType
+     * \FirebirdOData\OData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType
      * $end
      * @return self
      */
@@ -140,7 +140,7 @@ class AssociationSetAnonymousType extends IsOK
      * Gets as end.
      *
      * @return
-     * \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
+     * \FirebirdOData\OData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
      */
     public function getEnd()
     {
@@ -151,7 +151,7 @@ class AssociationSetAnonymousType extends IsOK
      * Sets a new end.
      *
      * @param
-     * \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
+     * \FirebirdOData\OData\ODataMetadata\MetadataV2\edm\ssdl\EntityContainer\AssociationSetAnonymousType\EndAnonymousType[]
      * $end
      * @return self
      */

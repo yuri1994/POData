@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\PODataLaravel\Serialisers;
+namespace FirebirdOData\PODataLaravel\Serialisers;
 
-use Firebird\PODataLaravel\Query\LaravelReadQuery;
+use FirebirdOData\PODataLaravel\Query\LaravelReadQuery;
 use Illuminate\Database\Eloquent\Model;
 use POData\Common\InvalidOperationException;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TPathTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TPathTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TAnnotationsType.
@@ -31,12 +31,12 @@ class TAnnotationsType extends IsOK
     private $qualifier = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
      */
     private $valueAnnotation = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
      */
     private $typeAnnotation = [];
 
@@ -95,7 +95,7 @@ class TAnnotationsType extends IsOK
     /**
      * Adds as valueAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType $valueAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType $valueAnnotation
      * @return self
      */
     public function addToValueAnnotation(TValueAnnotationType $valueAnnotation)
@@ -133,7 +133,7 @@ class TAnnotationsType extends IsOK
     /**
      * Gets as valueAnnotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[]
      */
     public function getValueAnnotation()
     {
@@ -143,14 +143,14 @@ class TAnnotationsType extends IsOK
     /**
      * Sets a new valueAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
      * @return self
      */
     public function setValueAnnotation(array $valueAnnotation)
     {
         if (!$this->isValidArrayOK(
             $valueAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
             $msg
         )
         ) {
@@ -163,7 +163,7 @@ class TAnnotationsType extends IsOK
     /**
      * Adds as typeAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType $typeAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType $typeAnnotation
      * @return self
      */
     public function addToTypeAnnotation(TTypeAnnotationType $typeAnnotation)
@@ -201,7 +201,7 @@ class TAnnotationsType extends IsOK
     /**
      * Gets as typeAnnotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[]
      */
     public function getTypeAnnotation()
     {
@@ -211,14 +211,14 @@ class TAnnotationsType extends IsOK
     /**
      * Sets a new typeAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
      * @return self
      */
     public function setTypeAnnotation(array $typeAnnotation)
     {
         if (!$this->isValidArrayOK(
             $typeAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
             $msg
         )
         ) {
@@ -240,7 +240,7 @@ class TAnnotationsType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->valueAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
             $msg
         )
         ) {
@@ -248,7 +248,7 @@ class TAnnotationsType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->typeAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
             $msg
         )
         ) {

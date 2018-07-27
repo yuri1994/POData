@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edmx;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TInheritanceConnectorType.
@@ -23,7 +23,7 @@ class TInheritanceConnectorType extends IsOK
     private $manuallyRouted = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TConnectorPointType[] $connectorPoint
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectorPointType[] $connectorPoint
      */
     private $connectorPoint = [];
 
@@ -78,7 +78,7 @@ class TInheritanceConnectorType extends IsOK
     /**
      * Adds as connectorPoint.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TConnectorPointType $connectorPoint
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectorPointType $connectorPoint
      * @return self
      */
     public function addToConnectorPoint(TConnectorPointType $connectorPoint)
@@ -116,7 +116,7 @@ class TInheritanceConnectorType extends IsOK
     /**
      * Gets as connectorPoint.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TConnectorPointType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectorPointType[]
      */
     public function getConnectorPoint()
     {
@@ -126,14 +126,14 @@ class TInheritanceConnectorType extends IsOK
     /**
      * Sets a new connectorPoint.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TConnectorPointType[] $connectorPoint
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectorPointType[] $connectorPoint
      * @return self
      */
     public function setConnectorPoint(array $connectorPoint)
     {
         if (!$this->isValidArrayOK(
             $connectorPoint,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TConnectorPointType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectorPointType'
         )
         ) {
             $msg = 'Designer info property set not a valid array';
@@ -152,7 +152,7 @@ class TInheritanceConnectorType extends IsOK
 
         if (!$this->isValidArray(
             $this->connectorPoint,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TConnectorPointType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectorPointType'
         )
         ) {
             $msg = 'Designer info property set not a valid array';

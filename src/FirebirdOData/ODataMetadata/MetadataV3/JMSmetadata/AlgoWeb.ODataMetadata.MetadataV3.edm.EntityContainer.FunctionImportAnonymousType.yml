@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousType:
     properties:
         name:
             expose: true
@@ -22,7 +22,7 @@ Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousTyp
                 inline: true
                 entry_name: ReturnType
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType>
         entitySet:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousTyp
             accessor:
                 getter: getEntitySet
                 setter: setEntitySet
-            type: Firebird\ODataMetadata\MetadataV3\edm\TOperandType
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType
         isComposable:
             expose: true
             access_type: public_method
@@ -78,7 +78,7 @@ Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousTyp
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
         parameter:
             expose: true
             access_type: public_method
@@ -92,7 +92,7 @@ Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousTyp
                 inline: true
                 entry_name: Parameter
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType>
         v3SimpleIdentifierCache:
             exclude: true
         v3SimpleIdentifierRegex:

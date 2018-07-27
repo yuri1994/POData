@@ -1,13 +1,13 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GBaseExpressionTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GInlineExpressionsTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GBaseExpressionTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GInlineExpressionsTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TTypeAnnotationType.
@@ -34,7 +34,7 @@ class TTypeAnnotationType extends IsOK
     private $qualifier = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType[] $propertyValue
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType[] $propertyValue
      */
     private $propertyValue = [];
 
@@ -89,7 +89,7 @@ class TTypeAnnotationType extends IsOK
     /**
      * Adds as propertyValue.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType $propertyValue
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType $propertyValue
      * @return self
      */
     public function addToPropertyValue(TPropertyValueType $propertyValue)
@@ -127,7 +127,7 @@ class TTypeAnnotationType extends IsOK
     /**
      * Gets as propertyValue.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType[]
      */
     public function getPropertyValue()
     {
@@ -137,14 +137,14 @@ class TTypeAnnotationType extends IsOK
     /**
      * Sets a new propertyValue.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType[] $propertyValue
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType[] $propertyValue
      * @return self
      */
     public function setPropertyValue(array $propertyValue)
     {
         if (!$this->isValidArrayOK(
             $propertyValue,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType',
             $msg
         )
         ) {
@@ -169,7 +169,7 @@ class TTypeAnnotationType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->propertyValue,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType',
             $msg
         )
         ) {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\CodeGeneration\AccessTypeTraits;
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\TTypeAttributesTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TPropertyTypeTrait;
+use FirebirdOData\ODataMetadata\CodeGeneration\AccessTypeTraits;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\TTypeAttributesTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TPropertyTypeTrait;
 
 /**
  * Class representing TEnumTypeType.
@@ -37,12 +37,12 @@ class TEnumTypeType extends IsOK
     private $typeAccess = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType[] $member
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType[] $member
      */
     private $member = [];
 
@@ -123,7 +123,7 @@ class TEnumTypeType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -133,7 +133,7 @@ class TEnumTypeType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -149,7 +149,7 @@ class TEnumTypeType extends IsOK
     /**
      * Adds as member.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType $member
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType $member
      * @return self
      */
     public function addToMember(TEnumTypeMemberType $member)
@@ -183,7 +183,7 @@ class TEnumTypeType extends IsOK
     /**
      * Gets as member.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType[]
      */
     public function getMember()
     {
@@ -193,14 +193,14 @@ class TEnumTypeType extends IsOK
     /**
      * Sets a new member.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType[] $member
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType[] $member
      * @return self
      */
     public function setMember(array $member)
     {
         if (!$this->isValidArrayOK(
             $member,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType',
             $msg
         )
         ) {
@@ -225,7 +225,7 @@ class TEnumTypeType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->member,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeMemberType',
             $msg
         )
         ) {

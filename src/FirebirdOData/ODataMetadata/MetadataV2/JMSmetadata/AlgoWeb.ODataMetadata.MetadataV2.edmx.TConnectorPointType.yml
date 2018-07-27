@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edmx\TConnectorPointType:
+FirebirdOData\ODataMetadata\MetadataV2\edmx\TConnectorPointType:
     properties:
         pointX:
             expose: true

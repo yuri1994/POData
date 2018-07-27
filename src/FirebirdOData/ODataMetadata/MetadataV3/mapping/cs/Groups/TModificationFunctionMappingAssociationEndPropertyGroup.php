@@ -1,15 +1,15 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups;
 
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType;
 
 trait TModificationFunctionMappingAssociationEndPropertyGroup
 {
     //Grouping for property bindings in function mapping end property.
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
      * $scalarProperty
      */
     private $scalarProperty = null;
@@ -17,7 +17,7 @@ trait TModificationFunctionMappingAssociationEndPropertyGroup
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
      */
     public function getScalarProperty()
     {
@@ -27,7 +27,7 @@ trait TModificationFunctionMappingAssociationEndPropertyGroup
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
      * $scalarProperty
      * @return self
      */

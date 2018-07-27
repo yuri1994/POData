@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV1\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TComplexPropertyType.
@@ -28,22 +28,22 @@ class TComplexPropertyType extends IsOK
     private $isPartial = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TScalarPropertyType[] $scalarProperty
      */
     private $scalarProperty = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TComplexPropertyType[] $complexProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TComplexPropertyType[] $complexProperty
      */
     private $complexProperty = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TComplexTypeMappingType[] $complexTypeMapping
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TComplexTypeMappingType[] $complexTypeMapping
      */
     private $complexTypeMapping = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TConditionType[] $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TConditionType[] $condition
      */
     private $condition = array();
 
@@ -116,7 +116,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Adds as scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TScalarPropertyType $scalarProperty
      * @return self
      */
     public function addToScalarProperty(TScalarPropertyType $scalarProperty)
@@ -150,7 +150,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TScalarPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TScalarPropertyType[]
      */
     public function getScalarProperty()
     {
@@ -160,7 +160,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TScalarPropertyType[] $scalarProperty
      * @return self
      */
     public function setScalarProperty(array $scalarProperty)
@@ -172,7 +172,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Adds as complexProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TComplexPropertyType $complexProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TComplexPropertyType $complexProperty
      * @return self
      */
     public function addToComplexProperty(TComplexPropertyType $complexProperty)
@@ -206,7 +206,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Gets as complexProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TComplexPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TComplexPropertyType[]
      */
     public function getComplexProperty()
     {
@@ -216,7 +216,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Sets a new complexProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TComplexPropertyType[] $complexProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TComplexPropertyType[] $complexProperty
      * @return self
      */
     public function setComplexProperty(array $complexProperty)
@@ -228,7 +228,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Adds as complexTypeMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TComplexTypeMappingType $complexTypeMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TComplexTypeMappingType $complexTypeMapping
      * @return self
      */
     public function addToComplexTypeMapping(TComplexTypeMappingType $complexTypeMapping)
@@ -262,7 +262,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Gets as complexTypeMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TComplexTypeMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TComplexTypeMappingType[]
      */
     public function getComplexTypeMapping()
     {
@@ -272,7 +272,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Sets a new complexTypeMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TComplexTypeMappingType[] $complexTypeMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TComplexTypeMappingType[] $complexTypeMapping
      * @return self
      */
     public function setComplexTypeMapping(array $complexTypeMapping)
@@ -284,7 +284,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Adds as condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TConditionType $condition
      * @return self
      */
     public function addToCondition(TConditionType $condition)
@@ -318,7 +318,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TConditionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TConditionType[]
      */
     public function getCondition()
     {
@@ -328,7 +328,7 @@ class TComplexPropertyType extends IsOK
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TConditionType[] $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TConditionType[] $condition
      * @return self
      */
     public function setCondition(array $condition)

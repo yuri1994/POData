@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
 /**
  * Class representing TFunctionImportEntityTypeMappingType.
@@ -16,14 +16,14 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     private $typeName = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[] $scalarProperty
      */
     private $scalarProperty = array(
         
     );
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportConditionType[] $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportConditionType[] $condition
      */
     private $condition = array(
         
@@ -54,7 +54,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Adds as scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
      * @return self
      */
     public function addToScalarProperty(TScalarPropertyType $scalarProperty)
@@ -88,7 +88,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[]
      */
     public function getScalarProperty()
     {
@@ -98,7 +98,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType[] $scalarProperty
      * @return self
      */
     public function setScalarProperty(array $scalarProperty)
@@ -110,7 +110,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Adds as condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportConditionType $condition
      * @return self
      */
     public function addToCondition(TFunctionImportConditionType $condition)
@@ -144,7 +144,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportConditionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportConditionType[]
      */
     public function getCondition()
     {
@@ -154,7 +154,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportConditionType[] $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportConditionType[] $condition
      * @return self
      */
     public function setCondition(array $condition)

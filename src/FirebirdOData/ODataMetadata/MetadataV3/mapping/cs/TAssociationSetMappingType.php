@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits\TQualifiedNameTrait;
-use Firebird\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TAssociationSetMappingType.
@@ -42,17 +42,17 @@ class TAssociationSetMappingType extends IsOK
     private $queryView = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType[] $endProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType[] $endProperty
      */
     private $endProperty = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType[] $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType[] $condition
      */
     private $condition = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionMappingType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionMappingType
      * $modificationFunctionMapping
      */
     private $modificationFunctionMapping = null;
@@ -172,7 +172,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Adds as endProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType $endProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType $endProperty
      * @return self
      */
     public function addToEndProperty(TEndPropertyType $endProperty)
@@ -210,7 +210,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Gets as endProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType[]
      */
     public function getEndProperty()
     {
@@ -220,7 +220,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Sets a new endProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType[] $endProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType[] $endProperty
      * @return self
      */
     public function setEndProperty(array $endProperty)
@@ -228,7 +228,7 @@ class TAssociationSetMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $endProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType',
             $msg,
             0,
             2
@@ -243,7 +243,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Adds as condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType $condition
      * @return self
      */
     public function addToCondition(TConditionType $condition)
@@ -281,7 +281,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType[]
      */
     public function getCondition()
     {
@@ -291,7 +291,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType[] $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType[] $condition
      * @return self
      */
     public function setCondition(array $condition)
@@ -299,7 +299,7 @@ class TAssociationSetMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $condition,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType',
             $msg
         )
         ) {
@@ -312,7 +312,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Gets as modificationFunctionMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionMappingType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionMappingType
      */
     public function getModificationFunctionMapping()
     {
@@ -322,7 +322,7 @@ class TAssociationSetMappingType extends IsOK
     /**
      * Sets a new modificationFunctionMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionMappingType
      * $modificationFunctionMapping
      * @return self
      */
@@ -368,7 +368,7 @@ class TAssociationSetMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->endProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEndPropertyType',
             0,
             2
         )
@@ -381,7 +381,7 @@ class TAssociationSetMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->endProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType'
         )
         ) {
             $msg = 'Condition array not a valid array';

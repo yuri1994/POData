@@ -2,7 +2,7 @@
 
 namespace POData\Providers\Metadata;
 
-use Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType;
 
 class ResourceEntityType extends ResourceType
 {

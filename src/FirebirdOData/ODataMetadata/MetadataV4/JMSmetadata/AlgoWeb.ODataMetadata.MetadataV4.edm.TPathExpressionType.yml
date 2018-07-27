@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TPathExpressionType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TPathExpressionType:
     properties:
         __value:
             expose: true

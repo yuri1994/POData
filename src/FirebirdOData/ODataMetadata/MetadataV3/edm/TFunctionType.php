@@ -1,11 +1,11 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\TFacetAttributesTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TCommandTextTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\TFacetAttributesTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TCommandTextTrait;
 
 /**
  * Class representing TFunctionType.
@@ -21,17 +21,17 @@ class TFunctionType extends IsOK
     private $name = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType[] $returnType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType[] $returnType
      */
     private $returnType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameter
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameter
      */
     private $parameter = [];
 
@@ -69,7 +69,7 @@ class TFunctionType extends IsOK
     /**
      * Adds as returnType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType $returnType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType $returnType
      * @return self
      */
     public function addToReturnType(TFunctionReturnTypeType $returnType)
@@ -107,7 +107,7 @@ class TFunctionType extends IsOK
     /**
      * Gets as returnType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType[]
      */
     public function getReturnType()
     {
@@ -117,14 +117,14 @@ class TFunctionType extends IsOK
     /**
      * Sets a new returnType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType[] $returnType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType[] $returnType
      * @return self
      */
     public function setReturnType(array $returnType)
     {
         if (!$this->isValidArrayOK(
             $returnType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType',
             $msg
         )
         ) {
@@ -137,7 +137,7 @@ class TFunctionType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -147,7 +147,7 @@ class TFunctionType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -163,7 +163,7 @@ class TFunctionType extends IsOK
     /**
      * Adds as parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType $parameter
      * @return self
      */
     public function addToParameter(TFunctionParameterType $parameter)
@@ -201,7 +201,7 @@ class TFunctionType extends IsOK
     /**
      * Gets as parameter.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType[]
      */
     public function getParameter()
     {
@@ -211,14 +211,14 @@ class TFunctionType extends IsOK
     /**
      * Sets a new parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameter
      * @return self
      */
     public function setParameter(array $parameter)
     {
         if (!$this->isValidArrayOK(
             $parameter,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
             $msg
         )
         ) {
@@ -295,7 +295,7 @@ class TFunctionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->parameter,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
             $msg
         )
         ) {
@@ -303,7 +303,7 @@ class TFunctionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->returnType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReturnTypeType',
             $msg
         )
         ) {

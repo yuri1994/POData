@@ -2,7 +2,7 @@
 
 namespace POData\Providers\Metadata;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class IMetadataProvider.

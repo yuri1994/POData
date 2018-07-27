@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edmx\TRuntimeMappingsType:
+FirebirdOData\ODataMetadata\MetadataV2\edmx\TRuntimeMappingsType:
     properties:
         mapping:
             expose: true
@@ -9,4 +9,4 @@ Firebird\ODataMetadata\MetadataV2\edmx\TRuntimeMappingsType:
             accessor:
                 getter: getMapping
                 setter: setMapping
-            type: FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\Mapping
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\Mapping

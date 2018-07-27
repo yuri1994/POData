@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingType:
+FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingType:
     properties:
         functionName:
             expose: true
@@ -27,4 +27,4 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingType:
             accessor:
                 getter: getResultMapping
                 setter: setResultMapping
-            type: FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType

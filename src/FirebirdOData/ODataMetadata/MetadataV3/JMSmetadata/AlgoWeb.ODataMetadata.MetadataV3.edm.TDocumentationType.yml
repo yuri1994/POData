@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType:
     properties:
         summary:
             expose: true
@@ -9,7 +9,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType:
             accessor:
                 getter: getSummary
                 setter: setSummary
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TTextType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TTextType
         longDescription:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType:
             accessor:
                 getter: getLongDescription
                 setter: setLongDescription
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TTextType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TTextType

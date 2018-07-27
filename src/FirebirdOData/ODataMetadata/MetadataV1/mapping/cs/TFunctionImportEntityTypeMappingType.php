@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV1\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TFunctionImportEntityTypeMappingType.
@@ -18,7 +18,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     private $typeName = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TFunctionImportConditionType[] $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TFunctionImportConditionType[] $condition
      */
     private $condition = array(
         
@@ -49,7 +49,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Adds as condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TFunctionImportConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TFunctionImportConditionType $condition
      * @return self
      */
     public function addToCondition(TFunctionImportConditionType $condition)
@@ -83,7 +83,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TFunctionImportConditionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TFunctionImportConditionType[]
      */
     public function getCondition()
     {
@@ -93,7 +93,7 @@ class TFunctionImportEntityTypeMappingType extends IsOK
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\TFunctionImportConditionType[] $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TFunctionImportConditionType[] $condition
      * @return self
      */
     public function setCondition(array $condition)

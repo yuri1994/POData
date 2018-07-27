@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TTermType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TTermType:
     properties:
         name:
             expose: true
@@ -107,4 +107,4 @@ Firebird\ODataMetadata\MetadataV4\edm\TTermType:
                 inline: true
                 entry_name: Annotation
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\Annotation>

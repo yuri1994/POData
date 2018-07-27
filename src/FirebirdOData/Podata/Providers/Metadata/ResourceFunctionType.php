@@ -2,8 +2,8 @@
 
 namespace POData\Providers\Metadata;
 
-use Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousType;
-use Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType;
 
 class ResourceFunctionType
 {
@@ -15,7 +15,7 @@ class ResourceFunctionType
     private $functionName = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousType $baseType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousType $baseType
      */
     private $baseType = null;
 

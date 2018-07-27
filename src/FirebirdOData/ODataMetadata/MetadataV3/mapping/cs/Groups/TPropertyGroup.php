@@ -1,32 +1,32 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups;
 
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType;
 
 trait TPropertyGroup
 {
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType $complexProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType $complexProperty
      */
     private $complexProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
      */
     private $scalarProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType $condition
      */
     private $condition = null;
 
     /**
      * Gets as complexProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType
      */
     public function getComplexProperty()
     {
@@ -36,7 +36,7 @@ trait TPropertyGroup
     /**
      * Sets a new complexProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType $complexProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TComplexPropertyType $complexProperty
      * @return self
      */
     public function setComplexProperty(TComplexPropertyType $complexProperty)
@@ -52,7 +52,7 @@ trait TPropertyGroup
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType
      */
     public function getScalarProperty()
     {
@@ -62,7 +62,7 @@ trait TPropertyGroup
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
      * @return self
      */
     public function setScalarProperty(TScalarPropertyType $scalarProperty)
@@ -78,7 +78,7 @@ trait TPropertyGroup
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType
      */
     public function getCondition()
     {
@@ -88,7 +88,7 @@ trait TPropertyGroup
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType $condition
      * @return self
      */
     public function setCondition(TConditionType $condition)

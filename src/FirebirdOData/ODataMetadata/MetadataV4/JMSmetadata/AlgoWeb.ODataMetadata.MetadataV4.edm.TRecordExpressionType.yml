@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TRecordExpressionType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TRecordExpressionType:
     properties:
         type:
             expose: true
@@ -22,7 +22,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TRecordExpressionType:
                 inline: true
                 entry_name: PropertyValue
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\TPropertyValueType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TPropertyValueType>
         annotation:
             expose: true
             access_type: public_method
@@ -36,4 +36,4 @@ Firebird\ODataMetadata\MetadataV4\edm\TRecordExpressionType:
                 inline: true
                 entry_name: Annotation
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\Annotation>

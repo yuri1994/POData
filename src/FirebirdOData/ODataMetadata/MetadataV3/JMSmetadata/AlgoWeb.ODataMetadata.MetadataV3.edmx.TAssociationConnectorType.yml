@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType:
+FirebirdOData\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType:
     properties:
         association:
             expose: true
@@ -31,4 +31,4 @@ Firebird\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType:
                 inline: true
                 entry_name: ConnectorPoint
                 namespace: http://schemas.microsoft.com/ado/2007/06/edmx
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectorPointType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edmx\TConnectorPointType>

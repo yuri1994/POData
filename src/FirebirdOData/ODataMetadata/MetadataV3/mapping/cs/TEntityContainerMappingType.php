@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TEntityContainerMappingType.
@@ -31,18 +31,18 @@ class TEntityContainerMappingType extends IsOK
     private $generateUpdateViews = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType[] $entitySetMapping
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType[] $entitySetMapping
      */
     private $entitySetMapping = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType[]
      * $associationSetMapping
      */
     private $associationSetMapping = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType[]
      * $functionImportMapping
      */
     private $functionImportMapping = [];
@@ -128,7 +128,7 @@ class TEntityContainerMappingType extends IsOK
     /**
      * Adds as entitySetMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType $entitySetMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType $entitySetMapping
      * @return self
      */
     public function addToEntitySetMapping(TEntitySetMappingType $entitySetMapping)
@@ -166,7 +166,7 @@ class TEntityContainerMappingType extends IsOK
     /**
      * Gets as entitySetMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType[]
      */
     public function getEntitySetMapping()
     {
@@ -176,7 +176,7 @@ class TEntityContainerMappingType extends IsOK
     /**
      * Sets a new entitySetMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType[] $entitySetMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType[] $entitySetMapping
      * @return self
      */
     public function setEntitySetMapping(array $entitySetMapping)
@@ -184,7 +184,7 @@ class TEntityContainerMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $entitySetMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType',
             $msg
         )
         ) {
@@ -197,7 +197,7 @@ class TEntityContainerMappingType extends IsOK
     /**
      * Adds as associationSetMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType $associationSetMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType $associationSetMapping
      * @return self
      */
     public function addToAssociationSetMapping(TAssociationSetMappingType $associationSetMapping)
@@ -235,7 +235,7 @@ class TEntityContainerMappingType extends IsOK
     /**
      * Gets as associationSetMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType[]
      */
     public function getAssociationSetMapping()
     {
@@ -245,7 +245,7 @@ class TEntityContainerMappingType extends IsOK
     /**
      * Sets a new associationSetMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType[]
      * $associationSetMapping
      * @return self
      */
@@ -254,7 +254,7 @@ class TEntityContainerMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $associationSetMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType',
             $msg
         )
         ) {
@@ -267,7 +267,7 @@ class TEntityContainerMappingType extends IsOK
     /**
      * Adds as functionImportMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType $functionImportMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType $functionImportMapping
      * @return self
      */
     public function addToFunctionImportMapping(TFunctionImportMappingType $functionImportMapping)
@@ -305,7 +305,7 @@ class TEntityContainerMappingType extends IsOK
     /**
      * Gets as functionImportMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType[]
      */
     public function getFunctionImportMapping()
     {
@@ -315,7 +315,7 @@ class TEntityContainerMappingType extends IsOK
     /**
      * Sets a new functionImportMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType[]
      * $functionImportMapping
      * @return self
      */
@@ -324,7 +324,7 @@ class TEntityContainerMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $functionImportMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType',
             $msg
         )
         ) {
@@ -350,7 +350,7 @@ class TEntityContainerMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->entitySetMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntitySetMappingType'
         )
         ) {
             $msg = 'Entity set mapping array not a valid array';
@@ -361,7 +361,7 @@ class TEntityContainerMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->associationSetMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetMappingType'
         )
         ) {
             $msg = 'Association set mapping array not a valid array';
@@ -372,7 +372,7 @@ class TEntityContainerMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->functionImportMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType'
         )
         ) {
             $msg = 'Function import mapping array not a valid array';

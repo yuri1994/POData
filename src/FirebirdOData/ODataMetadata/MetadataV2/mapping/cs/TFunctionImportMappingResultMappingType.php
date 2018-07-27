@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
 /**
  * Class representing TFunctionImportMappingResultMappingType.
@@ -11,7 +11,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType[]
      * $entityTypeMapping
      */
     private $entityTypeMapping = array(
@@ -19,7 +19,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     );
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType[]
      * $complexTypeMapping
      */
     private $complexTypeMapping = array(
@@ -29,7 +29,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Adds as entityTypeMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType
      * $entityTypeMapping
      * @return self
      */
@@ -64,7 +64,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Gets as entityTypeMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType[]
      */
     public function getEntityTypeMapping()
     {
@@ -74,7 +74,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Sets a new entityTypeMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType[]
      * $entityTypeMapping
      * @return self
      */
@@ -87,7 +87,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Adds as complexTypeMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType
      * $complexTypeMapping
      * @return self
      */
@@ -122,7 +122,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Gets as complexTypeMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType[]
      */
     public function getComplexTypeMapping()
     {
@@ -132,7 +132,7 @@ class TFunctionImportMappingResultMappingType extends IsOK
     /**
      * Sets a new complexTypeMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType[]
      * $complexTypeMapping
      * @return self
      */

@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType:
     properties:
         function:
             expose: true
@@ -22,7 +22,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType:
                 inline: true
                 entry_name: AppliedFunction
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\AppliedFunctionAnonymousType>
         arguments:
             expose: true
             access_type: public_method
@@ -36,4 +36,4 @@ Firebird\ODataMetadata\MetadataV3\edm\TApplyExpressionType:
                 inline: true
                 entry_name: Arguments
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TApplyExpressionType\ArgumentsAnonymousType>

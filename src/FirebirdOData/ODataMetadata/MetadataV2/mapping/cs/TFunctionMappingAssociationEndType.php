@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
 /**
  * Class representing TFunctionMappingAssociationEndType.
@@ -26,7 +26,7 @@ class TFunctionMappingAssociationEndType extends IsOK
     private $to = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
      * $scalarProperty
      */
     private $scalarProperty = null;
@@ -100,7 +100,7 @@ class TFunctionMappingAssociationEndType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
      */
     public function getScalarProperty()
     {
@@ -110,7 +110,7 @@ class TFunctionMappingAssociationEndType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType $scalarProperty
      * @return self
      */
     public function setScalarProperty(TFunctionMappingScalarPropertyType $scalarProperty)

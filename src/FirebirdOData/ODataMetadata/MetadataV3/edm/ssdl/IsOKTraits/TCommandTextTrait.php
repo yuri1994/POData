@@ -5,7 +5,7 @@
  * Date: 5/1/2017
  * Time: 8:59 PM.
  */
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits;
 
 trait TCommandTextTrait
 {

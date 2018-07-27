@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edm\TReferentialConstraintRoleElementType:
+FirebirdOData\ODataMetadata\MetadataV2\edm\TReferentialConstraintRoleElementType:
     properties:
         role:
             expose: true
@@ -22,4 +22,4 @@ Firebird\ODataMetadata\MetadataV2\edm\TReferentialConstraintRoleElementType:
                 inline: true
                 entry_name: PropertyRef
                 namespace: 'http://schemas.microsoft.com/ado/2008/09/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV2\edm\TPropertyRefType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV2\edm\TPropertyRefType>

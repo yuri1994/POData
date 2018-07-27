@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV1\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TEntityTypeModificationFunctionMappingType.
@@ -13,19 +13,19 @@ class TEntityTypeModificationFunctionMappingType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionType
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionType
      * $deleteFunction
      */
     private $deleteFunction = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
      * $insertFunction
      */
     private $insertFunction = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
      * $updateFunction
      */
     private $updateFunction = null;
@@ -33,7 +33,7 @@ class TEntityTypeModificationFunctionMappingType extends IsOK
     /**
      * Gets as deleteFunction.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionType
      */
     public function getDeleteFunction()
     {
@@ -43,7 +43,7 @@ class TEntityTypeModificationFunctionMappingType extends IsOK
     /**
      * Sets a new deleteFunction.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionType
      * $deleteFunction
      * @return self
      */
@@ -56,7 +56,7 @@ class TEntityTypeModificationFunctionMappingType extends IsOK
     /**
      * Gets as insertFunction.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
      */
     public function getInsertFunction()
     {
@@ -66,7 +66,7 @@ class TEntityTypeModificationFunctionMappingType extends IsOK
     /**
      * Sets a new insertFunction.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
      * $insertFunction
      * @return self
      */
@@ -79,7 +79,7 @@ class TEntityTypeModificationFunctionMappingType extends IsOK
     /**
      * Gets as updateFunction.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
      */
     public function getUpdateFunction()
     {
@@ -89,7 +89,7 @@ class TEntityTypeModificationFunctionMappingType extends IsOK
     /**
      * Sets a new updateFunction.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV1\mapping\cs\TEntityTypeModificationFunctionWithResultType
      * $updateFunction
      * @return self
      */

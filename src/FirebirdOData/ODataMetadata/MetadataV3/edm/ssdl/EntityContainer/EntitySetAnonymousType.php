@@ -1,14 +1,14 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer;
 
-use Firebird\ODataMetadata\EntityStoreSchemaGenerator\TSourceTypeTrait;
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TCommandTextTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TQualifiedNameTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TSimpleIdentifierTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TUndottedIdentifierTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType;
+use FirebirdOData\ODataMetadata\EntityStoreSchemaGenerator\TSourceTypeTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TCommandTextTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TUndottedIdentifierTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType;
 
 /**
  * Class representing EntitySetAnonymousType.
@@ -42,7 +42,7 @@ class EntitySetAnonymousType extends IsOK
     private $type = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      */
     private $documentation = null;
 
@@ -164,7 +164,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -174,7 +174,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -232,7 +232,7 @@ class EntitySetAnonymousType extends IsOK
             return false;
         }
         if (!$this->isObjectNullOrType(
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType',
             $this->documentation,
             $msg
         )

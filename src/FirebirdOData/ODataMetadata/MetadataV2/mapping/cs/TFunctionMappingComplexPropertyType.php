@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
 /**
  * Class representing TFunctionMappingComplexPropertyType.
@@ -21,13 +21,13 @@ class TFunctionMappingComplexPropertyType extends IsOK
     private $typeName = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
      * $scalarProperty
      */
     private $scalarProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
      * $complexProperty
      */
     private $complexProperty = null;
@@ -79,7 +79,7 @@ class TFunctionMappingComplexPropertyType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
      */
     public function getScalarProperty()
     {
@@ -89,7 +89,7 @@ class TFunctionMappingComplexPropertyType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType $scalarProperty
      * @return self
      */
     public function setScalarProperty(TFunctionMappingScalarPropertyType $scalarProperty)
@@ -101,7 +101,7 @@ class TFunctionMappingComplexPropertyType extends IsOK
     /**
      * Gets as complexProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
      */
     public function getComplexProperty()
     {
@@ -111,7 +111,7 @@ class TFunctionMappingComplexPropertyType extends IsOK
     /**
      * Sets a new complexProperty.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
      * $complexProperty
      * @return self
      */

@@ -1,15 +1,15 @@
 <?php
-namespace Firebird\ODataMetadata\MetadataV3\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edmx;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Schema;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Schema;
 
 class TDataServicesType extends IsOK
 {
     use IsOKToolboxTrait;
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\Schema[] $schema
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\Schema[] $schema
      */
     private $schema = [];
 
@@ -98,7 +98,7 @@ class TDataServicesType extends IsOK
     /**
      * Adds as schema.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\Schema $schema
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\Schema $schema
      * @return self
      */
     public function addToSchema(Schema $schema)
@@ -136,7 +136,7 @@ class TDataServicesType extends IsOK
     /**
      * Gets as schema.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\Schema[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\Schema[]
      */
     public function getSchema()
     {
@@ -146,14 +146,14 @@ class TDataServicesType extends IsOK
     /**
      * Sets a new schema.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\Schema[] $dataServices
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\Schema[] $dataServices
      * @return self
      */
     public function setSchema(array $dataServices)
     {
         if (!$this->isValidArrayOK(
             $dataServices,
-            '\Firebird\ODataMetadata\MetadataV3\edm\Schema',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\Schema',
             $msg,
             1
         )
@@ -172,7 +172,7 @@ class TDataServicesType extends IsOK
             return false;
         }
 
-        if (!$this->isValidArrayOK($this->schema, '\Firebird\ODataMetadata\MetadataV3\edm\Schema', $msg, 1)) {
+        if (!$this->isValidArrayOK($this->schema, '\FirebirdOData\ODataMetadata\MetadataV3\edm\Schema', $msg, 1)) {
             return false;
         }
 

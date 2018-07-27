@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TFloatConstantExpressionType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TFloatConstantExpressionType:
     properties:
         __value:
             expose: true

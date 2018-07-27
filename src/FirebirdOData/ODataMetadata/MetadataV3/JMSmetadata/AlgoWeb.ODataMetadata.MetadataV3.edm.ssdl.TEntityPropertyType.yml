@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType:
     properties:
         name:
             expose: true
@@ -117,6 +117,6 @@ Firebird\ODataMetadata\MetadataV3\edm\ssdl\TEntityPropertyType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
         v3QualifiedNameCache:
             exclude: true

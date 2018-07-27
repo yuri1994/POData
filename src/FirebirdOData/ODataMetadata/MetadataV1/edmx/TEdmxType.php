@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edmx;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV1\edm\Schema;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV1\edm\Schema;
 
 /**
  * Class representing TEdmxType.
@@ -19,17 +19,17 @@ class TEdmxType extends IsOK
     private $version = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edmx\TDesignerType $designer
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edmx\TDesignerType $designer
      */
     private $designer = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edmx\TRuntimeType $runtime
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edmx\TRuntimeType $runtime
      */
     private $runtime = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\Schema[] $dataServices
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\Schema[] $dataServices
      */
     private $dataServices = null;
 
@@ -58,7 +58,7 @@ class TEdmxType extends IsOK
     /**
      * Gets as designer.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edmx\TDesignerType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edmx\TDesignerType
      */
     public function getDesigner()
     {
@@ -68,7 +68,7 @@ class TEdmxType extends IsOK
     /**
      * Sets a new designer.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TDesignerType $designer
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TDesignerType $designer
      * @return self
      */
     public function setDesigner(TDesignerType $designer)
@@ -80,7 +80,7 @@ class TEdmxType extends IsOK
     /**
      * Gets as runtime.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edmx\TRuntimeType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edmx\TRuntimeType
      */
     public function getRuntime()
     {
@@ -90,7 +90,7 @@ class TEdmxType extends IsOK
     /**
      * Sets a new runtime.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TRuntimeType $runtime
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TRuntimeType $runtime
      * @return self
      */
     public function setRuntime(TRuntimeType $runtime)
@@ -102,7 +102,7 @@ class TEdmxType extends IsOK
     /**
      * Adds as schema.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\Schema $schema
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\Schema $schema
      * @return self
      */
     public function addToDataServices(Schema $schema)
@@ -136,7 +136,7 @@ class TEdmxType extends IsOK
     /**
      * Gets as dataServices.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\Schema[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\Schema[]
      */
     public function getDataServices()
     {
@@ -146,7 +146,7 @@ class TEdmxType extends IsOK
     /**
      * Sets a new dataServices.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\Schema[] $dataServices
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\Schema[] $dataServices
      * @return self
      */
     public function setDataServices(array $dataServices)

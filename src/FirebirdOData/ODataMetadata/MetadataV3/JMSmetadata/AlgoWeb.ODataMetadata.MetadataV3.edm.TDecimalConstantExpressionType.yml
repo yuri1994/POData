@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TDecimalConstantExpressionType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TDecimalConstantExpressionType:
     properties:
         __value:
             expose: true

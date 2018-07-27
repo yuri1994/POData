@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV1\edmx\TRuntimeType:
+FirebirdOData\ODataMetadata\MetadataV1\edmx\TRuntimeType:
     properties:
         storageModels:
             expose: true
@@ -9,7 +9,7 @@ Firebird\ODataMetadata\MetadataV1\edmx\TRuntimeType:
             accessor:
                 getter: getStorageModels
                 setter: setStorageModels
-            type: FirebirdOData\ODataMetadata\MetadataV1\edmx\TRuntimeStorageModelsType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edmx\TRuntimeStorageModelsType
         conceptualModels:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Firebird\ODataMetadata\MetadataV1\edmx\TRuntimeType:
             accessor:
                 getter: getConceptualModels
                 setter: setConceptualModels
-            type: FirebirdOData\ODataMetadata\MetadataV1\edmx\TRuntimeConceptualModelsType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edmx\TRuntimeConceptualModelsType
         mappings:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Firebird\ODataMetadata\MetadataV1\edmx\TRuntimeType:
             accessor:
                 getter: getMappings
                 setter: setMappings
-            type: FirebirdOData\ODataMetadata\MetadataV1\edmx\TRuntimeMappingsType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edmx\TRuntimeMappingsType

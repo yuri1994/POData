@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TAssociationSetModificationFunctionType.
@@ -23,7 +23,7 @@ class TAssociationSetModificationFunctionType extends IsOK
     private $rowsAffectedParameter = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingEndPropertyType $endProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingEndPropertyType $endProperty
      */
     private $endProperty = null;
 
@@ -74,7 +74,7 @@ class TAssociationSetModificationFunctionType extends IsOK
     /**
      * Gets as endProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingEndPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingEndPropertyType
      */
     public function getEndProperty()
     {
@@ -84,7 +84,7 @@ class TAssociationSetModificationFunctionType extends IsOK
     /**
      * Sets a new endProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingEndPropertyType $endProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingEndPropertyType $endProperty
      * @return self
      */
     public function setEndProperty(TFunctionMappingEndPropertyType $endProperty)

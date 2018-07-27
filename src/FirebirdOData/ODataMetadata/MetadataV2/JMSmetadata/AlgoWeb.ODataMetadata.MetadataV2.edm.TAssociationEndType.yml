@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edm\TAssociationEndType:
+FirebirdOData\ODataMetadata\MetadataV2\edm\TAssociationEndType:
     properties:
         type:
             expose: true
@@ -36,7 +36,7 @@ Firebird\ODataMetadata\MetadataV2\edm\TAssociationEndType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType
+            type: FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType
         onDelete:
             expose: true
             access_type: public_method
@@ -50,4 +50,4 @@ Firebird\ODataMetadata\MetadataV2\edm\TAssociationEndType:
                 inline: true
                 entry_name: OnDelete
                 namespace: 'http://schemas.microsoft.com/ado/2008/09/edm'
-            type: array<Firebird\ODataMetadata\MetadataV2\edm\TOnActionType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV2\edm\TOnActionType>

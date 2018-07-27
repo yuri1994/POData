@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingType:
     properties:
         typeName:
             expose: true
@@ -22,7 +22,7 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingTyp
                 inline: true
                 entry_name: ScalarProperty
                 namespace: http://schemas.microsoft.com/ado/2009/11/mapping/cs
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType>
         condition:
             expose: true
             access_type: public_method
@@ -36,4 +36,4 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportEntityTypeMappingTyp
                 inline: true
                 entry_name: Condition
                 namespace: http://schemas.microsoft.com/ado/2009/11/mapping/cs
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportConditionType>

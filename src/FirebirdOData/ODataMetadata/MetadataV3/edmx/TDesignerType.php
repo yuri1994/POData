@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edmx;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TDesignerType.
@@ -13,24 +13,24 @@ class TDesignerType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TConnectionType $connection
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectionType $connection
      */
     private $connection = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TOptionsType $options
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TOptionsType $options
      */
     private $options = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TDiagramType[] $diagrams
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TDiagramType[] $diagrams
      */
     private $diagrams = [];
 
     /**
      * Gets as connection.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TConnectionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectionType
      */
     public function getConnection()
     {
@@ -40,7 +40,7 @@ class TDesignerType extends IsOK
     /**
      * Sets a new connection.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TConnectionType $connection
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TConnectionType $connection
      * @return self
      */
     public function setConnection(TConnectionType $connection)
@@ -56,7 +56,7 @@ class TDesignerType extends IsOK
     /**
      * Gets as options.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TOptionsType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TOptionsType
      */
     public function getOptions()
     {
@@ -66,7 +66,7 @@ class TDesignerType extends IsOK
     /**
      * Sets a new options.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TOptionsType $options
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TOptionsType $options
      * @return self
      */
     public function setOptions(TOptionsType $options)
@@ -82,7 +82,7 @@ class TDesignerType extends IsOK
     /**
      * Adds as diagram.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TDiagramType $diagram
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TDiagramType $diagram
      * @return self
      */
     public function addToDiagrams(TDiagramType $diagram)
@@ -120,7 +120,7 @@ class TDesignerType extends IsOK
     /**
      * Gets as diagrams.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TDiagramType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TDiagramType[]
      */
     public function getDiagrams()
     {
@@ -130,14 +130,14 @@ class TDesignerType extends IsOK
     /**
      * Sets a new diagrams.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TDiagramType[] $diagrams
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TDiagramType[] $diagrams
      * @return self
      */
     public function setDiagrams(array $diagrams)
     {
         if (!$this->isValidArrayOK(
             $diagrams,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TDiagramType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TDiagramType'
         )
         ) {
             $msg = 'Diagrams array not a valid array';
@@ -158,7 +158,7 @@ class TDesignerType extends IsOK
 
         if (!$this->isValidArray(
             $this->diagrams,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TDiagramType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TDiagramType'
         )
         ) {
             $msg = 'Diagrams array not a valid array';

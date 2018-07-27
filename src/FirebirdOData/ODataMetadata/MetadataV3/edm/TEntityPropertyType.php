@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\Annotations\TGenerationPatternTrait;
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\TCommonPropertyAttributesTrait;
+use FirebirdOData\ODataMetadata\Annotations\TGenerationPatternTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\TCommonPropertyAttributesTrait;
 
 /**
  * Class representing TEntityPropertyType.
@@ -34,17 +34,17 @@ class TEntityPropertyType extends IsOK
     private $storeGeneratedPattern = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType[] $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType[] $documentation
      */
     private $documentation = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
      */
     private $valueAnnotation = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
      */
     private $typeAnnotation = [];
 
@@ -77,7 +77,7 @@ class TEntityPropertyType extends IsOK
     /**
      * Adds as documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      * @return self
      */
     public function addToDocumentation(TDocumentationType $documentation)
@@ -115,7 +115,7 @@ class TEntityPropertyType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType[]
      */
     public function getDocumentation()
     {
@@ -125,14 +125,14 @@ class TEntityPropertyType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType[] $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType[] $documentation
      * @return self
      */
     public function setDocumentation(array $documentation)
     {
         if (!$this->isValidArrayOK(
             $documentation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType',
             $msg,
             0,
             1
@@ -147,7 +147,7 @@ class TEntityPropertyType extends IsOK
     /**
      * Adds as valueAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType $valueAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType $valueAnnotation
      * @return self
      */
     public function addToValueAnnotation(TValueAnnotationType $valueAnnotation)
@@ -185,7 +185,7 @@ class TEntityPropertyType extends IsOK
     /**
      * Gets as valueAnnotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[]
      */
     public function getValueAnnotation()
     {
@@ -195,14 +195,14 @@ class TEntityPropertyType extends IsOK
     /**
      * Sets a new valueAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
      * @return self
      */
     public function setValueAnnotation(array $valueAnnotation)
     {
         if (!$this->isValidArrayOK(
             $valueAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
             $msg
         )
         ) {
@@ -215,7 +215,7 @@ class TEntityPropertyType extends IsOK
     /**
      * Adds as typeAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType $typeAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType $typeAnnotation
      * @return self
      */
     public function addToTypeAnnotation(TTypeAnnotationType $typeAnnotation)
@@ -253,7 +253,7 @@ class TEntityPropertyType extends IsOK
     /**
      * Gets as typeAnnotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[]
      */
     public function getTypeAnnotation()
     {
@@ -263,14 +263,14 @@ class TEntityPropertyType extends IsOK
     /**
      * Sets a new typeAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
      * @return self
      */
     public function setTypeAnnotation(array $typeAnnotation)
     {
         if (!$this->isValidArrayOK(
             $typeAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
             $msg
         )
         ) {
@@ -288,7 +288,7 @@ class TEntityPropertyType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->documentation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType',
             $msg,
             0,
             1
@@ -298,7 +298,7 @@ class TEntityPropertyType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->valueAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
             $msg
         )
         ) {
@@ -306,7 +306,7 @@ class TEntityPropertyType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->typeAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
             $msg
         )
         ) {

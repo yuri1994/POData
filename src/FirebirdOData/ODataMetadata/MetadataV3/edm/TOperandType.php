@@ -1,11 +1,11 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GBaseExpressionTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GExpressionTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GInlineExpressionsTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GBaseExpressionTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GExpressionTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GInlineExpressionsTrait;
 
 /**
  * Class representing TOperandType.

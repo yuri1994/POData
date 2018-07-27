@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
 /**
  * Class representing TMappingFragmentType.
@@ -21,17 +21,17 @@ class TMappingFragmentType extends IsOK
     private $makeColumnsDistinct = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType $complexProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType $complexProperty
      */
     private $complexProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
      */
     private $scalarProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TConditionType $condition
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TConditionType $condition
      */
     private $condition = null;
 
@@ -82,7 +82,7 @@ class TMappingFragmentType extends IsOK
     /**
      * Gets as complexProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType
      */
     public function getComplexProperty()
     {
@@ -92,7 +92,7 @@ class TMappingFragmentType extends IsOK
     /**
      * Sets a new complexProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType $complexProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TComplexPropertyType $complexProperty
      * @return self
      */
     public function setComplexProperty(TComplexPropertyType $complexProperty)
@@ -104,7 +104,7 @@ class TMappingFragmentType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType
      */
     public function getScalarProperty()
     {
@@ -114,7 +114,7 @@ class TMappingFragmentType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType $scalarProperty
      * @return self
      */
     public function setScalarProperty(TScalarPropertyType $scalarProperty)
@@ -126,7 +126,7 @@ class TMappingFragmentType extends IsOK
     /**
      * Gets as condition.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TConditionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TConditionType
      */
     public function getCondition()
     {
@@ -136,7 +136,7 @@ class TMappingFragmentType extends IsOK
     /**
      * Sets a new condition.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TConditionType $condition
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TConditionType $condition
      * @return self
      */
     public function setCondition(TConditionType $condition)

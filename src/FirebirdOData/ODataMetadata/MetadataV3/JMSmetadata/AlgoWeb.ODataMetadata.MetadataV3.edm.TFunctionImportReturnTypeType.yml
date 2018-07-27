@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType:
     properties:
         type:
             expose: true
@@ -27,7 +27,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType:
             accessor:
                 getter: getEntitySet
                 setter: setEntitySet
-            type: Firebird\ODataMetadata\MetadataV3\edm\TOperandType
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType
         v3SimpleIdentifierCache:
             exclude: true
         v3SimpleIdentifierRegex:

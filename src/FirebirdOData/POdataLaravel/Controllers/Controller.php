@@ -1,6 +1,6 @@
 <?php
 // Lifted straight from Laravel ~5.1.44 to give a base to work from
-namespace Firebird\PODataLaravel\Controllers;
+namespace FirebirdOData\PODataLaravel\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

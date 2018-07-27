@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\xsdRestrictions;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\xsdRestrictions;
 
 trait TQualifiedNameTrait
 {

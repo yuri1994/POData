@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\PODataLaravel\Serialisers;
+namespace FirebirdOData\PODataLaravel\Serialisers;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;

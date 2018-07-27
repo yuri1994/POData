@@ -1,22 +1,22 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups;
 
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType;
 
 trait TModificationFunctionMappingComplexPropertyPropertyGroup
 {
     use IsOKToolboxTrait;
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
      * $scalarProperty
      */
     private $scalarProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
      * $complexProperty
      */
     private $complexProperty = null;
@@ -24,7 +24,7 @@ trait TModificationFunctionMappingComplexPropertyPropertyGroup
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
      */
     public function getScalarProperty()
     {
@@ -34,7 +34,7 @@ trait TModificationFunctionMappingComplexPropertyPropertyGroup
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
      * $scalarProperty
      * @return self
      */
@@ -51,7 +51,7 @@ trait TModificationFunctionMappingComplexPropertyPropertyGroup
     /**
      * Gets as complexProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
      */
     public function getComplexProperty()
     {
@@ -61,7 +61,7 @@ trait TModificationFunctionMappingComplexPropertyPropertyGroup
     /**
      * Sets a new complexProperty.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
      * $complexProperty
      * @return self
      */

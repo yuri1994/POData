@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GExpressionTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GExpressionTrait;
 
 /**
  * Class representing TAnonymousFunctionExpressionType.
@@ -21,14 +21,14 @@ class TAnonymousFunctionExpressionType extends IsOK
     }
     
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameters
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameters
      */
     private $parameters = [];
 
     /**
      * Adds as parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType $parameter
      * @return self
      */
     public function addToParameters(TFunctionParameterType $parameter)
@@ -66,7 +66,7 @@ class TAnonymousFunctionExpressionType extends IsOK
     /**
      * Gets as parameters.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType[]
      */
     public function getParameters()
     {
@@ -76,14 +76,14 @@ class TAnonymousFunctionExpressionType extends IsOK
     /**
      * Sets a new parameters.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameters
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameters
      * @return self
      */
     public function setParameters(array $parameters)
     {
         if (!$this->isValidArrayOK(
             $parameters,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
             $msg
         )
         ) {
@@ -97,7 +97,7 @@ class TAnonymousFunctionExpressionType extends IsOK
     {
         if (!$this->isValidArrayOK(
             $this->parameters,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
             $msg
         )
         ) {

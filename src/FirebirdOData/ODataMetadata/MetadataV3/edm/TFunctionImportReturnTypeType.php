@@ -1,11 +1,11 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TFunctionImportParameterAndReturnTypeTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TFunctionImportParameterAndReturnTypeTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TFunctionImportReturnTypeType.
@@ -25,7 +25,7 @@ class TFunctionImportReturnTypeType extends IsOK
     private $type = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TOperandType $entitySet
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType $entitySet
      */
     private $entitySet = null;
 
@@ -63,7 +63,7 @@ class TFunctionImportReturnTypeType extends IsOK
     /**
      * Gets as entitySet.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TOperandType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType
      */
     public function getEntitySet()
     {
@@ -73,7 +73,7 @@ class TFunctionImportReturnTypeType extends IsOK
     /**
      * Sets a new entitySet.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TOperandType $entitySet
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType $entitySet
      * @return self
      */
     public function setEntitySet(TOperandType $entitySet)
@@ -122,7 +122,7 @@ class TFunctionImportReturnTypeType extends IsOK
             $msg = 'Entity set attribute must be a valid TSimpleIdentifier';
             return false;
         };
-        if (!$this->isObjectNullOrType('\Firebird\ODataMetadata\MetadataV3\edm\TOperandType', $this->entitySet)) {
+        if (!$this->isObjectNullOrType('\FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType', $this->entitySet)) {
             return false;
         };
         if (null != $this->type && !$this->isTFunctionImportParameterAndReturnTypeValid($this->type)) {

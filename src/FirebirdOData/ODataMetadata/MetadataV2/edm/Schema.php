@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edm;
 
 /**
  * Class representing Schema.

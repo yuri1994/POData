@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
 
 /**
  * Class representing TFunctionReferenceExpressionType.
@@ -21,7 +21,7 @@ class TFunctionReferenceExpressionType extends IsOK
 
     /**
      * @property
-     * \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType[]
+     * \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType[]
      * $parameter
      */
     private $parameter = [];
@@ -55,7 +55,7 @@ class TFunctionReferenceExpressionType extends IsOK
     /**
      * Adds as parameter.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType
      * $parameter
      * @return self
      */
@@ -95,7 +95,7 @@ class TFunctionReferenceExpressionType extends IsOK
      * Gets as parameter.
      *
      * @return
-     * \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType[]
+     * \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType[]
      */
     public function getParameter()
     {
@@ -105,7 +105,7 @@ class TFunctionReferenceExpressionType extends IsOK
     /**
      * Sets a new parameter.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType[]
      * $parameter
      * @return self
      */
@@ -113,7 +113,7 @@ class TFunctionReferenceExpressionType extends IsOK
     {
         if (!$this->isValidArrayOK(
             $parameter,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType',
             $msg,
             1
         )
@@ -132,7 +132,7 @@ class TFunctionReferenceExpressionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->function,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType\ParameterAnonymousType',
             $msg,
             1
         )

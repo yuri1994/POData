@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\PODataLaravel\Interfaces;
+namespace FirebirdOData\PODataLaravel\Interfaces;
 
-use Firebird\PODataLaravel\Enums\ActionVerb;
+use FirebirdOData\PODataLaravel\Enums\ActionVerb;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 

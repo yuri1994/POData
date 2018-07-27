@@ -1,11 +1,11 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TUndottedIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TUndottedIdentifierTrait;
 
 /**
  * Class representing EntityContainer.
@@ -19,18 +19,18 @@ class EntityContainer extends IsOK
     private $name = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType[]
      * $entitySet
      */
     private $entitySet = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType[]
      * $associationSet
      */
     private $associationSet = [];
@@ -68,7 +68,7 @@ class EntityContainer extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -78,7 +78,7 @@ class EntityContainer extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -94,7 +94,7 @@ class EntityContainer extends IsOK
     /**
      * Adds as entitySet.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType $entitySet
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType $entitySet
      * @return self
      */
     public function addToEntitySet(EntitySetAnonymousType $entitySet)
@@ -132,7 +132,7 @@ class EntityContainer extends IsOK
     /**
      * Gets as entitySet.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType[]
      */
     public function getEntitySet()
     {
@@ -142,7 +142,7 @@ class EntityContainer extends IsOK
     /**
      * Sets a new entitySet.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType[] $entitySet
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType[] $entitySet
      * @return self
      */
     public function setEntitySet(array $entitySet)
@@ -150,7 +150,7 @@ class EntityContainer extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $entitySet,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType',
             $msg
         )
         ) {
@@ -163,7 +163,7 @@ class EntityContainer extends IsOK
     /**
      * Adds as associationSet.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType
      * $associationSet
      * @return self
      */
@@ -202,7 +202,7 @@ class EntityContainer extends IsOK
     /**
      * Gets as associationSet.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType[]
      */
     public function getAssociationSet()
     {
@@ -212,7 +212,7 @@ class EntityContainer extends IsOK
     /**
      * Sets a new associationSet.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType[]
      * $associationSet
      * @return self
      */
@@ -221,7 +221,7 @@ class EntityContainer extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $associationSet,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType',
             $msg
         )
         ) {
@@ -242,7 +242,7 @@ class EntityContainer extends IsOK
             return false;
         }
         if (!$this->isObjectNullOrType(
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType',
             $this->documentation,
             $msg
         )
@@ -251,7 +251,7 @@ class EntityContainer extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->entitySet,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\EntitySetAnonymousType',
             $msg
         )
         ) {
@@ -259,7 +259,7 @@ class EntityContainer extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->associationSet,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\EntityContainer\AssociationSetAnonymousType',
             $msg
         )
         ) {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TActionType.
@@ -28,17 +28,17 @@ class TActionType extends IsOK
     private $isBound = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType[] $parameter
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType[] $parameter
      */
     private $parameter = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TActionFunctionReturnTypeType $returnType
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionFunctionReturnTypeType $returnType
      */
     private $returnType = null;
 
@@ -111,7 +111,7 @@ class TActionType extends IsOK
     /**
      * Adds as parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType $parameter
      * @return self
      */
     public function addToParameter(TActionFunctionParameterType $parameter)
@@ -145,7 +145,7 @@ class TActionType extends IsOK
     /**
      * Gets as parameter.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType[]
      */
     public function getParameter()
     {
@@ -155,7 +155,7 @@ class TActionType extends IsOK
     /**
      * Sets a new parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType[] $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionFunctionParameterType[] $parameter
      * @return self
      */
     public function setParameter(array $parameter)
@@ -167,7 +167,7 @@ class TActionType extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -201,7 +201,7 @@ class TActionType extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -211,7 +211,7 @@ class TActionType extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)
@@ -223,7 +223,7 @@ class TActionType extends IsOK
     /**
      * Gets as returnType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TActionFunctionReturnTypeType
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionFunctionReturnTypeType
      */
     public function getReturnType()
     {
@@ -233,7 +233,7 @@ class TActionType extends IsOK
     /**
      * Sets a new returnType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TActionFunctionReturnTypeType $returnType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionFunctionReturnTypeType $returnType
      * @return self
      */
     public function setReturnType(TActionFunctionReturnTypeType $returnType)

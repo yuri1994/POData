@@ -1,23 +1,23 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\Groups;
 
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType;
 
 trait GEmptyElementExtensibilityTrait
 {
     use IsOKToolboxTrait;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -27,7 +27,7 @@ trait GEmptyElementExtensibilityTrait
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)

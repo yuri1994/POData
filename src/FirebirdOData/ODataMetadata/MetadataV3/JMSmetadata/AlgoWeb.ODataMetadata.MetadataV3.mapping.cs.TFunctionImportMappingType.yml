@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType:
     properties:
         functionName:
             expose: true
@@ -31,4 +31,4 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingType:
                 inline: true
                 entry_name: ResultMapping
                 namespace: http://schemas.microsoft.com/ado/2009/11/mapping/cs
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TFunctionImportMappingResultMappingType>

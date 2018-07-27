@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\PODataLaravel\Providers;
+namespace FirebirdOData\PODataLaravel\Providers;
 
-use Firebird\PODataLaravel\Controllers\MetadataControllerContainer;
-use Firebird\PODataLaravel\Controllers\MetadataControllerTrait;
+use FirebirdOData\PODataLaravel\Controllers\MetadataControllerContainer;
+use FirebirdOData\PODataLaravel\Controllers\MetadataControllerTrait;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Cache;

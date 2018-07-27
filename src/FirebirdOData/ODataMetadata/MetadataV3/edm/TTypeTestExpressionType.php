@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\TFacetAttributesTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TWrappedFunctionTypeTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\TFacetAttributesTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TWrappedFunctionTypeTrait;
 
 /**
  * Class representing TTypeTestExpressionType.
@@ -20,22 +20,22 @@ class TTypeTestExpressionType extends IsOK
     private $type = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TOperandType[] $operand
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType[] $operand
      */
     private $operand = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
      */
     private $collectionType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
      */
     private $referenceType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
      */
     private $rowType = [];
 
@@ -68,7 +68,7 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Adds as operand.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TOperandType $operand
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType $operand
      * @return self
      */
     public function addToOperand(TOperandType $operand)
@@ -106,7 +106,7 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Gets as operand.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TOperandType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType[]
      */
     public function getOperand()
     {
@@ -116,14 +116,14 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Sets a new operand.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TOperandType[] $operand
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType[] $operand
      * @return self
      */
     public function setOperand(array $operand)
     {
         if (!$this->isValidArrayOK(
             $operand,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TOperandType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType',
             $msg
         )
         ) {
@@ -136,7 +136,7 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Adds as collectionType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType $collectionType
      * @return self
      */
     public function addToCollectionType(TCollectionTypeType $collectionType)
@@ -174,7 +174,7 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Gets as collectionType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType[]
      */
     public function getCollectionType()
     {
@@ -184,14 +184,14 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Sets a new collectionType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType[] $collectionType
      * @return self
      */
     public function setCollectionType(array $collectionType)
     {
         if (!$this->isValidArrayOK(
             $collectionType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
             $msg
         )
         ) {
@@ -204,7 +204,7 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Adds as referenceType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType $referenceType
      * @return self
      */
     public function addToReferenceType(TReferenceTypeType $referenceType)
@@ -242,7 +242,7 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Gets as referenceType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType[]
      */
     public function getReferenceType()
     {
@@ -252,14 +252,14 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Sets a new referenceType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType[] $referenceType
      * @return self
      */
     public function setReferenceType(array $referenceType)
     {
         if (!$this->isValidArrayOK(
             $referenceType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
             $msg
         )
         ) {
@@ -272,7 +272,7 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Adds as property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType $property
      * @return self
      */
     public function addToRowType(TPropertyType $property)
@@ -310,7 +310,7 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Gets as rowType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[]
      */
     public function getRowType()
     {
@@ -320,14 +320,14 @@ class TTypeTestExpressionType extends IsOK
     /**
      * Sets a new rowType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType[] $rowType
      * @return self
      */
     public function setRowType(array $rowType)
     {
         if (!$this->isValidArrayOK(
             $rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType',
             $msg
         )
         ) {
@@ -348,7 +348,7 @@ class TTypeTestExpressionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->collectionType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionTypeType',
             $msg
         )
         ) {
@@ -356,7 +356,7 @@ class TTypeTestExpressionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->referenceType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TReferenceTypeType',
             $msg
         )
         ) {
@@ -364,7 +364,7 @@ class TTypeTestExpressionType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyType',
             $msg
         )
         ) {
@@ -373,7 +373,7 @@ class TTypeTestExpressionType extends IsOK
 
         if (!$this->isValidArrayOK(
             $this->operand,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TOperandType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType',
             $msg
         )
         ) {

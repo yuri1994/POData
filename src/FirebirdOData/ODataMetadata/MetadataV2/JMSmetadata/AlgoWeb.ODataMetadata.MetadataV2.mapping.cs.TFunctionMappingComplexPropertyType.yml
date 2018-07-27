@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType:
+FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType:
     properties:
         name:
             expose: true
@@ -27,7 +27,7 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
             accessor:
                 getter: getScalarProperty
                 setter: setScalarProperty
-            type: FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingScalarPropertyType
         complexProperty:
             expose: true
             access_type: public_method
@@ -37,4 +37,4 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
             accessor:
                 getter: getComplexProperty
                 setter: setComplexProperty
-            type: FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingComplexPropertyType

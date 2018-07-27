@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edm\ssdl\TAssociationType:
+FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TAssociationType:
     properties:
         name:
             expose: true
@@ -18,7 +18,7 @@ Firebird\ODataMetadata\MetadataV2\edm\ssdl\TAssociationType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType
         end:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ Firebird\ODataMetadata\MetadataV2\edm\ssdl\TAssociationType:
                 inline: true
                 entry_name: End
                 namespace: 'http://schemas.microsoft.com/ado/2009/02/edm/ssdl'
-            type: array<FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TAssociationEndType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV2\edm\ssdl\TAssociationEndType>
         referentialConstraint:
             expose: true
             access_type: public_method
@@ -42,4 +42,4 @@ Firebird\ODataMetadata\MetadataV2\edm\ssdl\TAssociationType:
             accessor:
                 getter: getReferentialConstraint
                 setter: setReferentialConstraint
-            type: FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TConstraintType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV2\edm\ssdl\TConstraintType

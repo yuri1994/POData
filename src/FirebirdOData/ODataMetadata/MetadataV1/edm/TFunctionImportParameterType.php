@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TFunctionImportParameterType.
@@ -43,7 +43,7 @@ class TFunctionImportParameterType extends IsOK
     private $scale = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
@@ -182,7 +182,7 @@ class TFunctionImportParameterType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -192,7 +192,7 @@ class TFunctionImportParameterType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)

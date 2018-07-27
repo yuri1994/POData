@@ -1,6 +1,6 @@
 <?php
 
-namespace FirebirdODataMetadata;
+namespace FirebirdOData\ODataMetadata;
 
 class BidirectionalMap
 {

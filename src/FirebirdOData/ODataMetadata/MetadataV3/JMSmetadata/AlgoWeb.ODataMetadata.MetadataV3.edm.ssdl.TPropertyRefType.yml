@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType:
     properties:
         name:
             expose: true
@@ -18,4 +18,4 @@ Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType

@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer\AssociationSetAnonymousType;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType;
 
 /**
  * Class representing EndAnonymousType.
@@ -22,7 +22,7 @@ class EndAnonymousType extends IsOK
     private $entitySet = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
@@ -73,7 +73,7 @@ class EndAnonymousType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -83,7 +83,7 @@ class EndAnonymousType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)

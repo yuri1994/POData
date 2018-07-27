@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TEntityContainerType.
@@ -23,27 +23,27 @@ class TEntityContainerType extends IsOK
     private $extends = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TEntitySetType[] $entitySet
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntitySetType[] $entitySet
      */
     private $entitySet = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TActionImportType[] $actionImport
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionImportType[] $actionImport
      */
     private $actionImport = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TFunctionImportType[] $functionImport
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TFunctionImportType[] $functionImport
      */
     private $functionImport = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TSingletonType[] $singleton
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TSingletonType[] $singleton
      */
     private $singleton = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = array();
 
@@ -94,7 +94,7 @@ class TEntityContainerType extends IsOK
     /**
      * Adds as entitySet.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEntitySetType $entitySet
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntitySetType $entitySet
      * @return self
      */
     public function addToEntitySet(TEntitySetType $entitySet)
@@ -128,7 +128,7 @@ class TEntityContainerType extends IsOK
     /**
      * Gets as entitySet.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TEntitySetType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntitySetType[]
      */
     public function getEntitySet()
     {
@@ -138,7 +138,7 @@ class TEntityContainerType extends IsOK
     /**
      * Sets a new entitySet.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TEntitySetType[] $entitySet
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TEntitySetType[] $entitySet
      * @return self
      */
     public function setEntitySet(array $entitySet)
@@ -150,7 +150,7 @@ class TEntityContainerType extends IsOK
     /**
      * Adds as actionImport.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TActionImportType $actionImport
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionImportType $actionImport
      * @return self
      */
     public function addToActionImport(TActionImportType $actionImport)
@@ -184,7 +184,7 @@ class TEntityContainerType extends IsOK
     /**
      * Gets as actionImport.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TActionImportType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionImportType[]
      */
     public function getActionImport()
     {
@@ -194,7 +194,7 @@ class TEntityContainerType extends IsOK
     /**
      * Sets a new actionImport.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TActionImportType[] $actionImport
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TActionImportType[] $actionImport
      * @return self
      */
     public function setActionImport(array $actionImport)
@@ -206,7 +206,7 @@ class TEntityContainerType extends IsOK
     /**
      * Adds as functionImport.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TFunctionImportType $functionImport
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TFunctionImportType $functionImport
      * @return self
      */
     public function addToFunctionImport(TFunctionImportType $functionImport)
@@ -240,7 +240,7 @@ class TEntityContainerType extends IsOK
     /**
      * Gets as functionImport.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TFunctionImportType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TFunctionImportType[]
      */
     public function getFunctionImport()
     {
@@ -250,7 +250,7 @@ class TEntityContainerType extends IsOK
     /**
      * Sets a new functionImport.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TFunctionImportType[] $functionImport
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TFunctionImportType[] $functionImport
      * @return self
      */
     public function setFunctionImport(array $functionImport)
@@ -262,7 +262,7 @@ class TEntityContainerType extends IsOK
     /**
      * Adds as singleton.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TSingletonType $singleton
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TSingletonType $singleton
      * @return self
      */
     public function addToSingleton(TSingletonType $singleton)
@@ -296,7 +296,7 @@ class TEntityContainerType extends IsOK
     /**
      * Gets as singleton.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TSingletonType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TSingletonType[]
      */
     public function getSingleton()
     {
@@ -306,7 +306,7 @@ class TEntityContainerType extends IsOK
     /**
      * Sets a new singleton.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TSingletonType[] $singleton
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TSingletonType[] $singleton
      * @return self
      */
     public function setSingleton(array $singleton)
@@ -318,7 +318,7 @@ class TEntityContainerType extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -352,7 +352,7 @@ class TEntityContainerType extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -362,7 +362,7 @@ class TEntityContainerType extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)

@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\PODataLaravel\Providers;
+namespace FirebirdOData\PODataLaravel\Providers;
 
-use Firebird\PODataLaravel\Query\LaravelQuery as LaravelQuery;
+use FirebirdOData\PODataLaravel\Query\LaravelQuery as LaravelQuery;
 use Illuminate\Support\ServiceProvider;
 
 class QueryProvider extends ServiceProvider

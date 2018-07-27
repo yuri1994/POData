@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TRecordExpressionType.
@@ -18,12 +18,12 @@ class TRecordExpressionType extends IsOK
     private $type = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TPropertyValueType[] $propertyValue
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TPropertyValueType[] $propertyValue
      */
     private $propertyValue = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = array();
 
@@ -52,7 +52,7 @@ class TRecordExpressionType extends IsOK
     /**
      * Adds as propertyValue.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TPropertyValueType $propertyValue
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TPropertyValueType $propertyValue
      * @return self
      */
     public function addToPropertyValue(TPropertyValueType $propertyValue)
@@ -86,7 +86,7 @@ class TRecordExpressionType extends IsOK
     /**
      * Gets as propertyValue.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TPropertyValueType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TPropertyValueType[]
      */
     public function getPropertyValue()
     {
@@ -96,7 +96,7 @@ class TRecordExpressionType extends IsOK
     /**
      * Sets a new propertyValue.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TPropertyValueType[] $propertyValue
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TPropertyValueType[] $propertyValue
      * @return self
      */
     public function setPropertyValue(array $propertyValue)
@@ -108,7 +108,7 @@ class TRecordExpressionType extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -142,7 +142,7 @@ class TRecordExpressionType extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -152,7 +152,7 @@ class TRecordExpressionType extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)

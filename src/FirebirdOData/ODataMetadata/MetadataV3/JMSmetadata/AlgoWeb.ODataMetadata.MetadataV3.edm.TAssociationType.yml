@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TAssociationType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationType:
     properties:
         name:
             expose: true
@@ -18,7 +18,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TAssociationType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
         end:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TAssociationType:
                 inline: true
                 entry_name: End
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<Firebird\ODataMetadata\MetadataV3\edm\TAssociationEndType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationEndType>
         referentialConstraint:
             expose: true
             access_type: public_method
@@ -42,7 +42,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TAssociationType:
             accessor:
                 getter: getReferentialConstraint
                 setter: setReferentialConstraint
-            type: Firebird\ODataMetadata\MetadataV3\edm\TConstraintType
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TConstraintType
         v3SimpleIdentifierCache:
             exclude: true
         v3SimpleIdentifierRegex:

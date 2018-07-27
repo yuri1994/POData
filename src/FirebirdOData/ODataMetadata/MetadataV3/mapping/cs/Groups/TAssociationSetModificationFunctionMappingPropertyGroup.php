@@ -1,15 +1,15 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups;
 
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType;
 
 trait TAssociationSetModificationFunctionMappingPropertyGroup
 {
     //Grouping for entity type function mappings
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType
      * $endProperty
      */
     private $endProperty = null;
@@ -17,7 +17,7 @@ trait TAssociationSetModificationFunctionMappingPropertyGroup
     /**
      * Gets as endProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType
      */
     public function getEndProperty()
     {
@@ -27,7 +27,7 @@ trait TAssociationSetModificationFunctionMappingPropertyGroup
     /**
      * Sets a new endProperty.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingEndPropertyType
      * $endProperty
      * @return self
      */

@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TStringConstantExpressionType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TStringConstantExpressionType:
     properties:
         __value:
             expose: true

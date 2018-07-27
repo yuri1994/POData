@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\PODataLaravel\Providers;
+namespace FirebirdOData\PODataLaravel\Providers;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
@@ -21,7 +21,7 @@ class MetadataRouteProvider extends ServiceProvider
     private function setupRoute()
     {
         $authMiddleware = $this->getAuthMiddleware();
-        $controllerMethod = 'FirebirdOData\PODataLaravel\Controllers\ODataController@index';
+        $controllerMethod = 'FirebirdOData\OData\PODataLaravel\Controllers\ODataController@index';
 
         Route::get('odata.svc/$metadata', ['uses' => $controllerMethod, 'middleware' => null]);
 

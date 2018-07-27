@@ -5,12 +5,12 @@
  * Date: 4/30/2017
  * Time: 1:29 PM.
  */
-namespace Firebird\ODataMetadata;
+namespace FirebirdOData\ODataMetadata;
 
 /**
  * trait xsdRestrictions.
  *
- * @package FirebirdOData\ODataMetadata
+ * @package FirebirdOData\OData\ODataMetadata
  */
 trait xsdRestrictions
 {

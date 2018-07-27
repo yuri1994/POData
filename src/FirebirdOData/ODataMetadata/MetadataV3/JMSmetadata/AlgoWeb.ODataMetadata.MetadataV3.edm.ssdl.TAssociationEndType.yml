@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\ssdl\TAssociationEndType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TAssociationEndType:
     properties:
         type:
             expose: true
@@ -36,7 +36,7 @@ Firebird\ODataMetadata\MetadataV3\edm\ssdl\TAssociationEndType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
         onDelete:
             expose: true
             access_type: public_method
@@ -50,7 +50,7 @@ Firebird\ODataMetadata\MetadataV3\edm\ssdl\TAssociationEndType:
                 inline: true
                 entry_name: OnDelete
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm/ssdl
-            type: array<Firebird\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TOnActionType>
         v3QualifiedNameCache:
             exclude: true
         v3QualifiedNameRegex:

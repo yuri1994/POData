@@ -1,13 +1,13 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\EntityContainer;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\TEntitySetAttributesTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType;
-use Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType;
-use Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\TEntitySetAttributesTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType;
 
 /**
  * Class representing EntitySetAnonymousType.
@@ -17,24 +17,24 @@ class EntitySetAnonymousType extends IsOK
     use IsOKToolboxTrait, TEntitySetAttributesTrait;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType[] $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType[] $documentation
      */
     private $documentation = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
      */
     private $valueAnnotation = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
      */
     private $typeAnnotation = [];
     
     /**
      * Adds as documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      * @return self
      */
     public function addToDocumentation(TDocumentationType $documentation)
@@ -72,7 +72,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType[]
      */
     public function getDocumentation()
     {
@@ -82,7 +82,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType[] $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType[] $documentation
      * @return self
      */
     public function setDocumentation(array $documentation)
@@ -90,7 +90,7 @@ class EntitySetAnonymousType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $documentation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType',
             $msg,
             0,
             1
@@ -105,7 +105,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Adds as valueAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType $valueAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType $valueAnnotation
      * @return self
      */
     public function addToValueAnnotation(TValueAnnotationType $valueAnnotation)
@@ -143,7 +143,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Gets as valueAnnotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[]
      */
     public function getValueAnnotation()
     {
@@ -153,7 +153,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Sets a new valueAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
      * @return self
      */
     public function setValueAnnotation(array $valueAnnotation)
@@ -161,7 +161,7 @@ class EntitySetAnonymousType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $valueAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
             $msg
         )
         ) {
@@ -174,7 +174,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Adds as typeAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType $typeAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType $typeAnnotation
      * @return self
      */
     public function addToTypeAnnotation(TTypeAnnotationType $typeAnnotation)
@@ -212,7 +212,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Gets as typeAnnotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[]
      */
     public function getTypeAnnotation()
     {
@@ -222,7 +222,7 @@ class EntitySetAnonymousType extends IsOK
     /**
      * Sets a new typeAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
      * @return self
      */
     public function setTypeAnnotation(array $typeAnnotation)
@@ -230,7 +230,7 @@ class EntitySetAnonymousType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $typeAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
             $msg
         )) {
             throw new \InvalidArgumentException($msg);
@@ -243,7 +243,7 @@ class EntitySetAnonymousType extends IsOK
     {
         if (!$this->isValidArrayOK(
             $this->documentation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType',
             $msg,
             0,
             1
@@ -252,14 +252,14 @@ class EntitySetAnonymousType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->valueAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
             $msg
         )) {
             return false;
         }
         if (!$this->isValidArrayOK(
             $this->typeAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
             $msg
         )) {
             return false;

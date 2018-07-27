@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edmx\TDesignerPropertyType:
+FirebirdOData\ODataMetadata\MetadataV3\edmx\TDesignerPropertyType:
     properties:
         name:
             expose: true

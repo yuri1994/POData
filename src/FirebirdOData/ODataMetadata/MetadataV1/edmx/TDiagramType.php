@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edmx;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TDiagramType.
@@ -43,17 +43,17 @@ class TDiagramType extends IsOK
     private $displayType = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edmx\TEntityTypeShapeType[] $entityTypeShape
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edmx\TEntityTypeShapeType[] $entityTypeShape
      */
     private $entityTypeShape = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edmx\TAssociationConnectorType[] $associationConnector
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edmx\TAssociationConnectorType[] $associationConnector
      */
     private $associationConnector = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edmx\TInheritanceConnectorType[] $inheritanceConnector
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edmx\TInheritanceConnectorType[] $inheritanceConnector
      */
     private $inheritanceConnector = array();
 
@@ -192,7 +192,7 @@ class TDiagramType extends IsOK
     /**
      * Adds as entityTypeShape.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TEntityTypeShapeType $entityTypeShape
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TEntityTypeShapeType $entityTypeShape
      * @return self
      */
     public function addToEntityTypeShape(TEntityTypeShapeType $entityTypeShape)
@@ -226,7 +226,7 @@ class TDiagramType extends IsOK
     /**
      * Gets as entityTypeShape.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edmx\TEntityTypeShapeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edmx\TEntityTypeShapeType[]
      */
     public function getEntityTypeShape()
     {
@@ -236,7 +236,7 @@ class TDiagramType extends IsOK
     /**
      * Sets a new entityTypeShape.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TEntityTypeShapeType[] $entityTypeShape
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TEntityTypeShapeType[] $entityTypeShape
      * @return self
      */
     public function setEntityTypeShape(array $entityTypeShape)
@@ -248,7 +248,7 @@ class TDiagramType extends IsOK
     /**
      * Adds as associationConnector.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TAssociationConnectorType $associationConnector
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TAssociationConnectorType $associationConnector
      * @return self
      */
     public function addToAssociationConnector(TAssociationConnectorType $associationConnector)
@@ -282,7 +282,7 @@ class TDiagramType extends IsOK
     /**
      * Gets as associationConnector.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edmx\TAssociationConnectorType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edmx\TAssociationConnectorType[]
      */
     public function getAssociationConnector()
     {
@@ -292,7 +292,7 @@ class TDiagramType extends IsOK
     /**
      * Sets a new associationConnector.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TAssociationConnectorType[] $associationConnector
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TAssociationConnectorType[] $associationConnector
      * @return self
      */
     public function setAssociationConnector(array $associationConnector)
@@ -304,7 +304,7 @@ class TDiagramType extends IsOK
     /**
      * Adds as inheritanceConnector.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TInheritanceConnectorType $inheritanceConnector
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TInheritanceConnectorType $inheritanceConnector
      * @return self
      */
     public function addToInheritanceConnector(TInheritanceConnectorType $inheritanceConnector)
@@ -338,7 +338,7 @@ class TDiagramType extends IsOK
     /**
      * Gets as inheritanceConnector.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edmx\TInheritanceConnectorType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edmx\TInheritanceConnectorType[]
      */
     public function getInheritanceConnector()
     {
@@ -348,7 +348,7 @@ class TDiagramType extends IsOK
     /**
      * Sets a new inheritanceConnector.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TInheritanceConnectorType[] $inheritanceConnector
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TInheritanceConnectorType[] $inheritanceConnector
      * @return self
      */
     public function setInheritanceConnector(array $inheritanceConnector)

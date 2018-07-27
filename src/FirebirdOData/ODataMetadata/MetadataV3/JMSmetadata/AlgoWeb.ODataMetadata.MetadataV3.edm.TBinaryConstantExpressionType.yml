@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TBinaryConstantExpressionType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TBinaryConstantExpressionType:
     properties:
         __value:
             expose: true

@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TAssociationEndType.
@@ -28,12 +28,12 @@ class TAssociationEndType extends IsOK
     private $multiplicity = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TOnActionType[] $onDelete
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TOnActionType[] $onDelete
      */
     private $onDelete = [];
 
@@ -106,7 +106,7 @@ class TAssociationEndType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -116,7 +116,7 @@ class TAssociationEndType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -128,7 +128,7 @@ class TAssociationEndType extends IsOK
     /**
      * Adds as onDelete.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TOnActionType $onDelete
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TOnActionType $onDelete
      * @return self
      */
     public function addToOnDelete(TOnActionType $onDelete)
@@ -162,7 +162,7 @@ class TAssociationEndType extends IsOK
     /**
      * Gets as onDelete.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TOnActionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TOnActionType[]
      */
     public function getOnDelete()
     {
@@ -172,7 +172,7 @@ class TAssociationEndType extends IsOK
     /**
      * Sets a new onDelete.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\ssdl\TOnActionType[] $onDelete
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\ssdl\TOnActionType[] $onDelete
      * @return self
      */
     public function setOnDelete(array $onDelete)

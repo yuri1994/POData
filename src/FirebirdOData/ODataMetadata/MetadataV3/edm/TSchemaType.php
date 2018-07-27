@@ -1,12 +1,12 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\GSchemaBodyElementsTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TNamespaceNameTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
-use Firebird\ODataMetadata\StringTraits\XSDTopLevelTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\GSchemaBodyElementsTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TNamespaceNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\StringTraits\XSDTopLevelTrait;
 
 /**
  * Class representing TSchemaType.

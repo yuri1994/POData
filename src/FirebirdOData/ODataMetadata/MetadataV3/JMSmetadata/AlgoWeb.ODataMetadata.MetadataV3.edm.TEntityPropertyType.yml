@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TEntityPropertyType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityPropertyType:
     properties:
         name:
             expose: true
@@ -151,7 +151,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TEntityPropertyType:
                 inline: true
                 entry_name: Documentation
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TDocumentationType>
         valueAnnotation:
             expose: true
             access_type: public_method
@@ -165,7 +165,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TEntityPropertyType:
                 inline: true
                 entry_name: ValueAnnotation
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TValueAnnotationType>
         typeAnnotation:
             expose: true
             access_type: public_method
@@ -179,7 +179,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TEntityPropertyType:
                 inline: true
                 entry_name: TypeAnnotation
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType>
         v3SimpleIdentifierCache:
             exclude: true
         v3SimpleIdentifierRegex:

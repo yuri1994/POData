@@ -1,12 +1,12 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\Groups;
 
-use Firebird\ODataMetadata\CodeGeneration\AccessTypeTraits;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType;
-use Firebird\ODataMetadata\MetadataV3\edm\TOperandType;
+use FirebirdOData\ODataMetadata\CodeGeneration\AccessTypeTraits;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType;
 
 trait TFunctionImportAttributesTrait
 {
@@ -18,12 +18,12 @@ trait TFunctionImportAttributesTrait
     private $name = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType[] $returnType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType[] $returnType
      */
     private $returnType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TOperandType $entitySet
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType $entitySet
      */
     private $entitySet = null;
 
@@ -76,7 +76,7 @@ trait TFunctionImportAttributesTrait
     /**
      * Adds as returnType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType $returnType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType $returnType
      * @return self
      */
     public function addToReturnType(TFunctionImportReturnTypeType $returnType)
@@ -114,7 +114,7 @@ trait TFunctionImportAttributesTrait
     /**
      * Gets as returnType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType[]
      */
     public function getReturnType()
     {
@@ -124,7 +124,7 @@ trait TFunctionImportAttributesTrait
     /**
      * Sets a new returnType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType[] $returnType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType[] $returnType
      * @return self
      */
     public function setReturnType(array $returnType)
@@ -132,7 +132,7 @@ trait TFunctionImportAttributesTrait
         $msg = null;
         if (!$this->isValidArrayOK(
             $returnType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType',
             $msg
         )
         ) {
@@ -145,7 +145,7 @@ trait TFunctionImportAttributesTrait
     /**
      * Gets as entitySet.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TOperandType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType
      */
     public function getEntitySet()
     {
@@ -155,7 +155,7 @@ trait TFunctionImportAttributesTrait
     /**
      * Sets a new entitySet.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TOperandType $entitySet
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType $entitySet
      * @return self
      */
     public function setEntitySet(TOperandType $entitySet)
@@ -276,7 +276,7 @@ trait TFunctionImportAttributesTrait
             $msg = "Entity set must be a valid TSimpleIdentifier";
             return false;
         }*/
-        if (!$this->isObjectNullOrType('\Firebird\ODataMetadata\MetadataV3\edm\TOperandType', $this->entitySet)) {
+        if (!$this->isObjectNullOrType('\FirebirdOData\ODataMetadata\MetadataV3\edm\TOperandType', $this->entitySet)) {
             $msg = 'Entity set must be either null or an instance of TOperandType: ' . get_class($this);
             return false;
         }
@@ -286,7 +286,7 @@ trait TFunctionImportAttributesTrait
         }
         if (!$this->isValidArrayOK(
             $this->returnType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType',
             $msg
         )
         ) {

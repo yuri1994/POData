@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TConditionType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TConditionType:
     properties:
         value:
             expose: true

@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV1\edm\EntityContainer:
+FirebirdOData\ODataMetadata\MetadataV1\edm\EntityContainer:
     xml_root_name: EntityContainer
     xml_root_namespace: 'http://schemas.microsoft.com/ado/2006/04/edm'
     properties:
@@ -29,7 +29,7 @@ Firebird\ODataMetadata\MetadataV1\edm\EntityContainer:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edm\TDocumentationType
         functionImport:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ Firebird\ODataMetadata\MetadataV1\edm\EntityContainer:
                 inline: true
                 entry_name: FunctionImport
                 namespace: 'http://schemas.microsoft.com/ado/2006/04/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV1\edm\EntityContainer\FunctionImportAnonymousType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV1\edm\EntityContainer\FunctionImportAnonymousType>
         entitySet:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ Firebird\ODataMetadata\MetadataV1\edm\EntityContainer:
                 inline: true
                 entry_name: EntitySet
                 namespace: 'http://schemas.microsoft.com/ado/2006/04/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV1\edm\EntityContainer\EntitySetAnonymousType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV1\edm\EntityContainer\EntitySetAnonymousType>
         associationSet:
             expose: true
             access_type: public_method
@@ -71,4 +71,4 @@ Firebird\ODataMetadata\MetadataV1\edm\EntityContainer:
                 inline: true
                 entry_name: AssociationSet
                 namespace: 'http://schemas.microsoft.com/ado/2006/04/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV1\edm\EntityContainer\AssociationSetAnonymousType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV1\edm\EntityContainer\AssociationSetAnonymousType>

@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TReferentialConstraintRoleElementType.
@@ -19,12 +19,12 @@ class TReferentialConstraintRoleElementType extends IsOK
     private $role = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[] $propertyRef
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[] $propertyRef
      */
     private $propertyRef = [];
 
@@ -61,7 +61,7 @@ class TReferentialConstraintRoleElementType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -71,7 +71,7 @@ class TReferentialConstraintRoleElementType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -87,7 +87,7 @@ class TReferentialConstraintRoleElementType extends IsOK
     /**
      * Adds as propertyRef.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType $propertyRef
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType $propertyRef
      * @return self
      */
     public function addToPropertyRef(TPropertyRefType $propertyRef)
@@ -125,7 +125,7 @@ class TReferentialConstraintRoleElementType extends IsOK
     /**
      * Gets as propertyRef.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[]
      */
     public function getPropertyRef()
     {
@@ -135,7 +135,7 @@ class TReferentialConstraintRoleElementType extends IsOK
     /**
      * Sets a new propertyRef.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[] $propertyRef
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType[] $propertyRef
      * @return self
      */
     public function setPropertyRef(array $propertyRef)
@@ -143,7 +143,7 @@ class TReferentialConstraintRoleElementType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $propertyRef,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType',
             $msg,
             1
         )
@@ -169,7 +169,7 @@ class TReferentialConstraintRoleElementType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->propertyRef,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyRefType',
             $msg,
             1
         )

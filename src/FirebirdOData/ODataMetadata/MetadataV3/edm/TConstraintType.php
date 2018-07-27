@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
 
 /**
  * Class representing TConstraintType.
@@ -14,24 +14,24 @@ class TConstraintType extends IsOK
 {
     use IsOKToolboxTrait;
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType $principal
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType $principal
      */
     private $principal = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType $dependent
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType $dependent
      */
     private $dependent = null;
 
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -41,7 +41,7 @@ class TConstraintType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -57,7 +57,7 @@ class TConstraintType extends IsOK
     /**
      * Gets as principal.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType
      */
     public function getPrincipal()
     {
@@ -67,7 +67,7 @@ class TConstraintType extends IsOK
     /**
      * Sets a new principal.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType $principal
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType $principal
      * @return self
      */
     public function setPrincipal(TReferentialConstraintRoleElementType $principal)
@@ -83,7 +83,7 @@ class TConstraintType extends IsOK
     /**
      * Gets as dependent.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType
      */
     public function getDependent()
     {
@@ -93,7 +93,7 @@ class TConstraintType extends IsOK
     /**
      * Sets a new dependent.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType $dependent
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType $dependent
      * @return self
      */
     public function setDependent(TReferentialConstraintRoleElementType $dependent)

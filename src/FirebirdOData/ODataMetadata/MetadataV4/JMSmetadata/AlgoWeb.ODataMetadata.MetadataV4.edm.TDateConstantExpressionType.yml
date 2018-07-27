@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TDateConstantExpressionType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TDateConstantExpressionType:
     properties:
         __value:
             expose: true

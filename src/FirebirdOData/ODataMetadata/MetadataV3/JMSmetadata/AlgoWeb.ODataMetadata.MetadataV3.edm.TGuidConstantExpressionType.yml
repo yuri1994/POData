@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TGuidConstantExpressionType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TGuidConstantExpressionType:
     properties:
         __value:
             expose: true

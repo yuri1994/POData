@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionType:
     properties:
         functionName:
             expose: true
@@ -27,7 +27,7 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionType
             accessor:
                 getter: getScalarProperty
                 setter: setScalarProperty
-            type: Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
         associationEnd:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionType
             accessor:
                 getter: getAssociationEnd
                 setter: setAssociationEnd
-            type: Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType
+            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType
         complexProperty:
             expose: true
             access_type: public_method
@@ -47,4 +47,4 @@ Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeModificationFunctionType
             accessor:
                 getter: getComplexProperty
                 setter: setComplexProperty
-            type: Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
+            type: FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType

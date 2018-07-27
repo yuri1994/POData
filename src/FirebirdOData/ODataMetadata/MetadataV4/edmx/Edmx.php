@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edmx;
 
 /**
  * Class representing Entity Data Model Wrapper part of the Common Schema Definition Language.

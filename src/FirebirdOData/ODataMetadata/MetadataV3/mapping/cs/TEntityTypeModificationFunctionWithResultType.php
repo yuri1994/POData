@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups\TResultBindingGroup;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups\TResultBindingGroup;
 
 /**
  * Class representing TEntityTypeModificationFunctionWithResultType.

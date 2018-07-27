@@ -1,7 +1,7 @@
 <?php
-namespace Firebird\ODataMetadata;
+namespace FirebirdOData\ODataMetadata;
 
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
 
 abstract class IsOK
 {

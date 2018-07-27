@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\mapping\cs\TAliasType:
+FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAliasType:
     properties:
         key:
             expose: true

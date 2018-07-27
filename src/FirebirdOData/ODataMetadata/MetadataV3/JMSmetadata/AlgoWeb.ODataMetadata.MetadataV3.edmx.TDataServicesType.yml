@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edmx\TDataServicesType:
+FirebirdOData\ODataMetadata\MetadataV3\edmx\TDataServicesType:
     xml_root_namespace: http://schemas.microsoft.com/ado/2007/06/edmx
     properties:
         schema:
@@ -9,7 +9,7 @@ Firebird\ODataMetadata\MetadataV3\edmx\TDataServicesType:
             accessor:
                 getter: getSchema
                 setter: setSchema
-            type: array<Firebird\ODataMetadata\MetadataV3\edm\Schema>
+            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\Schema>
             xml_list:
                 inline: true
                 entry_name: Schema

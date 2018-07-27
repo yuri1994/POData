@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\Interfaces;
+namespace FirebirdOData\ODataMetadata\Interfaces;
 
 interface IEntityType
 {

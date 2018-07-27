@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TDateTimeOffsetConstantExpressionType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TDateTimeOffsetConstantExpressionType:
     properties:
         __value:
             expose: true

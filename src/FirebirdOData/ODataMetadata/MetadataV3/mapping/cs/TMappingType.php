@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits\TSpaceTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits\TSpaceTrait;
 
 /**
  * Type of root level mapping elements.
@@ -20,12 +20,12 @@ class TMappingType extends IsOK
     private $space = null;
     // Top level mapping element can have Alias elements followed by one EntityContainerMapping element.
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAliasType[] $alias
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAliasType[] $alias
      */
     private $alias = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType
      * $entityContainerMapping
      */
     private $entityContainerMapping = null;
@@ -59,7 +59,7 @@ class TMappingType extends IsOK
     /**
      * Adds as alias.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAliasType $alias
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAliasType $alias
      * @return self
      */
     public function addToAlias(TAliasType $alias)
@@ -97,7 +97,7 @@ class TMappingType extends IsOK
     /**
      * Gets as alias.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAliasType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAliasType[]
      */
     public function getAlias()
     {
@@ -107,7 +107,7 @@ class TMappingType extends IsOK
     /**
      * Sets a new alias.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAliasType[] $alias
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAliasType[] $alias
      * @return self
      */
     public function setAlias(array $alias)
@@ -115,7 +115,7 @@ class TMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $alias,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TAliasType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAliasType',
             $msg
         )
         ) {
@@ -128,7 +128,7 @@ class TMappingType extends IsOK
     /**
      * Gets as entityContainerMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType
      */
     public function getEntityContainerMapping()
     {
@@ -138,7 +138,7 @@ class TMappingType extends IsOK
     /**
      * Sets a new entityContainerMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TEntityContainerMappingType
      * $entityContainerMapping
      * @return self
      */
@@ -158,7 +158,7 @@ class TMappingType extends IsOK
             $msg = 'Space not a valid TSpace';
             return false;
         }
-        if (!$this->isValidArray($this->alias, '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TAliasType')) {
+        if (!$this->isValidArray($this->alias, '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAliasType')) {
             $msg = 'Alias not a valid array';
             return false;
         }

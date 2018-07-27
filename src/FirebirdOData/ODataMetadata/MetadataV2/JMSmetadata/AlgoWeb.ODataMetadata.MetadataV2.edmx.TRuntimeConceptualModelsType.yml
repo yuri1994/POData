@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edmx\TRuntimeConceptualModelsType:
+FirebirdOData\ODataMetadata\MetadataV2\edmx\TRuntimeConceptualModelsType:
     properties:
         schema:
             expose: true
@@ -9,4 +9,4 @@ Firebird\ODataMetadata\MetadataV2\edmx\TRuntimeConceptualModelsType:
             accessor:
                 getter: getSchema
                 setter: setSchema
-            type: Firebird\ODataMetadata\MetadataV2\edm\Schema
+            type: FirebirdOData\ODataMetadata\MetadataV2\edm\Schema

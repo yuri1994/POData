@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edmx;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV4\edm\IsOKTraits\TNamespaceNameTrait;
-use Firebird\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV4\edm\IsOKTraits\TNamespaceNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TIncludeAnnotationsType.

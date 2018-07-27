@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups;
 
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType;
 
 trait TResultBindingGroup
 {
@@ -11,7 +11,7 @@ trait TResultBindingGroup
     use IsOKToolboxTrait;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType[] $resultBinding
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType[] $resultBinding
      */
     private $resultBinding = [];
 
@@ -19,7 +19,7 @@ trait TResultBindingGroup
      * Adds as resultBinding
      *
      * @return self
-     * @param \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType $resultBinding
+     * @param \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType $resultBinding
      */
     public function addToResultBinding(TResultBindingType $resultBinding)
     {
@@ -56,7 +56,7 @@ trait TResultBindingGroup
     /**
      * Gets as resultBinding.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType[]
      */
     public function getResultBinding()
     {
@@ -66,7 +66,7 @@ trait TResultBindingGroup
     /**
      * Sets a new resultBinding.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType[] $resultBinding
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType[] $resultBinding
      * @return self
      */
     public function setResultBinding(array $resultBinding)
@@ -74,7 +74,7 @@ trait TResultBindingGroup
         $msg = null;
         if (!$this->isValidArrayOK(
             $resultBinding,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TResultBindingType',
             $msg
         )
         ) {
@@ -88,7 +88,7 @@ trait TResultBindingGroup
     {
         if (!$this->isValidArray(
             $this->resultBinding,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType'
         )
         ) {
             $msg = 'Scalar property array not a valid array';

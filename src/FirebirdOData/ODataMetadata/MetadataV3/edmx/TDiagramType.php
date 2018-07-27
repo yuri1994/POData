@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edmx;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TDiagramType.
@@ -43,17 +43,17 @@ class TDiagramType extends IsOK
     private $displayType = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType[] $entityTypeShape
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType[] $entityTypeShape
      */
     private $entityTypeShape = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType[] $associationConnector
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType[] $associationConnector
      */
     private $associationConnector = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType[] $inheritanceConnector
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType[] $inheritanceConnector
      */
     private $inheritanceConnector = [];
 
@@ -204,7 +204,7 @@ class TDiagramType extends IsOK
     /**
      * Adds as entityTypeShape.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType $entityTypeShape
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType $entityTypeShape
      * @return self
      */
     public function addToEntityTypeShape(TEntityTypeShapeType $entityTypeShape)
@@ -242,7 +242,7 @@ class TDiagramType extends IsOK
     /**
      * Gets as entityTypeShape.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType[]
      */
     public function getEntityTypeShape()
     {
@@ -252,14 +252,14 @@ class TDiagramType extends IsOK
     /**
      * Sets a new entityTypeShape.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType[] $entityTypeShape
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType[] $entityTypeShape
      * @return self
      */
     public function setEntityTypeShape(array $entityTypeShape)
     {
         if (!$this->isValidArrayOK(
             $entityTypeShape,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType'
         )
         ) {
             $msg = 'Entity type shape array not a valid array';
@@ -272,7 +272,7 @@ class TDiagramType extends IsOK
     /**
      * Adds as associationConnector.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType $associationConnector
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType $associationConnector
      * @return self
      */
     public function addToAssociationConnector(TAssociationConnectorType $associationConnector)
@@ -310,7 +310,7 @@ class TDiagramType extends IsOK
     /**
      * Gets as associationConnector.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType[]
      */
     public function getAssociationConnector()
     {
@@ -320,14 +320,14 @@ class TDiagramType extends IsOK
     /**
      * Sets a new associationConnector.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType[] $associationConnector
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType[] $associationConnector
      * @return self
      */
     public function setAssociationConnector(array $associationConnector)
     {
         if (!$this->isValidArrayOK(
             $associationConnector,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType'
         )
         ) {
             $msg = 'Association connector array not a valid array';
@@ -340,7 +340,7 @@ class TDiagramType extends IsOK
     /**
      * Adds as inheritanceConnector.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType $inheritanceConnector
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType $inheritanceConnector
      * @return self
      */
     public function addToInheritanceConnector(TInheritanceConnectorType $inheritanceConnector)
@@ -378,7 +378,7 @@ class TDiagramType extends IsOK
     /**
      * Gets as inheritanceConnector.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType[]
      */
     public function getInheritanceConnector()
     {
@@ -388,14 +388,14 @@ class TDiagramType extends IsOK
     /**
      * Sets a new inheritanceConnector.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType[] $inheritanceConnector
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType[] $inheritanceConnector
      * @return self
      */
     public function setInheritanceConnector(array $inheritanceConnector)
     {
         if (!$this->isValidArrayOK(
             $inheritanceConnector,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType'
         )
         ) {
             $msg = 'Inheritance connector array not a valid array';
@@ -422,7 +422,7 @@ class TDiagramType extends IsOK
         }
         if (!$this->isValidArray(
             $this->entityTypeShape,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TEntityTypeShapeType'
         )
         ) {
             $msg = 'Entity type shape array not a valid array';
@@ -433,7 +433,7 @@ class TDiagramType extends IsOK
         }
         if (!$this->isValidArray(
             $this->associationConnector,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TAssociationConnectorType'
         )
         ) {
             $msg = 'Association connector array not a valid array';
@@ -444,7 +444,7 @@ class TDiagramType extends IsOK
         }
         if (!$this->isValidArray(
             $this->inheritanceConnector,
-            '\Firebird\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\edmx\TInheritanceConnectorType'
         )
         ) {
             $msg = 'Inheritance connector array not a valid array';

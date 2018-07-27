@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
 /**
  * Class representing TMappingType.
@@ -16,14 +16,14 @@ class TMappingType extends IsOK
     private $space = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TAliasType[] $alias
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TAliasType[] $alias
      */
     private $alias = array(
         
     );
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TEntityContainerMappingType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityContainerMappingType
      * $entityContainerMapping
      */
     private $entityContainerMapping = null;
@@ -53,7 +53,7 @@ class TMappingType extends IsOK
     /**
      * Adds as alias.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TAliasType $alias
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TAliasType $alias
      * @return self
      */
     public function addToAlias(TAliasType $alias)
@@ -87,7 +87,7 @@ class TMappingType extends IsOK
     /**
      * Gets as alias.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TAliasType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TAliasType[]
      */
     public function getAlias()
     {
@@ -97,7 +97,7 @@ class TMappingType extends IsOK
     /**
      * Sets a new alias.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TAliasType[] $alias
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TAliasType[] $alias
      * @return self
      */
     public function setAlias(array $alias)
@@ -109,7 +109,7 @@ class TMappingType extends IsOK
     /**
      * Gets as entityContainerMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TEntityContainerMappingType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityContainerMappingType
      */
     public function getEntityContainerMapping()
     {
@@ -119,7 +119,7 @@ class TMappingType extends IsOK
     /**
      * Sets a new entityContainerMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityContainerMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TEntityContainerMappingType
      * $entityContainerMapping
      * @return self
      */

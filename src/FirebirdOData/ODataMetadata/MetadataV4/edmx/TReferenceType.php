@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edmx;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV4\edm\Annotation;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation;
 
 /**
  * Class representing TReferenceType.
@@ -19,17 +19,17 @@ class TReferenceType extends IsOK
     private $uri = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeType[] $include
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeType[] $include
      */
     private $include = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType[] $includeAnnotations
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType[] $includeAnnotations
      */
     private $includeAnnotations = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = array();
 
@@ -58,7 +58,7 @@ class TReferenceType extends IsOK
     /**
      * Adds as include.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeType $include
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeType $include
      * @return self
      */
     public function addToInclude(TIncludeType $include)
@@ -92,7 +92,7 @@ class TReferenceType extends IsOK
     /**
      * Gets as include.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeType[]
      */
     public function getInclude()
     {
@@ -102,7 +102,7 @@ class TReferenceType extends IsOK
     /**
      * Sets a new include.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeType[] $include
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeType[] $include
      * @return self
      */
     public function setInclude(array $include)
@@ -114,7 +114,7 @@ class TReferenceType extends IsOK
     /**
      * Adds as includeAnnotations.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType $includeAnnotations
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType $includeAnnotations
      * @return self
      */
     public function addToIncludeAnnotations(TIncludeAnnotationsType $includeAnnotations)
@@ -148,7 +148,7 @@ class TReferenceType extends IsOK
     /**
      * Gets as includeAnnotations.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType[]
      */
     public function getIncludeAnnotations()
     {
@@ -158,7 +158,7 @@ class TReferenceType extends IsOK
     /**
      * Sets a new includeAnnotations.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType[] $includeAnnotations
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType[] $includeAnnotations
      * @return self
      */
     public function setIncludeAnnotations(array $includeAnnotations)
@@ -170,7 +170,7 @@ class TReferenceType extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -204,7 +204,7 @@ class TReferenceType extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -214,7 +214,7 @@ class TReferenceType extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)
@@ -230,20 +230,20 @@ class TReferenceType extends IsOK
             return false;
         }
 
-        if (!$this->isValidArray($this->include, \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeType, 1)) {
+        if (!$this->isValidArray($this->include, \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeType, 1)) {
             $msg = 'Include is not a valid array';
             return false;
         }
         if (!$this->isValidArray(
             $this->includeAnnotations,
-            \Firebird\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType,
+            \FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType,
             1
         )
         ) {
             $msg = 'IncludeAnnotations is not a valid array';
             return false;
         }
-        if (!$this->isValidArray($this->annotation, \Firebird\ODataMetadata\MetadataV4\edm\Annotation, 1)) {
+        if (!$this->isValidArray($this->annotation, \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation, 1)) {
             $msg = 'Annotation is not a valid array';
             return false;
         }

@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType:
+FirebirdOData\ODataMetadata\MetadataV4\edmx\TIncludeAnnotationsType:
     properties:
         termNamespace:
             expose: true

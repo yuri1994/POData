@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\StringTraits;
+namespace FirebirdOData\ODataMetadata\StringTraits;
 
 trait XMLStringTrait
 {

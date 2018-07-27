@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\mapping\cs\TAssociationSetModificationFunctionType:
+FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TAssociationSetModificationFunctionType:
     properties:
         functionName:
             expose: true
@@ -27,4 +27,4 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TAssociationSetModificationFunction
             accessor:
                 getter: getEndProperty
                 setter: setEndProperty
-            type: Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingEndPropertyType
+            type: FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionMappingEndPropertyType

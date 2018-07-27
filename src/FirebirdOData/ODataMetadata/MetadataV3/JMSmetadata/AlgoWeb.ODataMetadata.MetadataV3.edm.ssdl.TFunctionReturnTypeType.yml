@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\ssdl\TFunctionReturnTypeType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TFunctionReturnTypeType:
     properties:
         collectionType:
             expose: true
@@ -9,4 +9,4 @@ Firebird\ODataMetadata\MetadataV3\edm\ssdl\TFunctionReturnTypeType:
             accessor:
                 getter: getCollectionType
                 setter: setCollectionType
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TCollectionTypeType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\ssdl\TCollectionTypeType

@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType:
     properties:
         term:
             expose: true
@@ -130,4 +130,4 @@ Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType:
                 inline: true
                 entry_name: PropertyValue
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType>

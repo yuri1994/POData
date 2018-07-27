@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TEntityContainerType:
     properties:
         name:
             expose: true
@@ -31,7 +31,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType:
                 inline: true
                 entry_name: EntitySet
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\TEntitySetType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TEntitySetType>
         actionImport:
             expose: true
             access_type: public_method
@@ -45,7 +45,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType:
                 inline: true
                 entry_name: ActionImport
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\TActionImportType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TActionImportType>
         functionImport:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType:
                 inline: true
                 entry_name: FunctionImport
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\TFunctionImportType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TFunctionImportType>
         singleton:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType:
                 inline: true
                 entry_name: Singleton
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\TSingletonType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TSingletonType>
         annotation:
             expose: true
             access_type: public_method
@@ -87,4 +87,4 @@ Firebird\ODataMetadata\MetadataV4\edm\TEntityContainerType:
                 inline: true
                 entry_name: Annotation
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\Annotation>

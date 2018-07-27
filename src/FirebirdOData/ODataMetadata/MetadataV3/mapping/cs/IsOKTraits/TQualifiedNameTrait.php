@@ -1,15 +1,15 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits;
 
-use Firebird\ODataMetadata\xsdRestrictions;
+use FirebirdOData\ODataMetadata\xsdRestrictions;
 
 /**
  * Trait TQualifiedNameTrait
  * Definition for QualifiedName. QualifiedName is SimpleIdentifiers with '.'
  * allowed. This is the same definition that is being used in the CSDL XSD.
  *
- * @package FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits
+ * @package FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits
  */
 trait TQualifiedNameTrait
 {

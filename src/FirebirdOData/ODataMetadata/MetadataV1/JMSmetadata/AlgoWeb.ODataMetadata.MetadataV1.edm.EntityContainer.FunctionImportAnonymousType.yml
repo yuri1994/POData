@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV1\edm\EntityContainer\FunctionImportAnonymousType:
+FirebirdOData\ODataMetadata\MetadataV1\edm\EntityContainer\FunctionImportAnonymousType:
     properties:
         name:
             expose: true
@@ -45,7 +45,7 @@ Firebird\ODataMetadata\MetadataV1\edm\EntityContainer\FunctionImportAnonymousTyp
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edm\TDocumentationType
         parameter:
             expose: true
             access_type: public_method
@@ -59,4 +59,4 @@ Firebird\ODataMetadata\MetadataV1\edm\EntityContainer\FunctionImportAnonymousTyp
                 inline: true
                 entry_name: Parameter
                 namespace: 'http://schemas.microsoft.com/ado/2006/04/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType>

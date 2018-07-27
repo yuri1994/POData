@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV1\edm\TComplexTypeType:
+FirebirdOData\ODataMetadata\MetadataV1\edm\TComplexTypeType:
     properties:
         name:
             expose: true
@@ -27,7 +27,7 @@ Firebird\ODataMetadata\MetadataV1\edm\TComplexTypeType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edm\TDocumentationType
         property:
             expose: true
             access_type: public_method
@@ -41,4 +41,4 @@ Firebird\ODataMetadata\MetadataV1\edm\TComplexTypeType:
                 inline: true
                 entry_name: Property
                 namespace: 'http://schemas.microsoft.com/ado/2006/04/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType>

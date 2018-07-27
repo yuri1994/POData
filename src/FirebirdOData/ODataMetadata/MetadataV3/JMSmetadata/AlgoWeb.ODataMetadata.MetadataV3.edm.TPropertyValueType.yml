@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyValueType:
     properties:
         property:
             expose: true
@@ -18,7 +18,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getString
                 setter: setString
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TStringConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TStringConstantExpressionType
         binary:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getBinary
                 setter: setBinary
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TBinaryConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TBinaryConstantExpressionType
         int:
             expose: true
             access_type: public_method
@@ -38,7 +38,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getInt
                 setter: setInt
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TIntConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TIntConstantExpressionType
         float:
             expose: true
             access_type: public_method
@@ -48,7 +48,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getFloat
                 setter: setFloat
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TFloatConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TFloatConstantExpressionType
         guid:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getGuid
                 setter: setGuid
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TGuidConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TGuidConstantExpressionType
         decimal:
             expose: true
             access_type: public_method
@@ -68,7 +68,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getDecimal
                 setter: setDecimal
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TDecimalConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TDecimalConstantExpressionType
         bool:
             expose: true
             access_type: public_method
@@ -78,7 +78,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getBool
                 setter: setBool
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TBoolConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TBoolConstantExpressionType
         dateTime:
             expose: true
             access_type: public_method
@@ -88,7 +88,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getDateTime
                 setter: setDateTime
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TDateTimeConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TDateTimeConstantExpressionType
         dateTimeOffset:
             expose: true
             access_type: public_method
@@ -98,7 +98,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getDateTimeOffset
                 setter: setDateTimeOffset
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TDateTimeOffsetConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TDateTimeOffsetConstantExpressionType
         enum:
             expose: true
             access_type: public_method
@@ -108,7 +108,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getEnum
                 setter: setEnum
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumConstantExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TEnumConstantExpressionType
         path:
             expose: true
             access_type: public_method
@@ -118,7 +118,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getPath
                 setter: setPath
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TPathExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TPathExpressionType
         if:
             expose: true
             access_type: public_method
@@ -128,7 +128,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getIf
                 setter: setIf
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TIfExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TIfExpressionType
         record:
             expose: true
             access_type: public_method
@@ -138,7 +138,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getRecord
                 setter: setRecord
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TRecordExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TRecordExpressionType
         collection:
             expose: true
             access_type: public_method
@@ -148,7 +148,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getCollection
                 setter: setCollection
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TCollectionExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TCollectionExpressionType
         typeAssert:
             expose: true
             access_type: public_method
@@ -158,7 +158,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getTypeAssert
                 setter: setTypeAssert
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TTypeAssertExpressionType
         typeTest:
             expose: true
             access_type: public_method
@@ -168,7 +168,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getTypeTest
                 setter: setTypeTest
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TTypeTestExpressionType
         functionReference:
             expose: true
             access_type: public_method
@@ -178,7 +178,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getFunctionReference
                 setter: setFunctionReference
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TFunctionReferenceExpressionType
         entitySetReference:
             expose: true
             access_type: public_method
@@ -188,7 +188,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getEntitySetReference
                 setter: setEntitySetReference
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TEntitySetReferenceExpressionType
         anonymousFunction:
             expose: true
             access_type: public_method
@@ -198,7 +198,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getAnonymousFunction
                 setter: setAnonymousFunction
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType
         parameterReference:
             expose: true
             access_type: public_method
@@ -208,7 +208,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getParameterReference
                 setter: setParameterReference
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TParameterReferenceExpressionType
         apply:
             expose: true
             access_type: public_method
@@ -218,7 +218,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getApply
                 setter: setApply
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TApplyExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TApplyExpressionType
         propertyReference:
             expose: true
             access_type: public_method
@@ -228,7 +228,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getPropertyReference
                 setter: setPropertyReference
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TPropertyReferenceExpressionType
         valueTermReference:
             expose: true
             access_type: public_method
@@ -238,4 +238,4 @@ Firebird\ODataMetadata\MetadataV3\edm\TPropertyValueType:
             accessor:
                 getter: getValueTermReference
                 setter: setValueTermReference
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TValueTermReferenceExpressionType

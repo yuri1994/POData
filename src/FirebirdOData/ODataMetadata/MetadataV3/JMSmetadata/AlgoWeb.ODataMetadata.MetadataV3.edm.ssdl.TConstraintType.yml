@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\ssdl\TConstraintType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TConstraintType:
     properties:
         documentation:
             expose: true
@@ -9,7 +9,7 @@ Firebird\ODataMetadata\MetadataV3\edm\ssdl\TConstraintType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: Firebird\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TDocumentationType
         principal:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Firebird\ODataMetadata\MetadataV3\edm\ssdl\TConstraintType:
             accessor:
                 getter: getPrincipal
                 setter: setPrincipal
-            type: Firebird\ODataMetadata\MetadataV3\edm\ssdl\TReferentialConstraintRoleElementType
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TReferentialConstraintRoleElementType
         dependent:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Firebird\ODataMetadata\MetadataV3\edm\ssdl\TConstraintType:
             accessor:
                 getter: getDependent
                 setter: setDependent
-            type: Firebird\ODataMetadata\MetadataV3\edm\ssdl\TReferentialConstraintRoleElementType
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TReferentialConstraintRoleElementType

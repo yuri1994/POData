@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TDocumentationType.
@@ -16,19 +16,19 @@ class TDocumentationType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TTextType $summary
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TTextType $summary
      */
     private $summary = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TTextType $longDescription
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TTextType $longDescription
      */
     private $longDescription = null;
 
     /**
      * Gets as summary.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TTextType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TTextType
      */
     public function getSummary()
     {
@@ -38,7 +38,7 @@ class TDocumentationType extends IsOK
     /**
      * Sets a new summary.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TTextType $summary
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TTextType $summary
      * @return self
      */
     public function setSummary(TTextType $summary)
@@ -50,7 +50,7 @@ class TDocumentationType extends IsOK
     /**
      * Gets as longDescription.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TTextType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TTextType
      */
     public function getLongDescription()
     {
@@ -60,7 +60,7 @@ class TDocumentationType extends IsOK
     /**
      * Sets a new longDescription.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TTextType $longDescription
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TTextType $longDescription
      * @return self
      */
     public function setLongDescription(TTextType $longDescription)

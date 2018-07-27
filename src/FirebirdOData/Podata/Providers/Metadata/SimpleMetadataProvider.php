@@ -2,9 +2,9 @@
 
 namespace POData\Providers\Metadata;
 
-use Firebird\ODataMetadata\MetadataManager;
-use Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType;
-use Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType;
+use FirebirdOData\ODataMetadata\MetadataManager;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType;
 use Illuminate\Support\Str;
 use POData\Common\InvalidOperationException;
 use POData\Providers\Metadata\Type\IType;

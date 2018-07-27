@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType:
+FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType:
     properties:
         typeName:
             expose: true
@@ -22,4 +22,4 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingTy
                 inline: true
                 entry_name: ScalarProperty
                 namespace: 'http://schemas.microsoft.com/ado/2008/09/mapping/cs'
-            type: array<Firebird\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TScalarPropertyType>

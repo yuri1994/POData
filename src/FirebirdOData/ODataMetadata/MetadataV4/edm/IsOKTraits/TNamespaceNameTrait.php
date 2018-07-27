@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm\IsOKTraits;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm\IsOKTraits;
 
-use Firebird\ODataMetadata\xsdRestrictions;
+use FirebirdOData\ODataMetadata\xsdRestrictions;
 
 trait TNamespaceNameTrait
 {

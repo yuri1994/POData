@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TEndPropertyType.
@@ -21,7 +21,7 @@ class TEndPropertyType extends IsOK
     private $name = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
      */
     private $scalarProperty = [];
 
@@ -58,7 +58,7 @@ class TEndPropertyType extends IsOK
     /**
      * Adds as scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType $scalarProperty
      * @return self
      */
     public function addToScalarProperty(TScalarPropertyType $scalarProperty)
@@ -96,7 +96,7 @@ class TEndPropertyType extends IsOK
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[]
      */
     public function getScalarProperty()
     {
@@ -106,7 +106,7 @@ class TEndPropertyType extends IsOK
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType[] $scalarProperty
      * @return self
      */
     public function setScalarProperty(array $scalarProperty)
@@ -114,7 +114,7 @@ class TEndPropertyType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $scalarProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType',
             $msg
         )
         ) {
@@ -136,7 +136,7 @@ class TEndPropertyType extends IsOK
         }
         if (!$this->isValidArray(
             $this->scalarProperty,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TScalarPropertyType'
         )
         ) {
             $msg = 'Scalar property array not a valid array';

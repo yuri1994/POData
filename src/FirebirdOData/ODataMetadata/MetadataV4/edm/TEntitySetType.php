@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TEntitySetType.
@@ -28,13 +28,13 @@ class TEntitySetType extends IsOK
     private $includeInServiceDocument = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType[]
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType[]
      * $navigationPropertyBinding
      */
     private $navigationPropertyBinding = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = array();
 
@@ -107,7 +107,7 @@ class TEntitySetType extends IsOK
     /**
      * Adds as navigationPropertyBinding.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType $navigationPropertyBinding
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType $navigationPropertyBinding
      * @return self
      */
     public function addToNavigationPropertyBinding(TNavigationPropertyBindingType $navigationPropertyBinding)
@@ -141,7 +141,7 @@ class TEntitySetType extends IsOK
     /**
      * Gets as navigationPropertyBinding.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType[]
      */
     public function getNavigationPropertyBinding()
     {
@@ -151,7 +151,7 @@ class TEntitySetType extends IsOK
     /**
      * Sets a new navigationPropertyBinding.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType[]
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType[]
      * $navigationPropertyBinding
      * @return self
      */
@@ -164,7 +164,7 @@ class TEntitySetType extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -198,7 +198,7 @@ class TEntitySetType extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -208,7 +208,7 @@ class TEntitySetType extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)

@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\IsOKTraits;
 
-use Firebird\ODataMetadata\xsdRestrictions;
+use FirebirdOData\ODataMetadata\xsdRestrictions;
 
 trait TQualifiedNameTrait
 {

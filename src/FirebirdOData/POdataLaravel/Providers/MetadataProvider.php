@@ -1,15 +1,15 @@
 <?php
 
-namespace Firebird\PODataLaravel\Providers;
+namespace FirebirdOData\PODataLaravel\Providers;
 
-use Firebird\PODataLaravel\Models\MetadataGubbinsHolder;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\Association;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationMonomorphic;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubRelationType;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationType;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\EntityFieldType;
-use Firebird\PODataLaravel\Models\ObjectMap\Entities\EntityGubbins;
-use Firebird\PODataLaravel\Models\ObjectMap\Map;
+use FirebirdOData\PODataLaravel\Models\MetadataGubbinsHolder;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\Association;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationMonomorphic;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationStubRelationType;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\Associations\AssociationType;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\EntityFieldType;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Entities\EntityGubbins;
+use FirebirdOData\PODataLaravel\Models\ObjectMap\Map;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
@@ -37,7 +37,7 @@ class MetadataProvider extends MetadataBaseProvider
     private $completedObjectMap;
 
     /**
-     * @return \Firebird\PODataLaravel\Models\ObjectMap\Map
+     * @return \FirebirdOData\PODataLaravel\Models\ObjectMap\Map
      */
     public function getObjectMap()
     {
@@ -326,7 +326,7 @@ class MetadataProvider extends MetadataBaseProvider
         $startName = $this->getAppNamespace();
         foreach ($classes as $name) {
             if (\Illuminate\Support\Str::startsWith($name, $startName)) {
-                if (in_array('FirebirdOData\\PODataLaravel\\Models\\MetadataTrait', class_uses($name))) {
+                if (in_array('FirebirdOData\OData\\PODataLaravel\\Models\\MetadataTrait', class_uses($name))) {
                     if (is_subclass_of($name, '\\Illuminate\\Database\\Eloquent\\Model')) {
                         $ends[] = $name;
                     }

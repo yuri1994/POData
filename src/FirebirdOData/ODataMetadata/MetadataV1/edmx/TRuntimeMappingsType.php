@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edmx;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV1\mapping\cs\Mapping;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\Mapping;
 
 /**
  * Class representing TRuntimeMappingsType.
@@ -14,14 +14,14 @@ class TRuntimeMappingsType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\mapping\cs\Mapping $mapping
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\Mapping $mapping
      */
     private $mapping = null;
 
     /**
      * Gets as mapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\mapping\cs\Mapping
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\Mapping
      */
     public function getMapping()
     {
@@ -31,7 +31,7 @@ class TRuntimeMappingsType extends IsOK
     /**
      * Sets a new mapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\mapping\cs\Mapping $mapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\mapping\cs\Mapping $mapping
      * @return self
      */
     public function setMapping(Mapping $mapping)

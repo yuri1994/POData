@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\TAnonymousFunctionExpressionType;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType;
 
 /**
  * Class representing ParametersAnonymousType.
@@ -13,14 +13,14 @@ class ParametersAnonymousType extends IsOK
 {
     use IsOKToolboxTrait;
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameter
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameter
      */
     private $parameter = [];
 
     /**
      * Adds as parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType $parameter
      * @return self
      */
     public function addToParameter(TFunctionParameterType $parameter)
@@ -58,7 +58,7 @@ class ParametersAnonymousType extends IsOK
     /**
      * Gets as parameter.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType[]
      */
     public function getParameter()
     {
@@ -68,7 +68,7 @@ class ParametersAnonymousType extends IsOK
     /**
      * Sets a new parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType[] $parameter
      * @return self
      */
     public function setParameter(array $parameter)
@@ -76,7 +76,7 @@ class ParametersAnonymousType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $parameter,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
             $msg
         )
         ) {
@@ -90,7 +90,7 @@ class ParametersAnonymousType extends IsOK
     {
         return !$this->isValidArrayOK(
             $this->parameter,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionParameterType',
             $msg
         );
     }

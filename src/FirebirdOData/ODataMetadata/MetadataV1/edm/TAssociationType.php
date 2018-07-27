@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TAssociationType.
@@ -18,17 +18,17 @@ class TAssociationType extends IsOK
     private $name = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TAssociationEndType[] $end
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TAssociationEndType[] $end
      */
     private $end = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TConstraintType $referentialConstraint
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TConstraintType $referentialConstraint
      */
     private $referentialConstraint = null;
 
@@ -57,7 +57,7 @@ class TAssociationType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -67,7 +67,7 @@ class TAssociationType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -79,7 +79,7 @@ class TAssociationType extends IsOK
     /**
      * Adds as end.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TAssociationEndType $end
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TAssociationEndType $end
      * @return self
      */
     public function addToEnd(TAssociationEndType $end)
@@ -113,7 +113,7 @@ class TAssociationType extends IsOK
     /**
      * Gets as end.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TAssociationEndType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TAssociationEndType[]
      */
     public function getEnd()
     {
@@ -123,7 +123,7 @@ class TAssociationType extends IsOK
     /**
      * Sets a new end.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TAssociationEndType[] $end
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TAssociationEndType[] $end
      * @return self
      */
     public function setEnd(array $end)
@@ -135,7 +135,7 @@ class TAssociationType extends IsOK
     /**
      * Gets as referentialConstraint.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TConstraintType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TConstraintType
      */
     public function getReferentialConstraint()
     {
@@ -145,7 +145,7 @@ class TAssociationType extends IsOK
     /**
      * Sets a new referentialConstraint.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TConstraintType $referentialConstraint
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TConstraintType $referentialConstraint
      * @return self
      */
     public function setReferentialConstraint(TConstraintType $referentialConstraint)

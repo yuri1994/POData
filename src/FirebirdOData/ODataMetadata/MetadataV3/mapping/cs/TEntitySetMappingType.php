@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups\TPropertyGroup;
-use Firebird\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups\TPropertyGroup;
+use FirebirdOData\ODataMetadata\MetadataV4\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TEntitySetMappingType.
@@ -37,17 +37,17 @@ class TEntitySetMappingType extends IsOK
     private $makeColumnsDistinct = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType[] $queryView
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType[] $queryView
      */
     private $queryView = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType[] $entityTypeMapping
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType[] $entityTypeMapping
      */
     private $entityTypeMapping = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType[] $mappingFragment
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType[] $mappingFragment
      */
     private $mappingFragment = [];
 
@@ -154,7 +154,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Adds as queryView.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType $queryView
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType $queryView
      * @return self
      */
     public function addToQueryView(TQueryViewType $queryView)
@@ -192,7 +192,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Gets as queryView.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType[]
      */
     public function getQueryView()
     {
@@ -202,7 +202,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Sets a new queryView.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType[] $queryView
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType[] $queryView
      * @return self
      */
     public function setQueryView(array $queryView)
@@ -210,7 +210,7 @@ class TEntitySetMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $queryView,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TQueryViewType',
             $msg
         )
         ) {
@@ -223,7 +223,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Adds as entityTypeMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType $entityTypeMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType $entityTypeMapping
      * @return self
      */
     public function addToEntityTypeMapping(TEntityTypeMappingType $entityTypeMapping)
@@ -261,7 +261,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Gets as entityTypeMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType[]
      */
     public function getEntityTypeMapping()
     {
@@ -271,7 +271,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Sets a new entityTypeMapping.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType[] $entityTypeMapping
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType[] $entityTypeMapping
      * @return self
      */
     public function setEntityTypeMapping(array $entityTypeMapping)
@@ -279,7 +279,7 @@ class TEntitySetMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $entityTypeMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType',
             $msg
         )
         ) {
@@ -292,7 +292,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Adds as mappingFragment.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType $mappingFragment
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType $mappingFragment
      * @return self
      */
     public function addToMappingFragment(TMappingFragmentType $mappingFragment)
@@ -330,7 +330,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Gets as mappingFragment.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType[]
      */
     public function getMappingFragment()
     {
@@ -340,7 +340,7 @@ class TEntitySetMappingType extends IsOK
     /**
      * Sets a new mappingFragment.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType[] $mappingFragment
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType[] $mappingFragment
      * @return self
      */
     public function setMappingFragment(array $mappingFragment)
@@ -348,7 +348,7 @@ class TEntitySetMappingType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $mappingFragment,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TMappingFragmentType',
             $msg
         )
         ) {
@@ -377,7 +377,7 @@ class TEntitySetMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->entityTypeMapping,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType'
         )
         ) {
             $msg = 'Mapping fragment array not a valid array';
@@ -388,7 +388,7 @@ class TEntitySetMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->queryView,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType'
         )
         ) {
             $msg = 'Query view array not a valid array';
@@ -399,7 +399,7 @@ class TEntitySetMappingType extends IsOK
         }
         if (!$this->isValidArray(
             $this->mappingFragment,
-            '\Firebird\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType'
+            '\FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TEntityTypeMappingType'
         )
         ) {
             $msg = 'Mapping fragment array not a valid array';

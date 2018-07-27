@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TSchemaType.
@@ -33,22 +33,22 @@ class TSchemaType extends IsOK
     private $providerManifestToken = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TAssociationType[] $association
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TAssociationType[] $association
      */
     private $association = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TEntityTypeType[] $entityType
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TEntityTypeType[] $entityType
      */
     private $entityType = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\ssdl\EntityContainer[] $entityContainer
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\EntityContainer[] $entityContainer
      */
     private $entityContainer = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TFunctionType[] $function
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TFunctionType[] $function
      */
     private $function = array();
 
@@ -143,7 +143,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as association.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TAssociationType $association
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TAssociationType $association
      * @return self
      */
     public function addToAssociation(TAssociationType $association)
@@ -177,7 +177,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as association.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TAssociationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TAssociationType[]
      */
     public function getAssociation()
     {
@@ -187,7 +187,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new association.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TAssociationType[] $association
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TAssociationType[] $association
      * @return self
      */
     public function setAssociation(array $association)
@@ -199,7 +199,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as entityType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TEntityTypeType $entityType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TEntityTypeType $entityType
      * @return self
      */
     public function addToEntityType(TEntityTypeType $entityType)
@@ -233,7 +233,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as entityType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TEntityTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TEntityTypeType[]
      */
     public function getEntityType()
     {
@@ -243,7 +243,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new entityType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TEntityTypeType[] $entityType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TEntityTypeType[] $entityType
      * @return self
      */
     public function setEntityType(array $entityType)
@@ -255,7 +255,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as entityContainer.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\EntityContainer $entityContainer
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\EntityContainer $entityContainer
      * @return self
      */
     public function addToEntityContainer(EntityContainer $entityContainer)
@@ -289,7 +289,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as entityContainer.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\ssdl\EntityContainer[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\EntityContainer[]
      */
     public function getEntityContainer()
     {
@@ -299,7 +299,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new entityContainer.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\EntityContainer[] $entityContainer
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\EntityContainer[] $entityContainer
      * @return self
      */
     public function setEntityContainer(array $entityContainer)
@@ -311,7 +311,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as function.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TFunctionType $function
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TFunctionType $function
      * @return self
      */
     public function addToFunction(TFunctionType $function)
@@ -345,7 +345,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as function.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TFunctionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TFunctionType[]
      */
     public function getFunction()
     {
@@ -355,7 +355,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new function.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\ssdl\TFunctionType[] $function
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\TFunctionType[] $function
      * @return self
      */
     public function setFunction(array $function)

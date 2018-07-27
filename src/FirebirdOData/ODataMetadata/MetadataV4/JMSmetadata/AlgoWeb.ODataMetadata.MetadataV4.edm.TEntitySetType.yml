@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TEntitySetType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TEntitySetType:
     properties:
         name:
             expose: true
@@ -40,7 +40,7 @@ Firebird\ODataMetadata\MetadataV4\edm\TEntitySetType:
                 inline: true
                 entry_name: NavigationPropertyBinding
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\TNavigationPropertyBindingType>
         annotation:
             expose: true
             access_type: public_method
@@ -54,4 +54,4 @@ Firebird\ODataMetadata\MetadataV4\edm\TEntitySetType:
                 inline: true
                 entry_name: Annotation
                 namespace: 'http://docs.oasis-open.org/odata/ns/edm'
-            type: array<FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV4\edm\Annotation>

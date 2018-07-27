@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\IsOKTraits;
+namespace FirebirdOData\ODataMetadata\IsOKTraits;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 trait IsOKToolboxTrait
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TSimpleIdentifierTrait;
 
 /**
  * Class representing TAssociationType.
@@ -20,17 +20,17 @@ class TAssociationType extends IsOK
     private $name = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TAssociationEndType[] $end
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationEndType[] $end
      */
     private $end = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TConstraintType $referentialConstraint
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TConstraintType $referentialConstraint
      */
     private $referentialConstraint = null;
 
@@ -63,7 +63,7 @@ class TAssociationType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -73,7 +73,7 @@ class TAssociationType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -89,7 +89,7 @@ class TAssociationType extends IsOK
     /**
      * Adds as end.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TAssociationEndType $end
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationEndType $end
      * @return self
      */
     public function addToEnd(TAssociationEndType $end)
@@ -127,7 +127,7 @@ class TAssociationType extends IsOK
     /**
      * Gets as end.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TAssociationEndType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationEndType[]
      */
     public function getEnd()
     {
@@ -137,14 +137,14 @@ class TAssociationType extends IsOK
     /**
      * Sets a new end.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TAssociationEndType[] $end
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationEndType[] $end
      * @return self
      */
     public function setEnd(array $end)
     {
         if (!$this->isValidArrayOK(
             $end,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TAssociationEndType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationEndType',
             $msg,
             2,
             2
@@ -159,7 +159,7 @@ class TAssociationType extends IsOK
     /**
      * Gets as referentialConstraint.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TConstraintType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TConstraintType
      */
     public function getReferentialConstraint()
     {
@@ -169,7 +169,7 @@ class TAssociationType extends IsOK
     /**
      * Sets a new referentialConstraint.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TConstraintType $referentialConstraint
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TConstraintType $referentialConstraint
      * @return self
      */
     public function setReferentialConstraint(TConstraintType $referentialConstraint)
@@ -196,7 +196,7 @@ class TAssociationType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->end,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TAssociationEndType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationEndType',
             $msg,
             2,
             2

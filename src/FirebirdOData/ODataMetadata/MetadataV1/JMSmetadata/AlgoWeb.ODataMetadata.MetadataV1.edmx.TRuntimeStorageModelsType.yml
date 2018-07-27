@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV1\edmx\TRuntimeStorageModelsType:
+FirebirdOData\ODataMetadata\MetadataV1\edmx\TRuntimeStorageModelsType:
     properties:
         schema:
             expose: true
@@ -9,4 +9,4 @@ Firebird\ODataMetadata\MetadataV1\edmx\TRuntimeStorageModelsType:
             accessor:
                 getter: getSchema
                 setter: setSchema
-            type: FirebirdOData\ODataMetadata\MetadataV1\edm\ssdl\Schema
+            type: FirebirdOData\OData\ODataMetadata\MetadataV1\edm\ssdl\Schema

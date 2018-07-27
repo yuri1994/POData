@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TAnnotationsType:
     properties:
         target:
             expose: true
@@ -31,7 +31,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType:
                 inline: true
                 entry_name: ValueAnnotation
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType>
         typeAnnotation:
             expose: true
             access_type: public_method
@@ -45,7 +45,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType:
                 inline: true
                 entry_name: TypeAnnotation
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType>
         v3SimpleIdentifierCache:
             exclude: true
         v3SimpleIdentifierRegex:

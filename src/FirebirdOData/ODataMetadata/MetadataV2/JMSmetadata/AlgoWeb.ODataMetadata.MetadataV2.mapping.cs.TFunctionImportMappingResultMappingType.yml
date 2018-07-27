@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType:
+FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMappingType:
     properties:
         entityTypeMapping:
             expose: true
@@ -13,7 +13,7 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMapping
                 inline: true
                 entry_name: EntityTypeMapping
                 namespace: 'http://schemas.microsoft.com/ado/2008/09/mapping/cs'
-            type: array<Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportEntityTypeMappingType>
         complexTypeMapping:
             expose: true
             access_type: public_method
@@ -27,4 +27,4 @@ Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportMappingResultMapping
                 inline: true
                 entry_name: ComplexTypeMapping
                 namespace: 'http://schemas.microsoft.com/ado/2008/09/mapping/cs'
-            type: array<Firebird\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TFunctionImportComplexTypeMappingType>

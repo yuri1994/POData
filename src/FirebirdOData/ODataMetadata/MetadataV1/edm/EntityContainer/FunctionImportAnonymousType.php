@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edm\EntityContainer;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edm\EntityContainer;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType;
-use Firebird\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType;
+use FirebirdOData\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType;
 
 /**
  * Class representing FunctionImportAnonymousType.
@@ -33,12 +33,12 @@ class FunctionImportAnonymousType extends IsOK
     private $methodAccess = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType[] $parameter
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType[] $parameter
      */
     private $parameter = array();
 
@@ -133,7 +133,7 @@ class FunctionImportAnonymousType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -143,7 +143,7 @@ class FunctionImportAnonymousType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -155,7 +155,7 @@ class FunctionImportAnonymousType extends IsOK
     /**
      * Adds as parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType $parameter
      * @return self
      */
     public function addToParameter(TFunctionImportParameterType $parameter)
@@ -189,7 +189,7 @@ class FunctionImportAnonymousType extends IsOK
     /**
      * Gets as parameter.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType[]
      */
     public function getParameter()
     {
@@ -199,7 +199,7 @@ class FunctionImportAnonymousType extends IsOK
     /**
      * Sets a new parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType[] $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TFunctionImportParameterType[] $parameter
      * @return self
      */
     public function setParameter(array $parameter)

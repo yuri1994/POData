@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups\TEntityTypeModificationFunctionMappingPropertyGroup;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups\TEntityTypeModificationFunctionMappingPropertyGroup;
 
 /**
  * Class representing TEntityTypeModificationFunctionType.

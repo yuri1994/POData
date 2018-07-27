@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\PODataLaravel\Controllers;
+namespace FirebirdOData\PODataLaravel\Controllers;
 
 class MetadataControllerContainer
 {

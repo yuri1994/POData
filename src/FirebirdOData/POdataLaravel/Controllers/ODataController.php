@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\PODataLaravel\Controllers;
+namespace FirebirdOData\PODataLaravel\Controllers;
 
-use Firebird\PODataLaravel\Controllers\Controller as BaseController;
-use Firebird\PODataLaravel\Serialisers\IronicSerialiser;
+use FirebirdOData\PODataLaravel\Controllers\Controller as BaseController;
+use FirebirdOData\PODataLaravel\Serialisers\IronicSerialiser;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm;
 
-use Firebird\ODataMetadata\CodeGeneration\AccessTypeTraits;
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\TTypeAttributesTrait;
+use FirebirdOData\ODataMetadata\CodeGeneration\AccessTypeTraits;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\TTypeAttributesTrait;
 
 /**
  * Class representing TComplexTypeType.
@@ -21,22 +21,22 @@ class TComplexTypeType extends IsOK
     private $typeAccess = 'Public';
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType[] $property
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType[] $property
      */
     private $property = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
      */
     private $valueAnnotation = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
      */
     private $typeAnnotation = [];
 
@@ -69,7 +69,7 @@ class TComplexTypeType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -79,7 +79,7 @@ class TComplexTypeType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -95,7 +95,7 @@ class TComplexTypeType extends IsOK
     /**
      * Adds as property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType $property
      * @return self
      */
     public function addToProperty(TComplexTypePropertyType $property)
@@ -133,7 +133,7 @@ class TComplexTypeType extends IsOK
     /**
      * Gets as property.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType[]
      */
     public function getProperty()
     {
@@ -143,14 +143,14 @@ class TComplexTypeType extends IsOK
     /**
      * Sets a new property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType[] $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType[] $property
      * @return self
      */
     public function setProperty(array $property)
     {
         if (!$this->isValidArrayOK(
             $property,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType',
             $msg
         )
         ) {
@@ -163,7 +163,7 @@ class TComplexTypeType extends IsOK
     /**
      * Adds as valueAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType $valueAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType $valueAnnotation
      * @return self
      */
     public function addToValueAnnotation(TValueAnnotationType $valueAnnotation)
@@ -201,7 +201,7 @@ class TComplexTypeType extends IsOK
     /**
      * Gets as valueAnnotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[]
      */
     public function getValueAnnotation()
     {
@@ -211,14 +211,14 @@ class TComplexTypeType extends IsOK
     /**
      * Sets a new valueAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType[] $valueAnnotation
      * @return self
      */
     public function setValueAnnotation(array $valueAnnotation)
     {
         if (!$this->isValidArrayOK(
             $valueAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
             $msg
         )
         ) {
@@ -231,7 +231,7 @@ class TComplexTypeType extends IsOK
     /**
      * Adds as typeAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType $typeAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType $typeAnnotation
      * @return self
      */
     public function addToTypeAnnotation(TTypeAnnotationType $typeAnnotation)
@@ -269,7 +269,7 @@ class TComplexTypeType extends IsOK
     /**
      * Gets as typeAnnotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[]
      */
     public function getTypeAnnotation()
     {
@@ -279,14 +279,14 @@ class TComplexTypeType extends IsOK
     /**
      * Sets a new typeAnnotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType[] $typeAnnotation
      * @return self
      */
     public function setTypeAnnotation(array $typeAnnotation)
     {
         if (!$this->isValidArrayOK(
             $typeAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
             $msg
         )
         ) {
@@ -307,7 +307,7 @@ class TComplexTypeType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->property,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType',
             $msg
         )
         ) {
@@ -315,7 +315,7 @@ class TComplexTypeType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->valueAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType',
             $msg
         )
         ) {
@@ -323,7 +323,7 @@ class TComplexTypeType extends IsOK
         }
         if (!$this->isValidArrayOK(
             $this->typeAnnotation,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType',
             $msg
         )
         ) {

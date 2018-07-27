@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edmx;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TConnectionType.
@@ -13,14 +13,14 @@ class TConnectionType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edmx\TDesignerPropertyType[] $designerInfoPropertySet
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edmx\TDesignerPropertyType[] $designerInfoPropertySet
      */
     private $designerInfoPropertySet = null;
 
     /**
      * Adds as designerProperty.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TDesignerPropertyType $designerProperty
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TDesignerPropertyType $designerProperty
      * @return self
      */
     public function addToDesignerInfoPropertySet(TDesignerPropertyType $designerProperty)
@@ -54,7 +54,7 @@ class TConnectionType extends IsOK
     /**
      * Gets as designerInfoPropertySet.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edmx\TDesignerPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edmx\TDesignerPropertyType[]
      */
     public function getDesignerInfoPropertySet()
     {
@@ -64,7 +64,7 @@ class TConnectionType extends IsOK
     /**
      * Sets a new designerInfoPropertySet.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edmx\TDesignerPropertyType[] $designerInfoPropertySet
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edmx\TDesignerPropertyType[] $designerInfoPropertySet
      * @return self
      */
     public function setDesignerInfoPropertySet(array $designerInfoPropertySet)

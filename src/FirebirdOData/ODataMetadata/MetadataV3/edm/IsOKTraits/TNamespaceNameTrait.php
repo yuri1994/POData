@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits;
 
-use Firebird\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\IsOKTraits\TQualifiedNameTrait;
 
 trait TNamespaceNameTrait
 {

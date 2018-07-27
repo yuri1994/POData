@@ -1,27 +1,27 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\Groups;
 
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType;
-use Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType;
 
 trait TEntityTypeModificationFunctionMappingPropertyGroup
 {
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
      * $scalarProperty
      */
     private $scalarProperty = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType
      * $associationEnd
      */
     private $associationEnd = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
      * $complexProperty
      */
     private $complexProperty = null;
@@ -29,7 +29,7 @@ trait TEntityTypeModificationFunctionMappingPropertyGroup
     /**
      * Gets as scalarProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
      */
     public function getScalarProperty()
     {
@@ -39,7 +39,7 @@ trait TEntityTypeModificationFunctionMappingPropertyGroup
     /**
      * Sets a new scalarProperty.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingScalarPropertyType
      * $scalarProperty
      * @return self
      */
@@ -56,7 +56,7 @@ trait TEntityTypeModificationFunctionMappingPropertyGroup
     /**
      * Gets as associationEnd.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType
      */
     public function getAssociationEnd()
     {
@@ -66,7 +66,7 @@ trait TEntityTypeModificationFunctionMappingPropertyGroup
     /**
      * Sets a new associationEnd.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingAssociationEndType
      * $associationEnd
      * @return self
      */
@@ -83,7 +83,7 @@ trait TEntityTypeModificationFunctionMappingPropertyGroup
     /**
      * Gets as complexProperty.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
      */
     public function getComplexProperty()
     {
@@ -93,7 +93,7 @@ trait TEntityTypeModificationFunctionMappingPropertyGroup
     /**
      * Sets a new complexProperty.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TModificationFunctionMappingComplexPropertyType
      * $complexProperty
      * @return self
      */

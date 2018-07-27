@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\Interfaces;
+namespace FirebirdOData\ODataMetadata\Interfaces;
 
 interface IFunctionImportType
 {
@@ -14,14 +14,14 @@ interface IFunctionImportType
     /**
      * Gets as returnType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType[]
      */
     public function getReturnType();
     
     /**
      * Adds as parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType $parameter
      * @return self
      */
     public function addToParameter(TFunctionImportParameterType $parameter);

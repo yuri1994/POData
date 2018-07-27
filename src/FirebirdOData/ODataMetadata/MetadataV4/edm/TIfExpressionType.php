@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TIfExpressionType.
@@ -13,7 +13,7 @@ class TIfExpressionType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      */
     private $annotation = [];
 
@@ -83,77 +83,77 @@ class TIfExpressionType extends IsOK
     private $annotationPath = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TApplyExpressionType[] $apply
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TApplyExpressionType[] $apply
      */
     private $apply = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[] $cast
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[] $cast
      */
     private $cast = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TCollectionExpressionType[] $collection
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TCollectionExpressionType[] $collection
      */
     private $collection = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TIfExpressionType[] $if
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TIfExpressionType[] $if
      */
     private $if = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $eq
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $eq
      */
     private $eq = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $ne
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $ne
      */
     private $ne = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $ge
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $ge
      */
     private $ge = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $gt
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $gt
      */
     private $gt = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $le
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $le
      */
     private $le = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $lt
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $lt
      */
     private $lt = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $and
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $and
      */
     private $and = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $or
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $or
      */
     private $or = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[] $not
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[] $not
      */
     private $not = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[] $isOf
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[] $isOf
      */
     private $isOf = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TLabeledElementExpressionType[] $labeledElement
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TLabeledElementExpressionType[] $labeledElement
      */
     private $labeledElement = [];
 
@@ -163,7 +163,7 @@ class TIfExpressionType extends IsOK
     private $labeledElementReference = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $null
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $null
      */
     private $null = null;
 
@@ -183,19 +183,19 @@ class TIfExpressionType extends IsOK
     private $propertyPath = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TRecordExpressionType[] $record
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TRecordExpressionType[] $record
      */
     private $record = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[] $urlRef
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[] $urlRef
      */
     private $urlRef = [];
 
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToAnnotation(Annotation $annotation)
@@ -229,7 +229,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as annotation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getAnnotation()
     {
@@ -239,7 +239,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $annotation
      * @return self
      */
     public function setAnnotation(array $annotation)
@@ -979,7 +979,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as apply.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TApplyExpressionType $apply
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TApplyExpressionType $apply
      * @return self
      */
     public function addToApply(TApplyExpressionType $apply)
@@ -1013,7 +1013,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as apply.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TApplyExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TApplyExpressionType[]
      */
     public function getApply()
     {
@@ -1023,7 +1023,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new apply.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TApplyExpressionType[] $apply
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TApplyExpressionType[] $apply
      * @return self
      */
     public function setApply(array $apply)
@@ -1035,7 +1035,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as cast.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType $cast
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType $cast
      * @return self
      */
     public function addToCast(TCastOrIsOfExpressionType $cast)
@@ -1069,7 +1069,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as cast.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[]
      */
     public function getCast()
     {
@@ -1079,7 +1079,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new cast.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[] $cast
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[] $cast
      * @return self
      */
     public function setCast(array $cast)
@@ -1091,7 +1091,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as collection.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TCollectionExpressionType $collection
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TCollectionExpressionType $collection
      * @return self
      */
     public function addToCollection(TCollectionExpressionType $collection)
@@ -1125,7 +1125,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as collection.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TCollectionExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TCollectionExpressionType[]
      */
     public function getCollection()
     {
@@ -1135,7 +1135,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new collection.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TCollectionExpressionType[] $collection
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TCollectionExpressionType[] $collection
      * @return self
      */
     public function setCollection(array $collection)
@@ -1147,7 +1147,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as if.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TIfExpressionType $if
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TIfExpressionType $if
      * @return self
      */
     public function addToIf(TIfExpressionType $if)
@@ -1181,7 +1181,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as if.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TIfExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TIfExpressionType[]
      */
     public function getIf()
     {
@@ -1191,7 +1191,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new if.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TIfExpressionType[] $if
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TIfExpressionType[] $if
      * @return self
      */
     public function setIf(array $if)
@@ -1203,7 +1203,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as eq.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $eq
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $eq
      * @return self
      */
     public function addToEq(TTwoChildrenExpressionType $eq)
@@ -1237,7 +1237,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as eq.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
      */
     public function getEq()
     {
@@ -1247,7 +1247,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new eq.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $eq
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $eq
      * @return self
      */
     public function setEq(array $eq)
@@ -1259,7 +1259,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as ne.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $ne
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $ne
      * @return self
      */
     public function addToNe(TTwoChildrenExpressionType $ne)
@@ -1293,7 +1293,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as ne.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
      */
     public function getNe()
     {
@@ -1303,7 +1303,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new ne.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $ne
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $ne
      * @return self
      */
     public function setNe(array $ne)
@@ -1315,7 +1315,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as ge.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $ge
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $ge
      * @return self
      */
     public function addToGe(TTwoChildrenExpressionType $ge)
@@ -1349,7 +1349,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as ge.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
      */
     public function getGe()
     {
@@ -1359,7 +1359,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new ge.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $ge
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $ge
      * @return self
      */
     public function setGe(array $ge)
@@ -1371,7 +1371,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as gt.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $gt
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $gt
      * @return self
      */
     public function addToGt(TTwoChildrenExpressionType $gt)
@@ -1405,7 +1405,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as gt.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
      */
     public function getGt()
     {
@@ -1415,7 +1415,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new gt.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $gt
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $gt
      * @return self
      */
     public function setGt(array $gt)
@@ -1427,7 +1427,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as le.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $le
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $le
      * @return self
      */
     public function addToLe(TTwoChildrenExpressionType $le)
@@ -1461,7 +1461,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as le.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
      */
     public function getLe()
     {
@@ -1471,7 +1471,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new le.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $le
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $le
      * @return self
      */
     public function setLe(array $le)
@@ -1483,7 +1483,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as lt.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $lt
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $lt
      * @return self
      */
     public function addToLt(TTwoChildrenExpressionType $lt)
@@ -1517,7 +1517,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as lt.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
      */
     public function getLt()
     {
@@ -1527,7 +1527,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new lt.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $lt
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $lt
      * @return self
      */
     public function setLt(array $lt)
@@ -1539,7 +1539,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as and.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $and
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $and
      * @return self
      */
     public function addToAnd(TTwoChildrenExpressionType $and)
@@ -1573,7 +1573,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as and.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
      */
     public function getAnd()
     {
@@ -1583,7 +1583,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new and.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $and
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $and
      * @return self
      */
     public function setAnd(array $and)
@@ -1595,7 +1595,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as or.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $or
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType $or
      * @return self
      */
     public function addToOr(TTwoChildrenExpressionType $or)
@@ -1629,7 +1629,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as or.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[]
      */
     public function getOr()
     {
@@ -1639,7 +1639,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new or.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $or
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TTwoChildrenExpressionType[] $or
      * @return self
      */
     public function setOr(array $or)
@@ -1651,7 +1651,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as not.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TOneChildExpressionType $not
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TOneChildExpressionType $not
      * @return self
      */
     public function addToNot(TOneChildExpressionType $not)
@@ -1685,7 +1685,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as not.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[]
      */
     public function getNot()
     {
@@ -1695,7 +1695,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new not.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[] $not
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[] $not
      * @return self
      */
     public function setNot(array $not)
@@ -1707,7 +1707,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as isOf.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType $isOf
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType $isOf
      * @return self
      */
     public function addToIsOf(TCastOrIsOfExpressionType $isOf)
@@ -1741,7 +1741,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as isOf.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[]
      */
     public function getIsOf()
     {
@@ -1751,7 +1751,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new isOf.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[] $isOf
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TCastOrIsOfExpressionType[] $isOf
      * @return self
      */
     public function setIsOf(array $isOf)
@@ -1763,7 +1763,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as labeledElement.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TLabeledElementExpressionType $labeledElement
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TLabeledElementExpressionType $labeledElement
      * @return self
      */
     public function addToLabeledElement(TLabeledElementExpressionType $labeledElement)
@@ -1797,7 +1797,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as labeledElement.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TLabeledElementExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TLabeledElementExpressionType[]
      */
     public function getLabeledElement()
     {
@@ -1807,7 +1807,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new labeledElement.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TLabeledElementExpressionType[] $labeledElement
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TLabeledElementExpressionType[] $labeledElement
      * @return self
      */
     public function setLabeledElement(array $labeledElement)
@@ -1875,7 +1875,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as annotation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation $annotation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation $annotation
      * @return self
      */
     public function addToNull(Annotation $annotation)
@@ -1909,7 +1909,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as null.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Annotation[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[]
      */
     public function getNull()
     {
@@ -1919,7 +1919,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new null.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Annotation[] $null
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Annotation[] $null
      * @return self
      */
     public function setNull(array $null)
@@ -2099,7 +2099,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as record.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TRecordExpressionType $record
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TRecordExpressionType $record
      * @return self
      */
     public function addToRecord(TRecordExpressionType $record)
@@ -2133,7 +2133,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as record.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TRecordExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TRecordExpressionType[]
      */
     public function getRecord()
     {
@@ -2143,7 +2143,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new record.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TRecordExpressionType[] $record
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TRecordExpressionType[] $record
      * @return self
      */
     public function setRecord(array $record)
@@ -2155,7 +2155,7 @@ class TIfExpressionType extends IsOK
     /**
      * Adds as urlRef.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TOneChildExpressionType $urlRef
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TOneChildExpressionType $urlRef
      * @return self
      */
     public function addToUrlRef(TOneChildExpressionType $urlRef)
@@ -2189,7 +2189,7 @@ class TIfExpressionType extends IsOK
     /**
      * Gets as urlRef.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[]
      */
     public function getUrlRef()
     {
@@ -2199,7 +2199,7 @@ class TIfExpressionType extends IsOK
     /**
      * Sets a new urlRef.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[] $urlRef
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\TOneChildExpressionType[] $urlRef
      * @return self
      */
     public function setUrlRef(array $urlRef)

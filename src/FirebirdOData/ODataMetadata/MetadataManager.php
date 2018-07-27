@@ -1,25 +1,25 @@
 <?php
 
-namespace Firebird\ODataMetadata;
+namespace FirebirdOData\ODataMetadata;
 
-use Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType;
-use Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType;
-use Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\EntitySetAnonymousType;
-use Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousType;
-use Firebird\ODataMetadata\MetadataV3\edm\TAssociationEndType;
-use Firebird\ODataMetadata\MetadataV3\edm\TAssociationType;
-use Firebird\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType;
-use Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType;
-use Firebird\ODataMetadata\MetadataV3\edm\TConstraintType;
-use Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType;
-use Firebird\ODataMetadata\MetadataV3\edm\TEntityPropertyType;
-use Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType;
-use Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType;
-use Firebird\ODataMetadata\MetadataV3\edm\TNavigationPropertyType;
-use Firebird\ODataMetadata\MetadataV3\edm\TPropertyRefType;
-use Firebird\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType;
-use Firebird\ODataMetadata\MetadataV3\edm\TTextType;
-use Firebird\ODataMetadata\MetadataV3\edmx\Edmx;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\EntitySetAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\FunctionImportAnonymousType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationEndType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TConstraintType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportReturnTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TNavigationPropertyType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TPropertyRefType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TReferentialConstraintRoleElementType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TTextType;
+use FirebirdOData\ODataMetadata\MetadataV3\edmx\Edmx;
 use Illuminate\Support\Str;
 use JMS\Serializer\SerializerBuilder;
 
@@ -121,7 +121,7 @@ class MetadataManager
     }
 
     public function addPropertyToComplexType(
-        \Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType $complexType,
+        \FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType $complexType,
         $name,
         $type,
         $defaultValue = null,

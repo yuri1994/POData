@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edmx;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV2\edm\Schema;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV2\edm\Schema;
 
 /**
  * Class representing TRuntimeConceptualModelsType.

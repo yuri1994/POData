@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV2\edm\TFunctionParameterType:
+FirebirdOData\ODataMetadata\MetadataV2\edm\TFunctionParameterType:
     properties:
         name:
             expose: true
@@ -99,7 +99,7 @@ Firebird\ODataMetadata\MetadataV2\edm\TFunctionParameterType:
             accessor:
                 getter: getCollectionType
                 setter: setCollectionType
-            type: Firebird\ODataMetadata\MetadataV2\edm\TCollectionTypeType
+            type: FirebirdOData\ODataMetadata\MetadataV2\edm\TCollectionTypeType
         referenceType:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ Firebird\ODataMetadata\MetadataV2\edm\TFunctionParameterType:
             accessor:
                 getter: getReferenceType
                 setter: setReferenceType
-            type: Firebird\ODataMetadata\MetadataV2\edm\TReferenceTypeType
+            type: FirebirdOData\ODataMetadata\MetadataV2\edm\TReferenceTypeType
         rowType:
             expose: true
             access_type: public_method
@@ -119,7 +119,7 @@ Firebird\ODataMetadata\MetadataV2\edm\TFunctionParameterType:
             accessor:
                 getter: getRowType
                 setter: setRowType
-            type: array<Firebird\ODataMetadata\MetadataV2\edm\TPropertyType>
+            type: array<FirebirdOData\ODataMetadata\MetadataV2\edm\TPropertyType>
             xml_list:
                 inline: false
                 entry_name: Property

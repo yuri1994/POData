@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\ssdl;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TCollectionTypeType.
@@ -13,14 +13,14 @@ class TCollectionTypeType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType[] $rowType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType[] $rowType
      */
     private $rowType = [];
 
     /**
      * Adds as property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType $property
      * @return self
      */
     public function addToRowType(TPropertyType $property)
@@ -58,7 +58,7 @@ class TCollectionTypeType extends IsOK
     /**
      * Gets as rowType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType[]
      */
     public function getRowType()
     {
@@ -68,7 +68,7 @@ class TCollectionTypeType extends IsOK
     /**
      * Sets a new rowType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType[] $rowType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType[] $rowType
      * @return self
      */
     public function setRowType(array $rowType)
@@ -76,7 +76,7 @@ class TCollectionTypeType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType',
             $msg,
             1
         )
@@ -91,7 +91,7 @@ class TCollectionTypeType extends IsOK
     {
         if (!$this->isValidArrayOK(
             $this->rowType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\ssdl\TPropertyType',
             $msg,
             1
         )

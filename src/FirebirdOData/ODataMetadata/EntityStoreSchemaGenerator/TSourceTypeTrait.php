@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\ODataMetadata\EntityStoreSchemaGenerator;
+namespace FirebirdOData\ODataMetadata\EntityStoreSchemaGenerator;
 
 trait TSourceTypeTrait
 {

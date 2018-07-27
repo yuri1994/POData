@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType:
     properties:
         name:
             expose: true
@@ -29,7 +29,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType:
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TDocumentationType
         property:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType:
                 inline: true
                 entry_name: Property
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TComplexTypePropertyType>
         valueAnnotation:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType:
                 inline: true
                 entry_name: ValueAnnotation
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TValueAnnotationType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TValueAnnotationType>
         typeAnnotation:
             expose: true
             access_type: public_method
@@ -71,7 +71,7 @@ Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType:
                 inline: true
                 entry_name: TypeAnnotation
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TTypeAnnotationType>
         v3SimpleIdentifierCache:
             exclude: true
         v3SimpleIdentifierRegex:

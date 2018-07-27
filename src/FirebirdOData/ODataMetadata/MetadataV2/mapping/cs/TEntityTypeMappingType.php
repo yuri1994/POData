@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV2\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TEntityTypeMappingType.
@@ -18,12 +18,12 @@ class TEntityTypeMappingType extends IsOK
     private $typeName = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[] $mappingFragment
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[] $mappingFragment
      */
     private $mappingFragment = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeModificationFunctionMappingType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeModificationFunctionMappingType
      * $modificationFunctionMapping
      */
     private $modificationFunctionMapping = null;
@@ -53,7 +53,7 @@ class TEntityTypeMappingType extends IsOK
     /**
      * Adds as mappingFragment.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType $mappingFragment
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType $mappingFragment
      * @return self
      */
     public function addToMappingFragment(TMappingFragmentType $mappingFragment)
@@ -87,7 +87,7 @@ class TEntityTypeMappingType extends IsOK
     /**
      * Gets as mappingFragment.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[]
      */
     public function getMappingFragment()
     {
@@ -97,7 +97,7 @@ class TEntityTypeMappingType extends IsOK
     /**
      * Sets a new mappingFragment.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[] $mappingFragment
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TMappingFragmentType[] $mappingFragment
      * @return self
      */
     public function setMappingFragment(array $mappingFragment)
@@ -109,7 +109,7 @@ class TEntityTypeMappingType extends IsOK
     /**
      * Gets as modificationFunctionMapping.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeModificationFunctionMappingType
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeModificationFunctionMappingType
      */
     public function getModificationFunctionMapping()
     {
@@ -119,7 +119,7 @@ class TEntityTypeMappingType extends IsOK
     /**
      * Sets a new modificationFunctionMapping.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeModificationFunctionMappingType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV2\mapping\cs\TEntityTypeModificationFunctionMappingType
      * $modificationFunctionMapping
      * @return self
      */

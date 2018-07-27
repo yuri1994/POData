@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\mapping\cs;
+namespace FirebirdOData\ODataMetadata\MetadataV3\mapping\cs;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TAssociationSetModificationFunctionMappingType.
@@ -15,13 +15,13 @@ class TAssociationSetModificationFunctionMappingType extends IsOK
 {
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
      * $deleteFunction
      */
     private $deleteFunction = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
      * $insertFunction
      */
     private $insertFunction = null;
@@ -29,7 +29,7 @@ class TAssociationSetModificationFunctionMappingType extends IsOK
     /**
      * Gets as deleteFunction.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
      */
     public function getDeleteFunction()
     {
@@ -39,7 +39,7 @@ class TAssociationSetModificationFunctionMappingType extends IsOK
     /**
      * Sets a new deleteFunction.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
      * $deleteFunction
      * @return self
      */
@@ -56,7 +56,7 @@ class TAssociationSetModificationFunctionMappingType extends IsOK
     /**
      * Gets as insertFunction.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
      */
     public function getInsertFunction()
     {
@@ -66,7 +66,7 @@ class TAssociationSetModificationFunctionMappingType extends IsOK
     /**
      * Sets a new insertFunction.
      *
-     * @param  \FirebirdOData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
+     * @param  \FirebirdOData\OData\ODataMetadata\MetadataV3\mapping\cs\TAssociationSetModificationFunctionType
      * $insertFunction
      * @return self
      */

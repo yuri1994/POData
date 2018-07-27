@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV1\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV1\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TComplexTypeType.
@@ -23,12 +23,12 @@ class TComplexTypeType extends IsOK
     private $typeAccess = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType[] $property
+     * @property \FirebirdOData\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType[] $property
      */
     private $property = array();
 
@@ -79,7 +79,7 @@ class TComplexTypeType extends IsOK
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -89,7 +89,7 @@ class TComplexTypeType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -101,7 +101,7 @@ class TComplexTypeType extends IsOK
     /**
      * Adds as property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType $property
      * @return self
      */
     public function addToProperty(TComplexTypePropertyType $property)
@@ -135,7 +135,7 @@ class TComplexTypeType extends IsOK
     /**
      * Gets as property.
      *
-     * @return \Firebird\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType[]
      */
     public function getProperty()
     {
@@ -145,7 +145,7 @@ class TComplexTypeType extends IsOK
     /**
      * Sets a new property.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType[] $property
+     * @param  \FirebirdOData\ODataMetadata\MetadataV1\edm\TComplexTypePropertyType[] $property
      * @return self
      */
     public function setProperty(array $property)

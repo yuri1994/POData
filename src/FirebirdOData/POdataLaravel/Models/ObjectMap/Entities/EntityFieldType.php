@@ -1,6 +1,6 @@
 <?php
 
-namespace Firebird\PODataLaravel\Models\ObjectMap\Entities;
+namespace FirebirdOData\PODataLaravel\Models\ObjectMap\Entities;
 
 use MyCLabs\Enum\Enum;
 

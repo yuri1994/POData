@@ -1,12 +1,12 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\EntityContainer;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\Groups\TFunctionImportAttributesTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType;
-use Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\Groups\TFunctionImportAttributesTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType;
 
 /**
  * Class representing FunctionImportAnonymousType.
@@ -16,19 +16,19 @@ class FunctionImportAnonymousType extends IsOK
     use TFunctionImportAttributesTrait;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      */
     private $documentation = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType[] $parameter
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType[] $parameter
      */
     private $parameter = [];
 
     /**
      * Gets as documentation.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
      */
     public function getDocumentation()
     {
@@ -38,7 +38,7 @@ class FunctionImportAnonymousType extends IsOK
     /**
      * Sets a new documentation.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType $documentation
      * @return self
      */
     public function setDocumentation(TDocumentationType $documentation)
@@ -54,7 +54,7 @@ class FunctionImportAnonymousType extends IsOK
     /**
      * Adds as parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType $parameter
      * @return self
      */
     public function addToParameter(TFunctionImportParameterType $parameter)
@@ -92,7 +92,7 @@ class FunctionImportAnonymousType extends IsOK
     /**
      * Gets as parameter.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType[]
      */
     public function getParameter()
     {
@@ -102,7 +102,7 @@ class FunctionImportAnonymousType extends IsOK
     /**
      * Sets a new parameter.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType[] $parameter
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType[] $parameter
      * @return self
      */
     public function setParameter(array $parameter)
@@ -110,7 +110,7 @@ class FunctionImportAnonymousType extends IsOK
         $msg = null;
         if (!$this->isValidArrayOK(
             $parameter,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType',
             $msg
         )
         ) {
@@ -131,7 +131,7 @@ class FunctionImportAnonymousType extends IsOK
         $minParms = $this->isBindable ? 1 : 0;
         if (!$this->isValidArrayOK(
             $this->parameter,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionImportParameterType',
             $msg,
             $minParms
         )

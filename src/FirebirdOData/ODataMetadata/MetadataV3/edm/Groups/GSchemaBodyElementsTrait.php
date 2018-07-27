@@ -1,71 +1,71 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV3\edm\Groups;
+namespace FirebirdOData\ODataMetadata\MetadataV3\edm\Groups;
 
-use Firebird\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
-use Firebird\ODataMetadata\MetadataV3\edm\EntityContainer;
-use Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType;
-use Firebird\ODataMetadata\MetadataV3\edm\TAssociationType;
-use Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType;
-use Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType;
-use Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeType;
-use Firebird\ODataMetadata\MetadataV3\edm\TFunctionType;
-use Firebird\ODataMetadata\MetadataV3\edm\TUsingType;
-use Firebird\ODataMetadata\MetadataV3\edm\TValueTermType;
+use FirebirdOData\ODataMetadata\IsOKTraits\IsOKToolboxTrait;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TAnnotationsType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TUsingType;
+use FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermType;
 
 trait GSchemaBodyElementsTrait
 {
     use IsOKToolboxTrait;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TUsingType[] $using
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TUsingType[] $using
      */
     private $using = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TAssociationType[] $association
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationType[] $association
      */
     private $association = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType[] $complexType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType[] $complexType
      */
     private $complexType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType[] $entityType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType[] $entityType
      */
     private $entityType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeType[] $enumType
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeType[] $enumType
      */
     private $enumType = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TValueTermType[] $valueTerm
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermType[] $valueTerm
      */
     private $valueTerm = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TFunctionType[] $function
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionType[] $function
      */
     private $function = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType[] $annotations
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\TAnnotationsType[] $annotations
      */
     private $annotations = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV3\edm\EntityContainer[] $entityContainer
+     * @property \FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer[] $entityContainer
      */
     private $entityContainer = [];
 
     /**
      * Adds as using.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TUsingType $using
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TUsingType $using
      * @return self
      */
     public function addToUsing(TUsingType $using)
@@ -103,7 +103,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Gets as using.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TUsingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TUsingType[]
      */
     public function getUsing()
     {
@@ -113,13 +113,13 @@ trait GSchemaBodyElementsTrait
     /**
      * Sets a new using.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TUsingType[] $using
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TUsingType[] $using
      * @return self
      */
     public function setUsing(array $using)
     {
         $msg = null;
-        if (!$this->isValidArrayOK($using, '\Firebird\ODataMetadata\MetadataV3\edm\TUsingType', $msg)) {
+        if (!$this->isValidArrayOK($using, '\FirebirdOData\ODataMetadata\MetadataV3\edm\TUsingType', $msg)) {
             throw new \InvalidArgumentException($msg);
         }
         $this->using = $using;
@@ -129,7 +129,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Adds as association.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TAssociationType $association
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationType $association
      * @return self
      */
     public function addToAssociation(TAssociationType $association)
@@ -167,7 +167,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Gets as association.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TAssociationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationType[]
      */
     public function getAssociation()
     {
@@ -177,7 +177,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Sets a new association.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TAssociationType[] $association
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationType[] $association
      * @return self
      */
     public function setAssociation(array $association)
@@ -185,7 +185,7 @@ trait GSchemaBodyElementsTrait
         $msg = null;
         if (!$this->isValidArrayOK(
             $association,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TAssociationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationType',
             $msg
         )
         ) {
@@ -198,7 +198,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Adds as complexType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType $complexType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType $complexType
      * @return self
      */
     public function addToComplexType(TComplexTypeType $complexType)
@@ -236,7 +236,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Gets as complexType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType[]
      */
     public function getComplexType()
     {
@@ -246,7 +246,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Sets a new complexType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType[] $complexType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType[] $complexType
      * @return self
      */
     public function setComplexType(array $complexType)
@@ -254,7 +254,7 @@ trait GSchemaBodyElementsTrait
         $msg = null;
         if (!$this->isValidArrayOK(
             $complexType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType',
             $msg
         )
         ) {
@@ -267,7 +267,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Adds as entityType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType $entityType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType $entityType
      * @return self
      */
     public function addToEntityType(TEntityTypeType $entityType)
@@ -305,7 +305,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Gets as entityType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType[]
      */
     public function getEntityType()
     {
@@ -315,7 +315,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Sets a new entityType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType[] $entityType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType[] $entityType
      * @return self
      */
     public function setEntityType(array $entityType)
@@ -323,7 +323,7 @@ trait GSchemaBodyElementsTrait
         $msg = null;
         if (!$this->isValidArrayOK(
             $entityType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType',
             $msg
         )
         ) {
@@ -336,7 +336,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Adds as enumType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeType $enumType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeType $enumType
      * @return self
      */
     public function addToEnumType(TEnumTypeType $enumType)
@@ -374,7 +374,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Gets as enumType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeType[]
      */
     public function getEnumType()
     {
@@ -384,7 +384,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Sets a new enumType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeType[] $enumType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeType[] $enumType
      * @return self
      */
     public function setEnumType(array $enumType)
@@ -392,7 +392,7 @@ trait GSchemaBodyElementsTrait
         $msg = null;
         if (!$this->isValidArrayOK(
             $enumType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeType',
             $msg
         )
         ) {
@@ -405,7 +405,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Adds as valueTerm.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueTermType $valueTerm
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermType $valueTerm
      * @return self
      */
     public function addToValueTerm(TValueTermType $valueTerm)
@@ -443,7 +443,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Gets as valueTerm.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TValueTermType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermType[]
      */
     public function getValueTerm()
     {
@@ -453,7 +453,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Sets a new valueTerm.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TValueTermType[] $valueTerm
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermType[] $valueTerm
      * @return self
      */
     public function setValueTerm(array $valueTerm)
@@ -461,7 +461,7 @@ trait GSchemaBodyElementsTrait
         $msg = null;
         if (!$this->isValidArrayOK(
             $valueTerm,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueTermType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermType',
             $msg
         )
         ) {
@@ -474,7 +474,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Adds as function.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionType $function
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionType $function
      * @return self
      */
     public function addToFunction(TFunctionType $function)
@@ -512,7 +512,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Gets as function.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TFunctionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionType[]
      */
     public function getFunction()
     {
@@ -522,7 +522,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Sets a new function.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TFunctionType[] $function
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionType[] $function
      * @return self
      */
     public function setFunction(array $function)
@@ -530,7 +530,7 @@ trait GSchemaBodyElementsTrait
         $msg = null;
         if (!$this->isValidArrayOK(
             $function,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionType',
             $msg
         )
         ) {
@@ -543,7 +543,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Adds as annotations.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType $annotations
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TAnnotationsType $annotations
      * @return self
      */
     public function addToAnnotations(TAnnotationsType $annotations)
@@ -581,7 +581,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Gets as annotations.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\TAnnotationsType[]
      */
     public function getAnnotations()
     {
@@ -591,7 +591,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Sets a new annotations.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType[] $annotations
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\TAnnotationsType[] $annotations
      * @return self
      */
     public function setAnnotations(array $annotations)
@@ -599,7 +599,7 @@ trait GSchemaBodyElementsTrait
         $msg = null;
         if (!$this->isValidArrayOK(
             $annotations,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TAnnotationsType',
             $msg
         )
         ) {
@@ -612,7 +612,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Adds as entityContainer.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\EntityContainer $entityContainer
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer $entityContainer
      * @return self
      */
     public function addToEntityContainer(EntityContainer $entityContainer)
@@ -650,7 +650,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Gets as entityContainer.
      *
-     * @return \Firebird\ODataMetadata\MetadataV3\edm\EntityContainer[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer[]
      */
     public function getEntityContainer()
     {
@@ -660,7 +660,7 @@ trait GSchemaBodyElementsTrait
     /**
      * Sets a new entityContainer.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV3\edm\EntityContainer[] $entityContainer
+     * @param  \FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer[] $entityContainer
      * @return self
      */
     public function setEntityContainer(array $entityContainer)
@@ -668,7 +668,7 @@ trait GSchemaBodyElementsTrait
         $msg = null;
         if (!$this->isValidArrayOK(
             $entityContainer,
-            '\Firebird\ODataMetadata\MetadataV3\edm\EntityContainer',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer',
             $msg,
             1,
             1
@@ -683,12 +683,12 @@ trait GSchemaBodyElementsTrait
 
     public function isGSchemaBodyElementsValid(&$msg = null)
     {
-        if (!$this->isValidArrayOK($this->using, '\Firebird\ODataMetadata\MetadataV3\edm\TUsingType', $msg)) {
+        if (!$this->isValidArrayOK($this->using, '\FirebirdOData\ODataMetadata\MetadataV3\edm\TUsingType', $msg)) {
             return false;
         }
         if (!$this->isValidArrayOK(
             $this->association,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TAssociationType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TAssociationType',
             $msg
         )
         ) {
@@ -696,7 +696,7 @@ trait GSchemaBodyElementsTrait
         }
         if (!$this->isValidArrayOK(
             $this->complexType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TComplexTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TComplexTypeType',
             $msg
         )
         ) {
@@ -704,7 +704,7 @@ trait GSchemaBodyElementsTrait
         }
         if (!$this->isValidArrayOK(
             $this->entityType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TEntityTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TEntityTypeType',
             $msg
         )
         ) {
@@ -712,7 +712,7 @@ trait GSchemaBodyElementsTrait
         }
         if (!$this->isValidArrayOK(
             $this->enumType,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TEnumTypeType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TEnumTypeType',
             $msg
         )
         ) {
@@ -720,7 +720,7 @@ trait GSchemaBodyElementsTrait
         }
         if (!$this->isValidArrayOK(
             $this->valueTerm,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TValueTermType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TValueTermType',
             $msg
         )
         ) {
@@ -728,7 +728,7 @@ trait GSchemaBodyElementsTrait
         }
         if (!$this->isValidArrayOK(
             $this->function,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TFunctionType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TFunctionType',
             $msg
         )
         ) {
@@ -736,7 +736,7 @@ trait GSchemaBodyElementsTrait
         }
         if (!$this->isValidArrayOK(
             $this->annotations,
-            '\Firebird\ODataMetadata\MetadataV3\edm\TAnnotationsType',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\TAnnotationsType',
             $msg
         )
         ) {
@@ -744,7 +744,7 @@ trait GSchemaBodyElementsTrait
         }
         if (!$this->isValidArrayOK(
             $this->entityContainer,
-            '\Firebird\ODataMetadata\MetadataV3\edm\EntityContainer',
+            '\FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer',
             $msg,
             1,
             1

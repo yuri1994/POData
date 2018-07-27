@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType:
+FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType:
     properties:
         name:
             expose: true
@@ -27,7 +27,7 @@ Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousTyp
             accessor:
                 getter: getDocumentation
                 setter: setDocumentation
-            type: FirebirdOData\ODataMetadata\MetadataV3\edm\TDocumentationType
+            type: FirebirdOData\OData\ODataMetadata\MetadataV3\edm\TDocumentationType
         end:
             expose: true
             access_type: public_method
@@ -41,7 +41,7 @@ Firebird\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousTyp
                 inline: true
                 entry_name: End
                 namespace: http://schemas.microsoft.com/ado/2009/11/edm
-            type: array<FirebirdOData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType>
+            type: array<FirebirdOData\OData\ODataMetadata\MetadataV3\edm\EntityContainer\AssociationSetAnonymousType\EndAnonymousType>
         v3SimpleIdentifierCache:
             exclude: true
         v3SimpleIdentifierRegex:

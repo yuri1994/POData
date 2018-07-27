@@ -1,9 +1,9 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV4\edmx;
+namespace FirebirdOData\ODataMetadata\MetadataV4\edmx;
 
-use Firebird\ODataMetadata\IsOK;
-use Firebird\ODataMetadata\MetadataV4\edm\Schema;
+use FirebirdOData\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\MetadataV4\edm\Schema;
 
 /**
  * Class representing TEdmxType.
@@ -19,12 +19,12 @@ class TEdmxType extends IsOK
     private $version = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edmx\TReferenceType[] $reference
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edmx\TReferenceType[] $reference
      */
     private $reference = [];
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV4\edm\Schema[] $dataServices
+     * @property \FirebirdOData\ODataMetadata\MetadataV4\edm\Schema[] $dataServices
      */
     private $dataServices = null;
 
@@ -53,7 +53,7 @@ class TEdmxType extends IsOK
     /**
      * Adds as reference.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edmx\TReferenceType $reference
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edmx\TReferenceType $reference
      * @return self
      */
     public function addToReference(TReferenceType $reference)
@@ -87,7 +87,7 @@ class TEdmxType extends IsOK
     /**
      * Gets as reference.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edmx\TReferenceType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edmx\TReferenceType[]
      */
     public function getReference()
     {
@@ -97,7 +97,7 @@ class TEdmxType extends IsOK
     /**
      * Sets a new reference.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edmx\TReferenceType[] $reference
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edmx\TReferenceType[] $reference
      * @return self
      */
     public function setReference(array $reference)
@@ -109,7 +109,7 @@ class TEdmxType extends IsOK
     /**
      * Adds as schema.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Schema $schema
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Schema $schema
      * @return self
      */
     public function addToDataServices(Schema $schema)
@@ -143,7 +143,7 @@ class TEdmxType extends IsOK
     /**
      * Gets as dataServices.
      *
-     * @return \Firebird\ODataMetadata\MetadataV4\edm\Schema[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV4\edm\Schema[]
      */
     public function getDataServices()
     {
@@ -153,7 +153,7 @@ class TEdmxType extends IsOK
     /**
      * Sets a new dataServices.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV4\edm\Schema[] $dataServices
+     * @param  \FirebirdOData\ODataMetadata\MetadataV4\edm\Schema[] $dataServices
      * @return self
      */
     public function setDataServices(array $dataServices)
@@ -169,12 +169,12 @@ class TEdmxType extends IsOK
             return false;
         }
         if (is_float($this->version)) {
-            if (!$this->isValidArray($this->dataServices, '\Firebird\ODataMetadata\MetadataV4\edm\Schema', 1)) {
+            if (!$this->isValidArray($this->dataServices, '\FirebirdOData\ODataMetadata\MetadataV4\edm\Schema', 1)) {
                 $msg = 'Edmx dataservice definition contains invalid enteries.';
                 return false;
             }
         }
-        if (!$this->isValidArray($this->reference, '\Firebird\ODataMetadata\MetadataV4\edmx\TReferenceType')) {
+        if (!$this->isValidArray($this->reference, '\FirebirdOData\ODataMetadata\MetadataV4\edmx\TReferenceType')) {
             $msg = 'Edmx references contains invalid elements';
             return false;
         }

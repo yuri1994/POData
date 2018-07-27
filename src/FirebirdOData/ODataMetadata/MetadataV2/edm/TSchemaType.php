@@ -1,8 +1,8 @@
 <?php
 
-namespace Firebird\ODataMetadata\MetadataV2\edm;
+namespace FirebirdOData\ODataMetadata\MetadataV2\edm;
 
-use Firebird\ODataMetadata\IsOK;
+use FirebirdOData\ODataMetadata\IsOK;
 
 /**
  * Class representing TSchemaType.
@@ -23,32 +23,32 @@ class TSchemaType extends IsOK
     private $alias = null;
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\TUsingType[] $using
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\TUsingType[] $using
      */
     private $using = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\TAssociationType[] $association
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\TAssociationType[] $association
      */
     private $association = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\TComplexTypeType[] $complexType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\TComplexTypeType[] $complexType
      */
     private $complexType = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\TEntityTypeType[] $entityType
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\TEntityTypeType[] $entityType
      */
     private $entityType = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\TFunctionType[] $function
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\TFunctionType[] $function
      */
     private $function = array();
 
     /**
-     * @property \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer[] $entityContainer
+     * @property \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer[] $entityContainer
      */
     private $entityContainer = array();
 
@@ -99,7 +99,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as using.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TUsingType $using
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TUsingType $using
      * @return self
      */
     public function addToUsing(TUsingType $using)
@@ -133,7 +133,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as using.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\TUsingType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\TUsingType[]
      */
     public function getUsing()
     {
@@ -143,7 +143,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new using.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TUsingType[] $using
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TUsingType[] $using
      * @return self
      */
     public function setUsing(array $using)
@@ -155,7 +155,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as association.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TAssociationType $association
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TAssociationType $association
      * @return self
      */
     public function addToAssociation(TAssociationType $association)
@@ -189,7 +189,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as association.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\TAssociationType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\TAssociationType[]
      */
     public function getAssociation()
     {
@@ -199,7 +199,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new association.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TAssociationType[] $association
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TAssociationType[] $association
      * @return self
      */
     public function setAssociation(array $association)
@@ -211,7 +211,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as complexType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TComplexTypeType $complexType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TComplexTypeType $complexType
      * @return self
      */
     public function addToComplexType(TComplexTypeType $complexType)
@@ -245,7 +245,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as complexType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\TComplexTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\TComplexTypeType[]
      */
     public function getComplexType()
     {
@@ -255,7 +255,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new complexType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TComplexTypeType[] $complexType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TComplexTypeType[] $complexType
      * @return self
      */
     public function setComplexType(array $complexType)
@@ -267,7 +267,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as entityType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TEntityTypeType $entityType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TEntityTypeType $entityType
      * @return self
      */
     public function addToEntityType(TEntityTypeType $entityType)
@@ -301,7 +301,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as entityType.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\TEntityTypeType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\TEntityTypeType[]
      */
     public function getEntityType()
     {
@@ -311,7 +311,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new entityType.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TEntityTypeType[] $entityType
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TEntityTypeType[] $entityType
      * @return self
      */
     public function setEntityType(array $entityType)
@@ -323,7 +323,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as function.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TFunctionType $function
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TFunctionType $function
      * @return self
      */
     public function addToFunction(TFunctionType $function)
@@ -357,7 +357,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as function.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\TFunctionType[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\TFunctionType[]
      */
     public function getFunction()
     {
@@ -367,7 +367,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new function.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\TFunctionType[] $function
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\TFunctionType[] $function
      * @return self
      */
     public function setFunction(array $function)
@@ -379,7 +379,7 @@ class TSchemaType extends IsOK
     /**
      * Adds as entityContainer.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer $entityContainer
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer $entityContainer
      * @return self
      */
     public function addToEntityContainer(EntityContainer $entityContainer)
@@ -413,7 +413,7 @@ class TSchemaType extends IsOK
     /**
      * Gets as entityContainer.
      *
-     * @return \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer[]
+     * @return \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer[]
      */
     public function getEntityContainer()
     {
@@ -423,7 +423,7 @@ class TSchemaType extends IsOK
     /**
      * Sets a new entityContainer.
      *
-     * @param  \Firebird\ODataMetadata\MetadataV2\edm\EntityContainer[] $entityContainer
+     * @param  \FirebirdOData\ODataMetadata\MetadataV2\edm\EntityContainer[] $entityContainer
      * @return self
      */
     public function setEntityContainer(array $entityContainer)

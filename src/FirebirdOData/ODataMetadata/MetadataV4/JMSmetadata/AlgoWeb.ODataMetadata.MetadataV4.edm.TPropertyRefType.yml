@@ -1,4 +1,4 @@
-Firebird\ODataMetadata\MetadataV4\edm\TPropertyRefType:
+FirebirdOData\ODataMetadata\MetadataV4\edm\TPropertyRefType:
     properties:
         name:
             expose: true
