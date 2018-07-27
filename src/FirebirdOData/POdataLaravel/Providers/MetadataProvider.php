@@ -326,7 +326,7 @@ class MetadataProvider extends MetadataBaseProvider
         $startName = $this->getAppNamespace();
         foreach ($classes as $name) {
             if (\Illuminate\Support\Str::startsWith($name, $startName)) {
-                if (in_array('FirebirdOData\OData\\PODataLaravel\\Models\\MetadataTrait', class_uses($name))) {
+                if (in_array('FirebirdOData\\PODataLaravel\\Models\\MetadataTrait', class_uses($name))) {
                     if (is_subclass_of($name, '\\Illuminate\\Database\\Eloquent\\Model')) {
                         $ends[] = $name;
                     }
