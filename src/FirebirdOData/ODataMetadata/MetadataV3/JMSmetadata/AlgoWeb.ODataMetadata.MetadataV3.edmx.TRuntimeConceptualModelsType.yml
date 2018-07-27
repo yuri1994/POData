@@ -1,0 +1,12 @@
+Firebird\ODataMetadata\MetadataV3\edmx\TRuntimeConceptualModelsType:
+    properties:
+        schema:
+            expose: true
+            access_type: public_method
+            serialized_name: Schema
+            xml_element:
+                namespace: http://schemas.microsoft.com/ado/2009/11/edm
+            accessor:
+                getter: getSchema
+                setter: setSchema
+            type: FirebirdOData\ODataMetadata\MetadataV3\edm\Schema
